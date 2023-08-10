@@ -13,7 +13,6 @@ public class Player_Movement : MonoBehaviour
         {
             GetComponent<Transform>().position += Vector3.left * speed * Time.deltaTime;
         }
-
         if (Input.GetKey(KeyCode.D))
         {
             GetComponent<Transform>().position += Vector3.right * speed * Time.deltaTime;
