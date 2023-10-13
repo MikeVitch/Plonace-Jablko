@@ -8,6 +8,10 @@ TagManager:
   - Enemy
   - Template_DoT_Held
   - Template_AoE_OnMouse
+  - Template_Projectile_Projectile
+  - Scenery
+  - Stone_Volley_Projectile
+  - Boulder_Throw_Projectile
   layers:
   - Default
   - TransparentFX

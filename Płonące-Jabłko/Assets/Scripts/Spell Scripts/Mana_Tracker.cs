@@ -14,10 +14,12 @@ public class Mana_Tracker : MonoBehaviour
 
     void Update()
     {
-        if (Current_Mana <= Max_Mana)
+        if (Current_Mana < Max_Mana)
         {
             Current_Mana += Mana_Regen * Time.deltaTime;
         }
-        Debug.Log(Current_Mana);
+        else
+            Current_Mana = Max_Mana;
+        //Debug.Log(Current_Mana);
     }
 }

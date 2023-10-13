@@ -11,6 +11,9 @@ public class Template_DoT_Held : MonoBehaviour
     public KeyCode Cast = KeyCode.Alpha1;
     public Mana_Tracker mana_tracker;
     bool Spell_Is_On = false;
+    private float Input_Time;
+    bool Activate_Spell = false;
+    public float Cast_Time = 1f;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     private void Start()
@@ -38,10 +41,24 @@ public class Template_DoT_Held : MonoBehaviour
             GetComponent<PolygonCollider2D>().enabled = false;
         }
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial)
+        /*if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial)
         {
             mana_tracker.Current_Mana -= Mana_Cost_Initial;
             Spell_Is_On = true;
+        }*/
+
+
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial)
+        {
+            Input_Time = Time.time;
+            Activate_Spell = true;
+        }
+        //Input.GetKey(Cast) is added and mana reduction is moved so player doesnt lose mana if they tap the cast button
+        if (Activate_Spell && Time.time >= Input_Time + Cast_Time && Input.GetKey(Cast))
+        {
+            Activate_Spell = false;
+            Spell_Is_On = true;
+            mana_tracker.Current_Mana -= Mana_Cost_Initial;
         }
     }
 

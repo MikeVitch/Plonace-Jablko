@@ -227,7 +227,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee157b3667b20d42a072d0dfe4b35d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  Speed: 5
+  Base_Speed: 0
 --- !u!50 &259789987
 Rigidbody2D:
   serializedVersion: 4
@@ -643,6 +644,7 @@ MonoBehaviour:
   Hitbox: {fileID: 5912483998031943028, guid: 5dfcd087846f4ae4a947eafa9f7ea5e3, type: 3}
   Cast: 50
   Time_Active: 0.1
+  Cast_Time: 1
   Mana_Cost: 20
   Damage: 35
   mana_tracker: {fileID: 0}
@@ -820,6 +822,13 @@ MonoBehaviour:
   sword_attack: {fileID: 0}
   template_dot_held: {fileID: 0}
   template_aoe_onmouse: {fileID: 0}
+  template_projectile: {fileID: 0}
+  boulder_throw: {fileID: 0}
+  stone_volley: {fileID: 0}
+  Fire_Resistance: 0
+  Earth_Resistance: 0
+  Water_Resistance: 0
+  Air_Resistance: 0
   Health: 100
 --- !u!1 &1488122047
 GameObject:
@@ -925,6 +934,7 @@ MonoBehaviour:
   Damage_Tickrate: 0.25
   Cast: 49
   mana_tracker: {fileID: 259789989}
+  Cast_Time: 1
 --- !u!60 &1488122051
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -983,6 +993,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1574273284}
   - component: {fileID: 1574273285}
+  - component: {fileID: 1574273286}
+  - component: {fileID: 1574273287}
+  - component: {fileID: 1574273288}
   m_Layer: 0
   m_Name: Rotation_Point_Spells
   m_TagString: Untagged
@@ -1019,6 +1032,70 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: 0
+--- !u!114 &1574273286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574273283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0091b1bbe21b2da40973fd9b94670298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 3557030164731498928, guid: 560c577a4199cc642a9ebc17b918a72b, type: 3}
+  Cast: 51
+  Time_Active: 1
+  Cast_Time: 0
+  Mana_Cost: 20
+  Damage: 35
+  mana_tracker: {fileID: 259789989}
+  player: {fileID: 259789985}
+--- !u!114 &1574273287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574273283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcbd22ad0b5e11a4fb5f79710f33c33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 5907727086880333763, guid: 1512a50a150aae34cb10592f455cdc05, type: 3}
+  Cast: 52
+  Time_Active: 1
+  Cast_Time: 1
+  Mana_Cost: 15
+  Damage: 10
+  Amount_Of_Shots: 3
+  Shot_Interval: 0.3
+  mana_tracker: {fileID: 259789989}
+  player: {fileID: 259789985}
+--- !u!114 &1574273288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574273283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e07da2b64fb87345839062638cc6efe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 4249398661287943647, guid: 15287a0b678298a468f8310566c1ed27, type: 3}
+  Cast: 53
+  Time_Active: 1.5
+  Cast_Time: 1.5
+  Mana_Cost: 35
+  Damage: 50
+  mana_tracker: {fileID: 259789989}
+  player: {fileID: 259789985}
+  Player_Movement: {fileID: 259789986}
+  Self_Slow: 0.25
 --- !u!1 &1674843282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1143,7 @@ MonoBehaviour:
   Hitbox: {fileID: 5912483998031943028, guid: 5dfcd087846f4ae4a947eafa9f7ea5e3, type: 3}
   Cast: 50
   Time_Active: 0.1
+  Cast_Time: 0.2
   Mana_Cost: 20
   Damage: 35
   mana_tracker: {fileID: 259789989}
@@ -1083,7 +1161,7 @@ GameObject:
   - component: {fileID: 1701099973}
   m_Layer: 0
   m_Name: Dom_Sprite
-  m_TagString: Untagged
+  m_TagString: Scenery
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1163,7 +1241,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701099970}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

@@ -6,10 +6,7 @@ using UnityEngine;
 public class Aim_Rotation : MonoBehaviour
 {
     public float offset = 0f;
-    public void Start()
-    {
-        
-    }
+
     private void Update()
     {
             Vector2 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
