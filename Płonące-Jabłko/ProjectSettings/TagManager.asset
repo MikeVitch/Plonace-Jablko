@@ -12,6 +12,10 @@ TagManager:
   - Scenery
   - Stone_Volley_Projectile
   - Boulder_Throw_Projectile
+  - Fireball_Hitbox
+  - Flamethrower_Hitbox
+  - Ice_Shard_Projectile
+  - Fan_Of_Ice_Projectile
   layers:
   - Default
   - TransparentFX
