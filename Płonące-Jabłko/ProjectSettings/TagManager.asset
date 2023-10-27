@@ -16,6 +16,8 @@ TagManager:
   - Flamethrower_Hitbox
   - Ice_Shard_Projectile
   - Fan_Of_Ice_Projectile
+  - Player_Character
+  - Melee_Test_Attack
   layers:
   - Default
   - TransparentFX

@@ -19,7 +19,7 @@ public class Ice_Shard_Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Player")
+        if (collision.gameObject.tag != "Player_Character")
             Destroy(gameObject);
     }
 }

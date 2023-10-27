@@ -19,9 +19,9 @@ public class Enemy_Logic : MonoBehaviour
     public float Earth_Resistance = 0f;
     public float Water_Resistance = 0f;
     public float Air_Resistance = 0f;
+    public float Physical_Resistance = 0f;
     float Attack_Duration;
     float Attack_Damage;
-    float Iframes_Sword = 0f;
     float Iframes_Held_Spell = 0f;
     public float Health = 100f;
     bool Is_On_Fire;
@@ -42,7 +42,7 @@ public class Enemy_Logic : MonoBehaviour
         }
         if (Time.time >= Burn_End)
             Is_On_Fire = false;
-        Debug.Log(Health);
+        //Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -50,13 +50,8 @@ public class Enemy_Logic : MonoBehaviour
         if (collision.gameObject.tag == "Player_Weapon")
         {
             sword_attack = FindObjectOfType<Sword_Attack>();
-            Attack_Duration = sword_attack.Attack_Duration;
             Attack_Damage = sword_attack.Attack_Damage;
-            if (Time.time > Iframes_Sword)
-            {
-                Health -= Attack_Damage;
-                Iframes_Sword = Time.time + Attack_Duration;
-            }
+            Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
         }
 
         //Template_AoE_OnMouse
@@ -118,7 +113,7 @@ public class Enemy_Logic : MonoBehaviour
             Health -= Attack_Damage * (1 - 0.01f * Water_Resistance);
         }
 
-        Debug.Log(Health);
+        //Debug.Log(Health);
         if (Health <= 0)
             Destroy(gameObject);
 
@@ -155,7 +150,7 @@ public class Enemy_Logic : MonoBehaviour
                 Burn_Next_Tick = Time.time + Burn_Frequency;
             }
         }
-        Debug.Log(Health);
+        //Debug.Log(Health);
             if (Health <= 0)
                 Destroy(gameObject);
     }

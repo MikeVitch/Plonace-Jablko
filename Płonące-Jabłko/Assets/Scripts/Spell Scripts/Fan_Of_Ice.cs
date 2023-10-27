@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Fan_Of_Ice : MonoBehaviour
 {
-    Vector2 Player_Position;
-    Vector2 Hitbox_Position;
     Transform Hitbox_Transform;
     Quaternion Hitbox_Rotation;
+    Quaternion Hitbox_Rotation_Left;
+    Quaternion Hitbox_Rotation_Right;
+    Vector3 Rotation_Vector;
     public Object Hitbox;
     public KeyCode Cast = KeyCode.Alpha8;
     public float Time_Active = 1f;
@@ -18,15 +19,13 @@ public class Fan_Of_Ice : MonoBehaviour
     private float Input_Time;
     bool Activate_Spell = false;
     public Transform player;
-    public Vector2 Projectile_Offset;
-    //Vector2 Y_Inverter;
+    public float Projectile_Offset_Side;
+    public float Projectile_Offset_Down;
+    public float Rotation_Offset;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
 
-    /*private void Start()
-    {
-        Y_Inverter = new Vector2(1, -1);
-    }*/
+
     void Update()
     {
 
@@ -41,11 +40,12 @@ public class Fan_Of_Ice : MonoBehaviour
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)
         {
             Hitbox_Rotation = transform.rotation;
-            Player_Position = player.position;
-            Hitbox_Position = Camera.main.ScreenToWorldPoint(Player_Position);
-            Destroy(Instantiate(Hitbox, Player_Position, Hitbox_Rotation, Hitbox_Transform), Time_Active);
-            Destroy(Instantiate(Hitbox, Player_Position/* + Projectile_Offset*/, Hitbox_Rotation, Hitbox_Transform), Time_Active);
-            Destroy(Instantiate(Hitbox, Player_Position/* + Projectile_Offset * Y_Inverter*/, Hitbox_Rotation, Hitbox_Transform), Time_Active);
+            Rotation_Vector = Hitbox_Rotation.eulerAngles;
+            Hitbox_Rotation_Left = Quaternion.Euler(new Vector3(Rotation_Vector.x, Rotation_Vector.y, Rotation_Vector.z + Rotation_Offset));
+            Hitbox_Rotation_Right = Quaternion.Euler(new Vector3(Rotation_Vector.x, Rotation_Vector.y, Rotation_Vector.z - Rotation_Offset));
+            Destroy(Instantiate(Hitbox, transform.position, Hitbox_Rotation, Hitbox_Transform), Time_Active);
+            Destroy(Instantiate(Hitbox, transform.position + transform.up * Projectile_Offset_Side + transform.right * -1 * Projectile_Offset_Down, Hitbox_Rotation_Left, Hitbox_Transform), Time_Active);
+            Destroy(Instantiate(Hitbox, transform.position + transform.up * -1 * Projectile_Offset_Side + transform.right * -1 * Projectile_Offset_Down, Hitbox_Rotation_Right, Hitbox_Transform), Time_Active);
 
             Activate_Spell = false;
         }
