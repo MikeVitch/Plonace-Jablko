@@ -228,8 +228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee157b3667b20d42a072d0dfe4b35d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
-  Base_Speed: 0
+  Base_Speed: 5
+  boulder_throw: {fileID: 1574273288}
+  longstrider: {fileID: 1674843288}
+  misty_step: {fileID: 1674843287}
+  restoration: {fileID: 1674843289}
 --- !u!50 &259789987
 Rigidbody2D:
   serializedVersion: 4
@@ -319,13 +322,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168843d922b3e67459daaa5dacbfcc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy_attack_template_melee: {fileID: 0}
+  enemy_attack_template_melee: {fileID: 1500265729}
+  restoration: {fileID: 1674843289}
   Player_Position: {x: 0, y: 0, z: 0}
   Fire_Resistance: 0
   Earth_Resistance: 0
   Water_Resistance: 0
   Air_Resistance: 0
   Physical_Resistance: 0
+  Max_Health: 100
   Health: 100
   Iframes_Lenght: 0.5
 --- !u!1 &289208422
@@ -1029,7 +1034,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemy_attack_template_melee: {fileID: 1500265729}
   player_logic: {fileID: 259789990}
-  Movement_Speed: 7.5
+  Base_Movement_Speed: 7.5
   Aggro_Range: 10
   Minimum_Distance: 1.5
   Is_In_Range: 0
@@ -1439,8 +1444,8 @@ MonoBehaviour:
   Mana_Cost: 35
   Damage: 50
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
-  Player_Movement: {fileID: 259789986}
   Self_Slow: 0.25
 --- !u!114 &1574273289
 MonoBehaviour:
@@ -1498,6 +1503,7 @@ GameObject:
   - component: {fileID: 1674843285}
   - component: {fileID: 1674843287}
   - component: {fileID: 1674843288}
+  - component: {fileID: 1674843289}
   m_Layer: 0
   m_Name: Spells_Unanchored
   m_TagString: Untagged
@@ -1575,7 +1581,7 @@ MonoBehaviour:
   Cast_Time: 0
   Mana_Cost: 10
   mana_tracker: {fileID: 259789989}
-  Player_Movement: {fileID: 259789986}
+  Activate_Spell: 0
   Speed_Boost: 10
 --- !u!114 &1674843288
 MonoBehaviour:
@@ -1594,8 +1600,30 @@ MonoBehaviour:
   Cast_Time: 1
   Mana_Cost: 20
   mana_tracker: {fileID: 259789989}
-  Player_Movement: {fileID: 259789986}
+  Activate_Spell: 0
   Speed_Boost: 0.5
+--- !u!114 &1674843289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674843282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e7a8a7ebba105e4599e9a92037716cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mana_Cost_Initial: 0
+  Mana_Cost_Held: 5
+  Heal_Amount: 5
+  Heal_Tickrate: 0.25
+  Self_Slow: 0.9
+  Cast: 48
+  mana_tracker: {fileID: 259789989}
+  Spell_Is_On: 0
+  Activate_Spell: 0
+  Cast_Time: 0.5
 --- !u!1 &1701099970
 GameObject:
   m_ObjectHideFlags: 0

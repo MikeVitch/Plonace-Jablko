@@ -27,26 +27,6 @@ public class Enemy_Attack_Template_Melee : MonoBehaviour
     }
     void Update()
     {
-        /*if (enemy_movement_template_melee.Is_In_Range == true)
-        {
-            if (Time.time > Next_Attack)
-            {
-                GetComponent<SpriteRenderer>().enabled = true;
-                GetComponent<CircleCollider2D>().enabled = true;
-                GetComponent<CircleCollider2D>().isTrigger = true;
-                Next_Attack = Time.time + Attack_Cooldown;
-                Attack_Deactivation = Time.time + Attack_Duration;
-                Attack_Is_Active = true;
-            }
-        }
-
-        if (Time.time >= Attack_Deactivation)
-        {
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<CircleCollider2D>().isTrigger = false;
-            GetComponent<CircleCollider2D>().enabled = false;
-            Attack_Is_Active = false;
-        }*/
         if (enemy_movement_template_melee.Is_In_Range == true && Time.time >= Next_Attack && Attack_Is_Active == false)
         { 
             Attack_Is_Active = true;

@@ -5,12 +5,15 @@ using UnityEngine;
 public class Player_Logic : MonoBehaviour
 {
     public Enemy_Attack_Template_Melee enemy_attack_template_melee;
+    public Restoration restoration;
+    float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
     public float Fire_Resistance = 0f;
     public float Earth_Resistance = 0f;
     public float Water_Resistance = 0f;
     public float Air_Resistance = 0f;
     public float Physical_Resistance = 0f;
+    public float Max_Health = 100f;
     public float Health = 100f;
     public float Iframes_Lenght = 0.5f;
     float Iframes_End;
@@ -19,6 +22,20 @@ public class Player_Logic : MonoBehaviour
     void Update()
     {
         Player_Position = GetComponent<Transform>().position;
+        if(Health > Max_Health)
+            Health = Max_Health;
+
+        //Restoration
+        if (restoration.Spell_Is_On)
+        {
+            if (Time.time > Restoration_Next_Tick)
+            {
+                Health += restoration.Heal_Amount;
+                Restoration_Next_Tick = Time.time + restoration.Heal_Tickrate;
+            }
+        }
+
+        Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -33,6 +50,6 @@ public class Player_Logic : MonoBehaviour
                 Iframes_End = Time.time + Iframes_Lenght;
             }
         }
-        Debug.Log(Health);
+        //Debug.Log(Health);
     }
 }

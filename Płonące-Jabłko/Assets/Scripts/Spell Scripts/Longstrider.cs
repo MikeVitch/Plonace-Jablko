@@ -11,8 +11,7 @@ public class Longstrider : MonoBehaviour
     public float Mana_Cost = 20f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
-    public Player_Movement Player_Movement;
+    public bool Activate_Spell = false;
     public float Speed_Boost = 0.25f;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
@@ -23,12 +22,10 @@ public class Longstrider : MonoBehaviour
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
             Activate_Spell = true;
-            Player_Movement.Speed += Player_Movement.Base_Speed * Speed_Boost;
         }
 
         if (Activate_Spell && Time.time >= Input_Time + Time_Active)
         {
-            Player_Movement.Speed -= Player_Movement.Base_Speed * Speed_Boost;
             Activate_Spell = false;
         }
     }

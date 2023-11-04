@@ -17,9 +17,8 @@ public class Boulder_Throw : MonoBehaviour
     public float Damage = 35f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public UnityEngine.Transform player;
-    public Player_Movement Player_Movement;
     public float Self_Slow = 0.25f;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
@@ -32,12 +31,10 @@ public class Boulder_Throw : MonoBehaviour
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
             Activate_Spell = true;
-            Player_Movement.Speed -= Player_Movement.Base_Speed * Self_Slow;
         }
 
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)
         {
-            Player_Movement.Speed += Player_Movement.Base_Speed * Self_Slow;
             Hitbox_Rotation = transform.rotation;
             Player_Position = player.position;
             Hitbox_Position = Camera.main.ScreenToWorldPoint(Player_Position);
