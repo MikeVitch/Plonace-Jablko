@@ -35,7 +35,7 @@ public class Player_Logic : MonoBehaviour
             }
         }
 
-        Debug.Log(Health);
+        //Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

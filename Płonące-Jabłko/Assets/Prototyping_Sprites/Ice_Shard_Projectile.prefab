@@ -116,7 +116,7 @@ Transform:
   m_Children:
   - {fileID: 768246421437662063}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &2322007677943995796
 PolygonCollider2D:
@@ -162,11 +162,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 1}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.5877852, y: -0.80901706}
-      - {x: 0.58778536, y: -0.80901694}
-      - {x: 0.9510565, y: 0.30901712}
+    - - {x: -0.57632303, y: 0.49866652}
+      - {x: -0.5797264, y: 0.3795482}
+      - {x: -0.5924586, y: 0.11412677}
+      - {x: -0.5799896, y: -0.5205796}
+      - {x: 0.45526004, y: -0.20875508}
+      - {x: 1.177129, y: -0.0028072}
   m_UseDelaunayMesh: 0
 --- !u!114 &263005828776057463
 MonoBehaviour:

@@ -1346,6 +1346,7 @@ GameObject:
   - component: {fileID: 1574273288}
   - component: {fileID: 1574273289}
   - component: {fileID: 1574273290}
+  - component: {fileID: 1574273291}
   m_Layer: 0
   m_Name: Rotation_Point_Spells
   m_TagString: Untagged
@@ -1490,6 +1491,26 @@ MonoBehaviour:
   Damage: 35
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
+--- !u!114 &1574273291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574273283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe497c1f075bb74f9b7ffd9caab0fcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 4558071832044947213, guid: 30e69cda6abd1b34cbdd57dd4e7b1f8e, type: 3}
+  Cast: 50
+  Time_Active: 0.35
+  Cast_Time: 0
+  Mana_Cost: 20
+  Damage: 20
+  mana_tracker: {fileID: 259789989}
+  player: {fileID: 259789985}
 --- !u!1 &1674843282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1500,10 +1521,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1674843283}
   - component: {fileID: 1674843284}
-  - component: {fileID: 1674843285}
   - component: {fileID: 1674843287}
   - component: {fileID: 1674843288}
   - component: {fileID: 1674843289}
+  - component: {fileID: 1674843290}
   m_Layer: 0
   m_Name: Spells_Unanchored
   m_TagString: Untagged
@@ -1544,25 +1565,6 @@ MonoBehaviour:
   Cast_Time: 0.2
   Mana_Cost: 20
   Damage: 35
-  mana_tracker: {fileID: 259789989}
---- !u!114 &1674843285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674843282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afe497c1f075bb74f9b7ffd9caab0fcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Hitbox: {fileID: 8582325834683211416, guid: 7ac109d40b716ef40a24789a58ef2fcb, type: 3}
-  Cast: 50
-  Time_Active: 0.1
-  Cast_Time: 0.25
-  Mana_Cost: 20
-  Damage: 20
   mana_tracker: {fileID: 259789989}
 --- !u!114 &1674843287
 MonoBehaviour:
@@ -1624,6 +1626,28 @@ MonoBehaviour:
   Spell_Is_On: 0
   Activate_Spell: 0
   Cast_Time: 0.5
+--- !u!114 &1674843290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674843282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71cf5787f175e8408cb2e4defa8cec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_logic: {fileID: 259789990}
+  Fire_Resistance: 60
+  Earth_Resistance: 20
+  Water_Resistance: 20
+  Air_Resistance: 20
+  Physical_Resistance: 40
+  Time_Active: 5
+  Cast: 57
+  Mana_Cost: 15
+  mana_tracker: {fileID: 259789989}
 --- !u!1 &1701099970
 GameObject:
   m_ObjectHideFlags: 0
