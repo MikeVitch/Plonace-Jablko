@@ -5,16 +5,19 @@ using UnityEngine;
 
 public class Enemy_Logic : MonoBehaviour
 {
-    public Sword_Attack sword_attack;
-    public Template_DoT_Held template_dot_held;
-    public Template_AoE_OnMouse template_aoe_onmouse;
-    public Template_Projectile template_projectile;
-    public Boulder_Throw boulder_throw;
-    public Stone_Volley stone_volley;
-    public Fireball fireball;
-    public Flamethrower flamethrower;
-    public Ice_Shard ice_shard;
-    public Fan_Of_Ice fan_of_ice;
+    Sword_Attack sword_attack;
+    Template_DoT_Held template_dot_held;
+    Template_AoE_OnMouse template_aoe_onmouse;
+    Template_Projectile template_projectile;
+    Boulder_Throw boulder_throw;
+    Stone_Volley stone_volley;
+    Fireball fireball;
+    Flamethrower flamethrower;
+    Ice_Shard ice_shard;
+    Fan_Of_Ice fan_of_ice;
+    Push push;
+    Push_Projectile push_projectile;
+    public Player_Logic player_logic;
     public float Fire_Resistance = 0f;
     public float Earth_Resistance = 0f;
     public float Water_Resistance = 0f;
@@ -30,6 +33,7 @@ public class Enemy_Logic : MonoBehaviour
     public float Burn_Duration = 2f;
     float Burn_End;
     float Burn_Next_Tick;
+    float Projectile_Speed;
 
 
     private void Update()
@@ -113,6 +117,7 @@ public class Enemy_Logic : MonoBehaviour
             Health -= Attack_Damage * (1 - 0.01f * Water_Resistance);
         }
 
+
         //Debug.Log(Health);
         if (Health <= 0)
             Destroy(gameObject);
@@ -149,6 +154,14 @@ public class Enemy_Logic : MonoBehaviour
                 Burn_End = Time.time + Burn_Duration;
                 Burn_Next_Tick = Time.time + Burn_Frequency;
             }
+        }
+
+        //Push
+        if (collision.gameObject.tag == "Push_Projectile")
+        {
+            transform.right = player_logic.Player_Position - transform.position;
+            transform.position += transform.right * 40 * Time.deltaTime * -1;
+            //40 in above line needs to be replaced with push_projectile.Speed somehow
         }
         //Debug.Log(Health);
             if (Health <= 0)

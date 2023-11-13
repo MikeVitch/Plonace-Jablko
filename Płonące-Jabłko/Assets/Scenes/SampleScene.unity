@@ -1011,6 +1011,9 @@ MonoBehaviour:
   flamethrower: {fileID: 0}
   ice_shard: {fileID: 0}
   fan_of_ice: {fileID: 0}
+  push: {fileID: 0}
+  push_projectile: {fileID: 0}
+  player_logic: {fileID: 259789990}
   Fire_Resistance: 0
   Earth_Resistance: 0
   Water_Resistance: 0
@@ -1347,6 +1350,7 @@ GameObject:
   - component: {fileID: 1574273289}
   - component: {fileID: 1574273290}
   - component: {fileID: 1574273291}
+  - component: {fileID: 1574273292}
   m_Layer: 0
   m_Name: Rotation_Point_Spells
   m_TagString: Untagged
@@ -1505,10 +1509,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hitbox: {fileID: 4558071832044947213, guid: 30e69cda6abd1b34cbdd57dd4e7b1f8e, type: 3}
   Cast: 50
-  Time_Active: 0.35
   Cast_Time: 0
   Mana_Cost: 20
   Damage: 20
+  mana_tracker: {fileID: 259789989}
+  player: {fileID: 259789985}
+--- !u!114 &1574273292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574273283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1169aae3d3659647bac4accc85a3643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 4998484745703174116, guid: 97081a6e79be0074e828b1d0d5b764c9, type: 3}
+  Cast: 48
+  Time_Active: 0.1
+  Cast_Time: 0
+  Mana_Cost: 15
+  Damage: 10
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
 --- !u!1 &1674843282
@@ -1621,7 +1644,7 @@ MonoBehaviour:
   Heal_Amount: 5
   Heal_Tickrate: 0.25
   Self_Slow: 0.9
-  Cast: 48
+  Cast: 0
   mana_tracker: {fileID: 259789989}
   Spell_Is_On: 0
   Activate_Spell: 0

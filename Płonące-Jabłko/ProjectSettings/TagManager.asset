@@ -18,6 +18,7 @@ TagManager:
   - Fan_Of_Ice_Projectile
   - Player_Character
   - Melee_Test_Attack
+  - Push_Projectile
   layers:
   - Default
   - TransparentFX
