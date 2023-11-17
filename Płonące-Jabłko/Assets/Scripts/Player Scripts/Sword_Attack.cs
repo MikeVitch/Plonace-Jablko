@@ -9,6 +9,7 @@ public class Sword_Attack : MonoBehaviour
     public float Next_Attack = 0;
     public float Attack_Deactivation;
     public float Attack_Damage = 30f;
+    public Player_Logic player_logic;
 
  
 
@@ -19,16 +20,16 @@ public class Sword_Attack : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time > Next_Attack && !player_logic.Player_Attack_Lockout)
         {
-            if (Time.time > Next_Attack)
-            {
+            //if (Time.time > Next_Attack)
+           // {
                 GetComponent<SpriteRenderer>().enabled = true;
                 GetComponent<PolygonCollider2D>().enabled = true;
                 GetComponent<PolygonCollider2D>().isTrigger = true;
                 Next_Attack = Time.time + Attack_Cooldown;
                 Attack_Deactivation = Time.time + Attack_Duration;
-            }
+           // }
         }
         
             if (Time.time >= Attack_Deactivation) 

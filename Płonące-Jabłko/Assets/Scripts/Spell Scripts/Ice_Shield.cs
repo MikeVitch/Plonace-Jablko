@@ -16,15 +16,16 @@ public class Ice_Shield : MonoBehaviour
     bool Spell_Is_Active;
     public float Mana_Cost = 15f;
     public Mana_Tracker mana_tracker;
+
     void Update()
     {
-        if (Input.GetKeyDown(Cast) && Spell_Is_Active && mana_tracker.Current_Mana >= Mana_Cost)
+        if (Input.GetKeyDown(Cast) && Spell_Is_Active && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Deactivation_Time = Time.time + Time_Active;
         }
 
-        if (Input.GetKeyDown(Cast) && !Spell_Is_Active && mana_tracker.Current_Mana >= Mana_Cost)
+        if (Input.GetKeyDown(Cast) && !Spell_Is_Active && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
         {
             Deactivation_Time = Time.time + Time_Active;
             Spell_Is_Active = true;

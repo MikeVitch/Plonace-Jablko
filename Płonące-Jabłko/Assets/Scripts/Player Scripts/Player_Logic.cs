@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Logic : MonoBehaviour
 {
     public Enemy_Attack_Template_Melee enemy_attack_template_melee;
+    public Player_Movement player_movement;
     public Restoration restoration;
     float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
@@ -15,9 +16,11 @@ public class Player_Logic : MonoBehaviour
     public float Physical_Resistance = 0f;
     public float Max_Health = 100f;
     public float Health = 100f;
-    public float Iframes_Lenght = 0.5f;
-    float Iframes_End;
+    public float Invincibility_On_Hit_Lenght = 0.5f;
+    float Invincibilty_On_Hit_End;
     float Attack_Damage;
+    public bool Invincibility;
+    public bool Player_Attack_Lockout;
 
     void Update()
     {
@@ -35,20 +38,28 @@ public class Player_Logic : MonoBehaviour
             }
         }
 
+        if(player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
+            Player_Attack_Lockout = true;
+        else
+            Player_Attack_Lockout= false;
+
+        if(Time.time <= Invincibilty_On_Hit_End || player_movement.Dodge_Is_Active)
+            Invincibility = true;
+        else
+            Invincibility= false;
+            
+
         //Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Melee_Test_Attack
-        if(collision.gameObject.tag == "Melee_Test_Attack")
+        if(collision.gameObject.tag == "Melee_Test_Attack" && !Invincibility)
         {
             enemy_attack_template_melee = FindObjectOfType<Enemy_Attack_Template_Melee>();
             Attack_Damage = enemy_attack_template_melee.Attack_Damage;
-            if (Iframes_End < Time.time)
-            {
-                Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
-                Iframes_End = Time.time + Iframes_Lenght;
-            }
+            Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
+            Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
         //Debug.Log(Health);
     }

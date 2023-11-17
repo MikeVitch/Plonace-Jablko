@@ -13,18 +13,19 @@ public class Misty_Step : MonoBehaviour
     private float Input_Time;
     public bool Activate_Spell = false;
     public float Speed_Boost = 10f;
+    public Player_Logic player_logic;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
             Activate_Spell = true;
         }
 
-        if (Activate_Spell && Time.time >= Input_Time + Time_Active)
+        if (Activate_Spell && Time.time >= Input_Time + Time_Active && !player_logic.Player_Attack_Lockout)
         {
             Activate_Spell = false;
         }

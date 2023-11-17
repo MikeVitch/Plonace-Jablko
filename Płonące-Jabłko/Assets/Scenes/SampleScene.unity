@@ -233,6 +233,12 @@ MonoBehaviour:
   longstrider: {fileID: 1674843288}
   misty_step: {fileID: 1674843287}
   restoration: {fileID: 1674843289}
+  Dodge_Speed: 15
+  Dodge_Length: 0.3
+  Dodge_Recovery: 0.15
+  Dodge_Recovery_Slow: 0.5
+  Dodge_Is_Active: 0
+  Dodge_Recovery_Is_Active: 0
 --- !u!50 &259789987
 Rigidbody2D:
   serializedVersion: 4
@@ -323,6 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy_attack_template_melee: {fileID: 1500265729}
+  player_movement: {fileID: 259789986}
   restoration: {fileID: 1674843289}
   Player_Position: {x: 0, y: 0, z: 0}
   Fire_Resistance: 0
@@ -333,6 +340,7 @@ MonoBehaviour:
   Max_Health: 100
   Health: 100
   Iframes_Lenght: 0.5
+  Player_Attack_Lockout: 0
 --- !u!1 &289208422
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +524,7 @@ MonoBehaviour:
   Next_Attack: 0
   Attack_Deactivation: 3
   Attack_Damage: 30
+  player_logic: {fileID: 259789990}
 --- !u!1 &311652334
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,6 +737,7 @@ MonoBehaviour:
   Cast: 49
   mana_tracker: {fileID: 259789989}
   Cast_Time: 0.5
+  player_logic: {fileID: 0}
 --- !u!60 &577028740
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1001,18 +1011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e60cc36ddf970ef4cb2201786f6523cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sword_attack: {fileID: 0}
-  template_dot_held: {fileID: 0}
-  template_aoe_onmouse: {fileID: 0}
-  template_projectile: {fileID: 0}
-  boulder_throw: {fileID: 0}
-  stone_volley: {fileID: 0}
-  fireball: {fileID: 0}
-  flamethrower: {fileID: 0}
-  ice_shard: {fileID: 0}
-  fan_of_ice: {fileID: 0}
-  push: {fileID: 0}
-  push_projectile: {fileID: 0}
   player_logic: {fileID: 259789990}
   Fire_Resistance: 0
   Earth_Resistance: 0
@@ -1430,6 +1428,7 @@ MonoBehaviour:
   Shot_Interval: 0.3
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
+  player_logic: {fileID: 259789990}
 --- !u!114 &1574273288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1452,6 +1451,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 259789985}
   Self_Slow: 0.25
+  player_logic: {fileID: 259789990}
 --- !u!114 &1574273289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1475,6 +1475,7 @@ MonoBehaviour:
   Projectile_Offset_Side: 0.3
   Projectile_Offset_Down: 0.7
   Rotation_Offset: 5
+  player_logic: {fileID: 259789990}
 --- !u!114 &1574273290
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1495,6 +1496,7 @@ MonoBehaviour:
   Damage: 35
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
+  player_logic: {fileID: 259789990}
 --- !u!114 &1574273291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1514,6 +1516,7 @@ MonoBehaviour:
   Damage: 20
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
+  player_logic: {fileID: 259789990}
 --- !u!114 &1574273292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1534,6 +1537,7 @@ MonoBehaviour:
   Damage: 10
   mana_tracker: {fileID: 259789989}
   player: {fileID: 259789985}
+  player_logic: {fileID: 259789990}
 --- !u!1 &1674843282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1608,6 +1612,7 @@ MonoBehaviour:
   mana_tracker: {fileID: 259789989}
   Activate_Spell: 0
   Speed_Boost: 10
+  player_logic: {fileID: 259789990}
 --- !u!114 &1674843288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1627,6 +1632,7 @@ MonoBehaviour:
   mana_tracker: {fileID: 259789989}
   Activate_Spell: 0
   Speed_Boost: 0.5
+  player_logic: {fileID: 259789990}
 --- !u!114 &1674843289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,6 +1655,7 @@ MonoBehaviour:
   Spell_Is_On: 0
   Activate_Spell: 0
   Cast_Time: 0.5
+  player_logic: {fileID: 259789990}
 --- !u!114 &1674843290
 MonoBehaviour:
   m_ObjectHideFlags: 0

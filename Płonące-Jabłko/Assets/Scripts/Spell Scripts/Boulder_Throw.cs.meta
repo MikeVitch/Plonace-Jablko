@@ -3,7 +3,11 @@ guid: 3e07da2b64fb87345839062638cc6efe
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Hitbox: {fileID: 4249398661287943647, guid: 15287a0b678298a468f8310566c1ed27, type: 3}
+  - mana_tracker: {instanceID: 0}
+  - player: {instanceID: 0}
+  - player_logic: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

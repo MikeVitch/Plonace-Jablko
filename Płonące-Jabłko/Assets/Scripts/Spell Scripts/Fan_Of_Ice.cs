@@ -22,6 +22,7 @@ public class Fan_Of_Ice : MonoBehaviour
     public float Projectile_Offset_Side;
     public float Projectile_Offset_Down;
     public float Rotation_Offset;
+    public Player_Logic player_logic;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
 
@@ -30,7 +31,7 @@ public class Fan_Of_Ice : MonoBehaviour
     {
 
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
