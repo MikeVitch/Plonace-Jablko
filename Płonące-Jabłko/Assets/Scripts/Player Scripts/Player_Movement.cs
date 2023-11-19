@@ -21,7 +21,7 @@ public class Player_Movement : MonoBehaviour
     public Misty_Step misty_step;
     public Restoration restoration;
     new Rigidbody2D rigidbody;
-    Vector3 Direction_Of_Movement;
+    public Vector3 Direction_Of_Movement;
     Vector3 Past_Position;
     Vector3 Current_Position;
     Vector3 Dodge_Direction;
@@ -44,11 +44,11 @@ public class Player_Movement : MonoBehaviour
             Speed *= 1 - boulder_throw.Self_Slow;
         if (longstrider.Activate_Spell)
             Speed *= 1 + longstrider.Speed_Boost;
-        if(misty_step.Activate_Spell)
-            Speed *= 1 + misty_step.Speed_Boost;
+        if (misty_step.Activate_Spell)
+            Speed = 0;
         if(restoration.Activate_Spell ||  restoration.Spell_Is_On)
             Speed *= 1 - restoration.Self_Slow;
-        if (Dodge_Is_Active)
+        if (Dodge_Recovery_Is_Active)
             Speed *= 1 - Dodge_Recovery_Slow;
 
         //Dodging

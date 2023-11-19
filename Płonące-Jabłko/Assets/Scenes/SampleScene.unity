@@ -233,6 +233,7 @@ MonoBehaviour:
   longstrider: {fileID: 1674843288}
   misty_step: {fileID: 1674843287}
   restoration: {fileID: 1674843289}
+  Direction_Of_Movement: {x: 0, y: 0, z: 0}
   Dodge_Speed: 15
   Dodge_Length: 0.3
   Dodge_Recovery: 0.15
@@ -339,7 +340,8 @@ MonoBehaviour:
   Physical_Resistance: 0
   Max_Health: 100
   Health: 100
-  Iframes_Lenght: 0.5
+  Invincibility_On_Hit_Lenght: 0.5
+  Invincibility: 0
   Player_Attack_Lockout: 0
 --- !u!1 &289208422
 GameObject:
@@ -1611,8 +1613,10 @@ MonoBehaviour:
   Mana_Cost: 10
   mana_tracker: {fileID: 259789989}
   Activate_Spell: 0
-  Speed_Boost: 10
+  Speed_Boost: 50
   player_logic: {fileID: 259789990}
+  player_movement: {fileID: 259789986}
+  Player_Character: {fileID: 259789985}
 --- !u!114 &1674843288
 MonoBehaviour:
   m_ObjectHideFlags: 0
