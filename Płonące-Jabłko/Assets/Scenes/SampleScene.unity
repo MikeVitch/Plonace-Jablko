@@ -233,6 +233,7 @@ MonoBehaviour:
   longstrider: {fileID: 1674843288}
   misty_step: {fileID: 1674843287}
   restoration: {fileID: 1674843289}
+  sword_attack: {fileID: 289208426}
   Direction_Of_Movement: {x: 0, y: 0, z: 0}
   Dodge_Speed: 15
   Dodge_Length: 0.3
@@ -332,6 +333,7 @@ MonoBehaviour:
   enemy_attack_template_melee: {fileID: 1500265729}
   player_movement: {fileID: 259789986}
   restoration: {fileID: 1674843289}
+  sword_attack: {fileID: 289208426}
   Player_Position: {x: 0, y: 0, z: 0}
   Fire_Resistance: 0
   Earth_Resistance: 0
@@ -521,12 +523,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e211c552e38164441a8b652ba1ade661, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Attack_Duration: 0.25
-  Attack_Cooldown: 1
+  Attack_Duration: 0.1
+  Attack_Cooldown: 0.75
   Next_Attack: 0
-  Attack_Deactivation: 3
+  Attack_Deactivation: 0
   Attack_Damage: 30
   player_logic: {fileID: 259789990}
+  Attack_Is_Active: 0
 --- !u!1 &311652334
 GameObject:
   m_ObjectHideFlags: 0

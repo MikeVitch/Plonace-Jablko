@@ -7,6 +7,7 @@ public class Player_Logic : MonoBehaviour
     public Enemy_Attack_Template_Melee enemy_attack_template_melee;
     public Player_Movement player_movement;
     public Restoration restoration;
+    public Sword_Attack sword_attack;
     float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
     public float Fire_Resistance = 0f;
@@ -38,7 +39,9 @@ public class Player_Logic : MonoBehaviour
             }
         }
 
-        if(player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
+        if (player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
+            Player_Attack_Lockout = true;
+        else if (sword_attack.Attack_Is_Active)
             Player_Attack_Lockout = true;
         else
             Player_Attack_Lockout= false;

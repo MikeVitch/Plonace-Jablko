@@ -26,17 +26,6 @@ public class Misty_Step : MonoBehaviour
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-        /*if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
-        {
-            mana_tracker.Current_Mana -= Mana_Cost;
-            Input_Time = Time.time;
-            Activate_Spell = true;
-        }
-
-        if (Activate_Spell && Time.time >= Input_Time + Time_Active)
-        {
-            Activate_Spell = false;
-        }*/
         if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout && (player_movement.Direction_Of_Movement.x != 0 || player_movement.Direction_Of_Movement.y != 0))
         {
             Direction_Of_Movement = player_movement.Direction_Of_Movement;
@@ -45,6 +34,7 @@ public class Misty_Step : MonoBehaviour
             Direction_Of_Movement.x /= (float)Math.Sqrt(x * x + y * y);
             Direction_Of_Movement.y /= (float)Math.Sqrt(x * x + y * y);
             Spell_End = Time.time + Time_Active;
+            mana_tracker.Current_Mana -= Mana_Cost;
         }
         if (Time.time < Spell_End)
         {

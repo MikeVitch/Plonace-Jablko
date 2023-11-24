@@ -20,6 +20,7 @@ public class Player_Movement : MonoBehaviour
     public Longstrider longstrider;
     public Misty_Step misty_step;
     public Restoration restoration;
+    public Sword_Attack sword_attack;
     new Rigidbody2D rigidbody;
     public Vector3 Direction_Of_Movement;
     Vector3 Past_Position;
@@ -50,6 +51,8 @@ public class Player_Movement : MonoBehaviour
             Speed *= 1 - restoration.Self_Slow;
         if (Dodge_Recovery_Is_Active)
             Speed *= 1 - Dodge_Recovery_Slow;
+        if (sword_attack.Attack_Is_Active)
+            Speed = 0;
 
         //Dodging
             Past_Position = Current_Position;
