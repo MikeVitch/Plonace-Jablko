@@ -8,6 +8,8 @@ public class Player_Logic : MonoBehaviour
     public Player_Movement player_movement;
     public Restoration restoration;
     public Sword_Attack sword_attack;
+    public Ice_Shield ice_shield;
+    public Block block;
     float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
     public float Fire_Resistance = 0f;
@@ -39,6 +41,32 @@ public class Player_Logic : MonoBehaviour
             }
         }
 
+        //Player_Resistance
+        Fire_Resistance = 0;
+        Earth_Resistance = 0;
+        Water_Resistance = 0;
+        Air_Resistance = 0;
+        Physical_Resistance = 0;
+
+        if(ice_shield.Spell_Is_Active)
+        {
+            Fire_Resistance += (100 - Fire_Resistance) * ice_shield.Fire_Resistance * 0.01f;
+            Earth_Resistance += (100 - Earth_Resistance) * ice_shield.Earth_Resistance * 0.01f;
+            Water_Resistance += (100 - Water_Resistance) * ice_shield.Water_Resistance * 0.01f;
+            Air_Resistance += (100 - Air_Resistance) * ice_shield.Air_Resistance * 0.01f;
+            Physical_Resistance += (100 - Physical_Resistance) * ice_shield.Physical_Resistance * 0.01f;
+        }
+
+        if (block.Block_Is_Active)
+        {
+            Fire_Resistance += (100 - Fire_Resistance) * block.Fire_Resistance * 0.01f;
+            Earth_Resistance += (100 - Earth_Resistance) * block.Earth_Resistance * 0.01f;
+            Water_Resistance += (100 - Water_Resistance) * block.Water_Resistance * 0.01f;
+            Air_Resistance += (100 - Air_Resistance) * block.Air_Resistance * 0.01f;
+            Physical_Resistance += (100 - Physical_Resistance) * block.Physical_Resistance * 0.01f;
+        }
+
+        //Player_Attack_Lockout
         if (player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
             Player_Attack_Lockout = true;
         else if (sword_attack.Attack_Is_Active)
@@ -46,6 +74,7 @@ public class Player_Logic : MonoBehaviour
         else
             Player_Attack_Lockout= false;
 
+        //Invincibility
         if(Time.time <= Invincibilty_On_Hit_End || player_movement.Dodge_Is_Active)
             Invincibility = true;
         else

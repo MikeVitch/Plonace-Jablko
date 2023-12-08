@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 259789987}
   - component: {fileID: 259789989}
   - component: {fileID: 259789990}
+  - component: {fileID: 259789991}
   m_Layer: 0
   m_Name: Character_Sprite
   m_TagString: Player_Character
@@ -334,6 +335,8 @@ MonoBehaviour:
   player_movement: {fileID: 259789986}
   restoration: {fileID: 1674843289}
   sword_attack: {fileID: 289208426}
+  ice_shield: {fileID: 1674843290}
+  block: {fileID: 259789991}
   Player_Position: {x: 0, y: 0, z: 0}
   Fire_Resistance: 0
   Earth_Resistance: 0
@@ -345,6 +348,28 @@ MonoBehaviour:
   Invincibility_On_Hit_Lenght: 0.5
   Invincibility: 0
   Player_Attack_Lockout: 0
+--- !u!114 &259789991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259789983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7a7a4e2ee14fc48ac2d38233b6785c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cast: 324
+  Block_Is_Active: 0
+  Perfect_Parry_Window: 0.1
+  Perfect_Parry_Cooldown: 0.9
+  Perfect_Parry: 0
+  Fire_Resistance: 40
+  Earth_Resistance: 40
+  Water_Resistance: 40
+  Air_Resistance: 40
+  Physical_Resistance: 40
 --- !u!1 &289208422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1337,6 +1362,8 @@ MonoBehaviour:
   Attack_Cooldown: 2
   Attack_Damage: 10
   Attack_Is_Active: 0
+  Staggered: 0
+  Stagger_Duration: 2
 --- !u!1 &1574273283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +1710,7 @@ MonoBehaviour:
   Physical_Resistance: 40
   Time_Active: 5
   Cast: 57
+  Spell_Is_Active: 0
   Mana_Cost: 15
   mana_tracker: {fileID: 259789989}
 --- !u!1 &1701099970

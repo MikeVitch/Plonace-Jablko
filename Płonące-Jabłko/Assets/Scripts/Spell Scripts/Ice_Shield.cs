@@ -13,7 +13,7 @@ public class Ice_Shield : MonoBehaviour
     public float Time_Active = 5f;
     float Deactivation_Time;
     public KeyCode Cast = KeyCode.Alpha0;
-    bool Spell_Is_Active;
+    public bool Spell_Is_Active;
     public float Mana_Cost = 15f;
     public Mana_Tracker mana_tracker;
 
@@ -30,21 +30,21 @@ public class Ice_Shield : MonoBehaviour
             Deactivation_Time = Time.time + Time_Active;
             Spell_Is_Active = true;
             mana_tracker.Current_Mana -= Mana_Cost;
-            player_logic.Fire_Resistance += Fire_Resistance;
+            /*player_logic.Fire_Resistance += Fire_Resistance;
             player_logic.Earth_Resistance += Earth_Resistance;
             player_logic.Water_Resistance += Water_Resistance;
             player_logic.Air_Resistance += Air_Resistance;
-            player_logic.Physical_Resistance += Physical_Resistance;
+            player_logic.Physical_Resistance += Physical_Resistance;*/
         }
 
         if(Deactivation_Time <= Time.time && Spell_Is_Active) 
         {
             Spell_Is_Active = false;
-            player_logic.Fire_Resistance -= Fire_Resistance;
+            /*player_logic.Fire_Resistance -= Fire_Resistance;
             player_logic.Earth_Resistance -= Earth_Resistance;
             player_logic.Water_Resistance -= Water_Resistance;
             player_logic.Air_Resistance -= Air_Resistance;
-            player_logic.Physical_Resistance -= Physical_Resistance;
+            player_logic.Physical_Resistance -= Physical_Resistance;*/
         }
     }
 }
