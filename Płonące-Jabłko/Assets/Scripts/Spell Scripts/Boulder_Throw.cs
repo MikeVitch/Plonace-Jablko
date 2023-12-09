@@ -20,13 +20,14 @@ public class Boulder_Throw : MonoBehaviour
     public bool Activate_Spell = false;
     public UnityEngine.Transform player;
     public float Self_Slow = 0.25f;
+    public Player_Logic player_logic;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
 
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class Enemy_Attack_Template_Melee : MonoBehaviour
@@ -18,6 +19,9 @@ public class Enemy_Attack_Template_Melee : MonoBehaviour
     bool Windup_Done = false;
     bool Attack_Done = false;
     bool Recovery_Done;
+    public bool Staggered;
+    public float Stagger_Duration;
+    float Stagger_End;
 
     private void Start()
     {
@@ -27,10 +31,14 @@ public class Enemy_Attack_Template_Melee : MonoBehaviour
     }
     void Update()
     {
-        if (enemy_movement_template_melee.Is_In_Range == true && Time.time >= Next_Attack && Attack_Is_Active == false)
+        if(Staggered && Time.time > Stagger_End)
+            Staggered = false;
+
+        if (enemy_movement_template_melee.Is_In_Range == true && Time.time >= Next_Attack && Attack_Is_Active == false && !Staggered)
         { 
             Attack_Is_Active = true;
-            Attack_Activation = Time.time + Attack_Windup;        }
+            Attack_Activation = Time.time + Attack_Windup;        
+        }
 
         if(Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
         {
@@ -38,7 +46,8 @@ public class Enemy_Attack_Template_Melee : MonoBehaviour
             GetComponent<CircleCollider2D>().enabled = true;
             GetComponent<CircleCollider2D>().isTrigger = true;
             Attack_Deactivation = Time.time + Attack_Duration;
-            Windup_Done = true;        }
+            Windup_Done = true;        
+        }
 
         if(Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
         {
@@ -58,6 +67,21 @@ public class Enemy_Attack_Template_Melee : MonoBehaviour
         }
 
 
+    }
+
+    Block block;
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("1");
+        if (collision.gameObject.tag == "Player_Character")
+        {
+            block = collision.gameObject.GetComponent<Block>();
+            if(block.Perfect_Parry)
+            {
+                Staggered = true;
+                Stagger_End = Time.time + Stagger_Duration;
+            }
+        }
     }
 
 }

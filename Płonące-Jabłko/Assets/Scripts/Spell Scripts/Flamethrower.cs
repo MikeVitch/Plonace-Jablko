@@ -14,6 +14,7 @@ public class Flamethrower : MonoBehaviour
     private float Input_Time;
     bool Activate_Spell = false;
     public float Cast_Time = 1f;
+    public Player_Logic player_logic;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     private void Start()
@@ -23,7 +24,7 @@ public class Flamethrower : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held)
+        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held && !player_logic.Player_Attack_Lockout)
             mana_tracker.Current_Mana -= Mana_Cost_Held * Time.deltaTime;
         else
             Spell_Is_On = false;
@@ -41,7 +42,7 @@ public class Flamethrower : MonoBehaviour
             GetComponent<PolygonCollider2D>().enabled = false;
         }
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial && !player_logic.Player_Attack_Lockout)
         {
             Input_Time = Time.time;
             Activate_Spell = true;
