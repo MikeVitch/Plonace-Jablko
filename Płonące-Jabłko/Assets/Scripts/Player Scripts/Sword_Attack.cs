@@ -18,6 +18,7 @@ public class Sword_Attack : MonoBehaviour
     {
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<PolygonCollider2D>().enabled = false;
+
     }
     void Update()
     {
