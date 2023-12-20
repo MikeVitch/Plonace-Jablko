@@ -17,7 +17,7 @@ public class Fan_Of_Ice : MonoBehaviour
     public float Damage = 10f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public Transform player;
     public float Projectile_Offset_Side;
     public float Projectile_Offset_Down;

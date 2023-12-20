@@ -21,6 +21,7 @@ public class Player_Movement : MonoBehaviour
     public Misty_Step misty_step;
     public Restoration restoration;
     public Sword_Attack sword_attack;
+    public Player_Logic player_logic;
     new Rigidbody2D rigidbody;
     public Vector3 Direction_Of_Movement;
     Vector3 Past_Position;
@@ -53,12 +54,12 @@ public class Player_Movement : MonoBehaviour
             Speed *= 1 - Dodge_Recovery_Slow;
         if (sword_attack.Attack_Is_Active)
             Speed = 0;
-
+        Debug.Log(Speed);
         //Dodging
             Past_Position = Current_Position;
         Current_Position = GetComponent<Transform>().position;
         Direction_Of_Movement = Current_Position - Past_Position;
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0))
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0) && !player_logic.Player_Attack_Lockout)
         {
             Dodge_Direction = Direction_Of_Movement;
             x = Dodge_Direction.x;

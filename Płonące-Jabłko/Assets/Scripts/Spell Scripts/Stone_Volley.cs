@@ -20,7 +20,7 @@ public class Stone_Volley : MonoBehaviour
     float Next_Shot = 0f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public Transform player;
     public Player_Logic player_logic;
 

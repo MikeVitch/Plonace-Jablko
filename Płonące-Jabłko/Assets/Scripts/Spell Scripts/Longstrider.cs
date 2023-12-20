@@ -12,6 +12,7 @@ public class Longstrider : MonoBehaviour
     public Mana_Tracker mana_tracker;
     private float Input_Time;
     public bool Activate_Spell = false;
+    public bool Spell_Is_Cast;
     public float Speed_Boost = 0.25f;
     public Player_Logic player_logic;
 
@@ -22,12 +23,29 @@ public class Longstrider : MonoBehaviour
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
+            Spell_Is_Cast = true;
+        }
+
+        if(Spell_Is_Cast && Time.time >= Input_Time + Cast_Time)
+        {
             Activate_Spell = true;
+            Spell_Is_Cast = false;
         }
 
         if (Activate_Spell && Time.time >= Input_Time + Time_Active && !player_logic.Player_Attack_Lockout)
         {
             Activate_Spell = false;
         }
+        /*if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        {
+            mana_tracker.Current_Mana -= Mana_Cost;
+            Input_Time = Time.time;
+            Activate_Spell = true;
+        }
+
+        if (Activate_Spell && Time.time >= Input_Time + Time_Active && !player_logic.Player_Attack_Lockout)
+        {
+            Activate_Spell = false;
+        }*/
     }
 }

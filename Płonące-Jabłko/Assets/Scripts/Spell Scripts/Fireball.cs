@@ -16,7 +16,7 @@ public class Fireball : MonoBehaviour
     public float Damage = 20f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public Transform player;
     public Player_Logic player_logic;
 

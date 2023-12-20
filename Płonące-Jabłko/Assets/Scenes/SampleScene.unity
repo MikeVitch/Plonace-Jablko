@@ -235,6 +235,7 @@ MonoBehaviour:
   misty_step: {fileID: 1674843287}
   restoration: {fileID: 1674843289}
   sword_attack: {fileID: 289208426}
+  player_logic: {fileID: 259789990}
   Direction_Of_Movement: {x: 0, y: 0, z: 0}
   Dodge_Speed: 15
   Dodge_Length: 0.3
@@ -337,6 +338,15 @@ MonoBehaviour:
   sword_attack: {fileID: 289208426}
   ice_shield: {fileID: 1674843290}
   block: {fileID: 259789991}
+  boulder_throw: {fileID: 1574273288}
+  fan_of_ice: {fileID: 1574273289}
+  fireball: {fileID: 1574273291}
+  flamethrower: {fileID: 577028739}
+  ice_shard: {fileID: 1574273290}
+  longstrider: {fileID: 1674843288}
+  misty_step: {fileID: 1674843287}
+  push: {fileID: 1574273292}
+  stone_volley: {fileID: 1574273287}
   Player_Position: {x: 0, y: 0, z: 0}
   Fire_Resistance: 0
   Earth_Resistance: 0
@@ -766,8 +776,10 @@ MonoBehaviour:
   Damage_Tickrate: 0.25
   Cast: 49
   mana_tracker: {fileID: 259789989}
+  Spell_Is_On: 0
+  Activate_Spell: 0
   Cast_Time: 0.5
-  player_logic: {fileID: 0}
+  player_logic: {fileID: 259789990}
 --- !u!60 &577028740
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1459,6 +1471,7 @@ MonoBehaviour:
   Amount_Of_Shots: 3
   Shot_Interval: 0.3
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
   player_logic: {fileID: 259789990}
 --- !u!114 &1574273288
@@ -1503,6 +1516,7 @@ MonoBehaviour:
   Mana_Cost: 15
   Damage: 10
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
   Projectile_Offset_Side: 0.3
   Projectile_Offset_Down: 0.7
@@ -1527,6 +1541,7 @@ MonoBehaviour:
   Mana_Cost: 20
   Damage: 35
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
   player_logic: {fileID: 259789990}
 --- !u!114 &1574273291
@@ -1547,6 +1562,7 @@ MonoBehaviour:
   Mana_Cost: 20
   Damage: 20
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
   player_logic: {fileID: 259789990}
 --- !u!114 &1574273292
@@ -1568,6 +1584,7 @@ MonoBehaviour:
   Mana_Cost: 15
   Damage: 10
   mana_tracker: {fileID: 259789989}
+  Activate_Spell: 0
   player: {fileID: 259789985}
   player_logic: {fileID: 259789990}
 --- !u!1 &1674843282
@@ -1665,6 +1682,7 @@ MonoBehaviour:
   Mana_Cost: 20
   mana_tracker: {fileID: 259789989}
   Activate_Spell: 0
+  Spell_Is_Cast: 0
   Speed_Boost: 0.5
   player_logic: {fileID: 259789990}
 --- !u!114 &1674843289
@@ -1684,7 +1702,7 @@ MonoBehaviour:
   Heal_Amount: 5
   Heal_Tickrate: 0.25
   Self_Slow: 0.9
-  Cast: 0
+  Cast: 57
   mana_tracker: {fileID: 259789989}
   Spell_Is_On: 0
   Activate_Spell: 0
@@ -1709,7 +1727,7 @@ MonoBehaviour:
   Air_Resistance: 20
   Physical_Resistance: 40
   Time_Active: 5
-  Cast: 57
+  Cast: 0
   Spell_Is_Active: 0
   Mana_Cost: 15
   mana_tracker: {fileID: 259789989}

@@ -10,6 +10,15 @@ public class Player_Logic : MonoBehaviour
     public Sword_Attack sword_attack;
     public Ice_Shield ice_shield;
     public Block block;
+    public Boulder_Throw boulder_throw;
+    public Fan_Of_Ice fan_of_ice;
+    public Fireball fireball;
+    public Flamethrower flamethrower;
+    public Ice_Shard ice_shard;
+    public Longstrider longstrider;
+    public Misty_Step misty_step;
+    public Push push;
+    public Stone_Volley stone_volley;
     float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
     public float Fire_Resistance = 0f;
@@ -67,15 +76,41 @@ public class Player_Logic : MonoBehaviour
         }
 
         //Player_Attack_Lockout
+        Player_Attack_Lockout = false;
+
         if (player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
             Player_Attack_Lockout = true;
         else if (sword_attack.Attack_Is_Active)
             Player_Attack_Lockout = true;
-        else
-            Player_Attack_Lockout= false;
+        else if(boulder_throw.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(fan_of_ice.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(fireball.Activate_Spell || flamethrower.Spell_Is_On)
+            Player_Attack_Lockout = true;
+        else if(flamethrower.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(ice_shard.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(stone_volley.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(misty_step.Activate_Spell)
+            Player_Attack_Lockout = true;
+        else if(restoration.Activate_Spell || restoration.Spell_Is_On)
+            Player_Attack_Lockout = true;
+        else if(longstrider.Spell_Is_Cast)
+            Player_Attack_Lockout = true;
+        else if(push.Activate_Spell)
+            Player_Attack_Lockout = true;
+
+
+
+
+
+
 
         //Invincibility
-        if(Time.time <= Invincibilty_On_Hit_End || player_movement.Dodge_Is_Active)
+        if (Time.time <= Invincibilty_On_Hit_End || player_movement.Dodge_Is_Active)
             Invincibility = true;
         else
             Invincibility= false;

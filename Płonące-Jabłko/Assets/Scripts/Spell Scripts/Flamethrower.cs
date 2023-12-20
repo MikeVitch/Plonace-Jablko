@@ -10,9 +10,9 @@ public class Flamethrower : MonoBehaviour
     public float Damage_Tickrate = 0.25f;
     public KeyCode Cast = KeyCode.Alpha7;
     public Mana_Tracker mana_tracker;
-    bool Spell_Is_On = false;
+    public bool Spell_Is_On = false;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public float Cast_Time = 1f;
     public Player_Logic player_logic;
 
@@ -24,7 +24,7 @@ public class Flamethrower : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held)
             mana_tracker.Current_Mana -= Mana_Cost_Held * Time.deltaTime;
         else
             Spell_Is_On = false;
