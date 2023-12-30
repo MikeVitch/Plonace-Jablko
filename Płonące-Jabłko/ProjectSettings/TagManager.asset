@@ -19,6 +19,11 @@ TagManager:
   - Player_Character
   - Melee_Test_Attack
   - Push_Projectile
+  - Teleport_Area
+  - Building_Entrace
+  - Building
+  - Teleport
+  - Spawner
   layers:
   - Default
   - TransparentFX

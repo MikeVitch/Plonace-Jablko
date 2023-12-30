@@ -14,10 +14,9 @@ public class Enemy_Movement_Template_Melee : MonoBehaviour
     public float Minimum_Distance = 1.5f;
     public bool Is_In_Range = false;
 
-
     void Update()
     {
-        if (Is_In_Range)
+        if (Is_In_Range || enemy_attack_template_melee.Staggered)
             Movement_Speed = 0;
         else
             Movement_Speed = Base_Movement_Speed;

@@ -15,17 +15,17 @@ public class Restoration : MonoBehaviour
     private float Input_Time;
     public bool Activate_Spell = false;
     public float Cast_Time = 0.5f;
-
+    public Player_Logic player_logic;
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held)
+        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held && !player_logic.Player_Attack_Lockout)
             mana_tracker.Current_Mana -= Mana_Cost_Held * Time.deltaTime;
         else
             Spell_Is_On = false;
 
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial && !player_logic.Player_Attack_Lockout)
         {
             Input_Time = Time.time;
             Activate_Spell = true;
