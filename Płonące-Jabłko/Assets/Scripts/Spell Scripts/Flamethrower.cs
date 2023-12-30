@@ -29,6 +29,9 @@ public class Flamethrower : MonoBehaviour
         else
             Spell_Is_On = false;
 
+        if(!Input.GetKey(Cast))
+            Activate_Spell = false;
+
         if (Spell_Is_On)
         {
             GetComponent<SpriteRenderer>().enabled = true;

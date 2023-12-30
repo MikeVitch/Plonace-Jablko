@@ -37,5 +37,7 @@ public class Restoration : MonoBehaviour
             Spell_Is_On = true;
             mana_tracker.Current_Mana -= Mana_Cost_Initial;
         }
+        if (!Input.GetKeyDown(Cast) && !Input.GetKey(Cast))
+            Activate_Spell = false;
     }
 }

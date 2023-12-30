@@ -30,14 +30,6 @@ public class Fan_Of_Ice : MonoBehaviour
     void Update()
     {
 
-
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
-        {
-            mana_tracker.Current_Mana -= Mana_Cost;
-            Input_Time = Time.time;
-            Activate_Spell = true;
-        }
-
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)
         {
             Hitbox_Rotation = transform.rotation;
@@ -49,6 +41,13 @@ public class Fan_Of_Ice : MonoBehaviour
             Destroy(Instantiate(Hitbox, transform.position + transform.up * -1 * Projectile_Offset_Side + transform.right * -1 * Projectile_Offset_Down, Hitbox_Rotation_Right, Hitbox_Transform), Time_Active);
 
             Activate_Spell = false;
+        }
+
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        {
+            mana_tracker.Current_Mana -= Mana_Cost;
+            Input_Time = Time.time;
+            Activate_Spell = true;
         }
     }
 }

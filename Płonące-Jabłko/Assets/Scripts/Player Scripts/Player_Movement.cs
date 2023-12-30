@@ -54,7 +54,7 @@ public class Player_Movement : MonoBehaviour
             Speed *= 1 - Dodge_Recovery_Slow;
         if (sword_attack.Attack_Is_Active)
             Speed = 0;
-        Debug.Log(Speed);
+
         //Dodging
             Past_Position = Current_Position;
         Current_Position = GetComponent<Transform>().position;

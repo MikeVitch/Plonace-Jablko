@@ -24,14 +24,6 @@ public class Push : MonoBehaviour
     void Update()
     {
 
-
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
-        {
-            mana_tracker.Current_Mana -= Mana_Cost;
-            Input_Time = Time.time;
-            Activate_Spell = true;
-        }
-
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)
         {
             Hitbox_Rotation = transform.rotation;
@@ -39,6 +31,13 @@ public class Push : MonoBehaviour
             Hitbox_Position = Camera.main.ScreenToWorldPoint(Player_Position);
             Destroy(Instantiate(Hitbox, Player_Position, Hitbox_Rotation, Hitbox_Transform), Time_Active);
             Activate_Spell = false;
+        }
+
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        {
+            mana_tracker.Current_Mana -= Mana_Cost;
+            Input_Time = Time.time;
+            Activate_Spell = true;
         }
     }
 }
