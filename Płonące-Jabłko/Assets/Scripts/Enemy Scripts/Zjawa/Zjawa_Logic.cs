@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemy_Logic : MonoBehaviour
+public class Zjawa_Logic : MonoBehaviour
 {
     Sword_Attack sword_attack;
     Template_DoT_Held template_dot_held;
@@ -70,7 +69,7 @@ public class Enemy_Logic : MonoBehaviour
         }
 
         //Template_Projectile
-        if(collision.gameObject.tag == "Template_Projectile_Projectile")
+        if (collision.gameObject.tag == "Template_Projectile_Projectile")
         {
             template_projectile = FindObjectOfType<Template_Projectile>();
             Attack_Damage = template_projectile.Damage;
@@ -86,7 +85,7 @@ public class Enemy_Logic : MonoBehaviour
         }
 
         //Boulder_Throw
-        if(collision.gameObject.tag == "Boulder_Throw_Projectile")
+        if (collision.gameObject.tag == "Boulder_Throw_Projectile")
         {
             boulder_throw = FindObjectOfType<Boulder_Throw>();
             Attack_Damage = boulder_throw.Damage;
@@ -167,7 +166,7 @@ public class Enemy_Logic : MonoBehaviour
             transform.position += transform.right * push_projectile.Speed * Time.deltaTime * -1;
         }
         //Debug.Log(Health);
-            if (Health <= 0)
-                Destroy(gameObject);
+        if (Health <= 0)
+            Destroy(gameObject);
     }
 }

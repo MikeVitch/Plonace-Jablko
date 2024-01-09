@@ -20,6 +20,9 @@ TagManager:
   - Melee_Test_Attack
   - Push_Projectile
   - Column_Push_Projectile
+  - Zjawa_Push_Projectile
+  - Zjawa
+  - Zjawa_Tornado_Projectile
   layers:
   - Default
   - TransparentFX

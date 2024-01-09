@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Logic : MonoBehaviour
@@ -19,6 +20,8 @@ public class Player_Logic : MonoBehaviour
     public Misty_Step misty_step;
     public Push push;
     public Stone_Volley stone_volley;
+    Zjawa_Push zjawa_push;
+    Zjawa_Tornado zjawa_tornado;
     float Restoration_Next_Tick = 0;
     public Vector3 Player_Position;
     public float Fire_Resistance = 0f;
@@ -33,6 +36,7 @@ public class Player_Logic : MonoBehaviour
     float Attack_Damage;
     public bool Invincibility;
     public bool Player_Attack_Lockout;
+    public bool Zjawa_Push_Collision;
 
     void Update()
     {
@@ -102,6 +106,8 @@ public class Player_Logic : MonoBehaviour
             Player_Attack_Lockout = true;
         else if(push.Activate_Spell)
             Player_Attack_Lockout = true;
+        else if(Zjawa_Push_Collision)
+            Player_Attack_Lockout = true;
 
 
 
@@ -114,7 +120,6 @@ public class Player_Logic : MonoBehaviour
             Invincibility = true;
         else
             Invincibility= false;
-            
 
         //Debug.Log(Health);
     }
@@ -128,6 +133,33 @@ public class Player_Logic : MonoBehaviour
             Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
             Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
+
+        //Zjawa_Tornado
+        if (collision.gameObject.tag == "Zjawa_Tornado_Projectile")
+        {
+            zjawa_tornado = FindObjectOfType<Zjawa_Tornado>();
+            Attack_Damage = zjawa_tornado.Damage;
+            Health -= Attack_Damage * (1 - 0.01f * Air_Resistance);
+        }
         //Debug.Log(Health);
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //Zjawa_Push
+        if (collision.gameObject.tag == "Zjawa_Push_Projectile")
+        {
+            zjawa_push = FindObjectOfType<Zjawa_Push>();
+            transform.position += (gameObject.transform.position - collision.transform.position)/Vector3.Distance(gameObject.transform.position, collision.transform.position) * zjawa_push.Projectile_Speed * Time.deltaTime;
+            Zjawa_Push_Collision = true;
+        }
+            
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        //Zjawa_Push
+        if (collision.gameObject.tag == "Zjawa_Push_Projectile")
+        {
+            Zjawa_Push_Collision = false;
+        }
     }
 }
