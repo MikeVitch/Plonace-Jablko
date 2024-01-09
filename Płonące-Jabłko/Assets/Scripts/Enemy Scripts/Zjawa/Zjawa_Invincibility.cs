@@ -33,6 +33,7 @@ public class Zjawa_Invincibility : MonoBehaviour
         {
             color.a = 0.5f;
             Sprite_Renderer.color = color;
+            gameObject.tag = "Untargetable";
         }else
         {
             color.a = 1f;
@@ -42,6 +43,7 @@ public class Zjawa_Invincibility : MonoBehaviour
             if (Time.time >= Time_Of_Cast + Time_Active)
         {
             Spell_Is_Active = false;
+            gameObject.tag = "Zjawa";
         }
     }
 }

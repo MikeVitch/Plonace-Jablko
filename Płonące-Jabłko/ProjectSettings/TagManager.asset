@@ -23,6 +23,7 @@ TagManager:
   - Zjawa_Push_Projectile
   - Zjawa
   - Zjawa_Tornado_Projectile
+  - Untargetable
   layers:
   - Default
   - TransparentFX

@@ -11,7 +11,9 @@ public class Stone_Volley_Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Player_Character")
+        if (collision.gameObject.tag == "Player_Character" || collision.gameObject.tag == "Untargetable")
+        { }
+        else
             Destroy(gameObject);
     }
 }
