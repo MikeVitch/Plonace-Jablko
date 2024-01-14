@@ -55,7 +55,7 @@ public class Zjawa_Logic : MonoBehaviour
             Is_On_Fire = false;
 
 
-        Debug.Log(Health);
+        //Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

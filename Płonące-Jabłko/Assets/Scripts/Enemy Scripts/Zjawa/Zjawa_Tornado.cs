@@ -9,13 +9,15 @@ public class Zjawa_Tornado : MonoBehaviour
     Transform Hitbox_Transform;
     Quaternion Hitbox_Rotation;
     public Object Hitbox;
-    public float Time_Active = 1f;
-    public float Cast_Time = 0f;
-    public float Damage = 35f;
+    public float Time_Active;
+    public float Damage;
+    public float Acceleration;
+    public float Max_Speed;
     public float Cooldown;
     public bool Activate_Spell = false;
     public Transform Zjawa;
     public float Recovery;
+    public float Homing_Percentage;
 
     void Update()
     {

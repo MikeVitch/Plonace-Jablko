@@ -22,7 +22,6 @@ public class Player_Movement : MonoBehaviour
     public Restoration restoration;
     public Sword_Attack sword_attack;
     public Player_Logic player_logic;
-    new Rigidbody2D rigidbody;
     public Vector3 Direction_Of_Movement;
     Vector3 Past_Position;
     Vector3 Current_Position;

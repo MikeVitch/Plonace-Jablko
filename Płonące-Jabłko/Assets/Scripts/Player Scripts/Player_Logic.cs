@@ -135,21 +135,23 @@ public class Player_Logic : MonoBehaviour
         }
 
         //Zjawa_Tornado
-        if (collision.gameObject.tag == "Zjawa_Tornado_Projectile")
+        if (collision.gameObject.tag == "Zjawa_Tornado_Projectile" && !Invincibility)
         {
             zjawa_tornado = FindObjectOfType<Zjawa_Tornado>();
             Attack_Damage = zjawa_tornado.Damage;
             Health -= Attack_Damage * (1 - 0.01f * Air_Resistance);
+            Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
         //Debug.Log(Health);
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
         //Zjawa_Push
-        if (collision.gameObject.tag == "Zjawa_Push_Projectile")
+        if (collision.gameObject.tag == "Zjawa_Push_Projectile" && !Invincibility)
         {
             zjawa_push = FindObjectOfType<Zjawa_Push>();
-            transform.position += (gameObject.transform.position - collision.transform.position)/Vector3.Distance(gameObject.transform.position, collision.transform.position) * zjawa_push.Projectile_Speed * Time.deltaTime;
+            //transform.position += (gameObject.transform.position - collision.transform.position)/Vector3.Distance(gameObject.transform.position, collision.transform.position) * zjawa_push.Projectile_Speed * Time.deltaTime;
+            transform.position += collision.transform.right * zjawa_push.Projectile_Speed * Time.deltaTime;
             Zjawa_Push_Collision = true;
         }
             

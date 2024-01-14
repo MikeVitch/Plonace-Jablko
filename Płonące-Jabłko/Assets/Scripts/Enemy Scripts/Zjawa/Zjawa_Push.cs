@@ -10,7 +10,6 @@ public class Zjawa_Push : MonoBehaviour
     Quaternion Hitbox_Rotation;
     public Object Hitbox;
     public float Time_Active;
-    public float Damage;
     public bool Activate_Spell = false;
     public Transform Zjawa;
     public float Projectile_Speed;

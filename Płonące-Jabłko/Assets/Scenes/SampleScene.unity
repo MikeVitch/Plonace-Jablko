@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   zjawa_logic: {fileID: 1940225537}
   player_logic: {fileID: 259789990}
-  Base_Movement_Speed: 500
+  Base_Movement_Speed: 600
   Aggro_Range: 15
   Range: 8
   Minimum_Distance: 4
@@ -1630,7 +1630,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1940225542
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1690,12 +1690,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Hitbox: {fileID: 4998484745703174116, guid: 6188861c25d0d1141a4de70a0900a768, type: 3}
   Time_Active: 0.5
-  Damage: 0
   Activate_Spell: 0
   Zjawa: {fileID: 1940225540}
   Projectile_Speed: 10
   Cooldown: 5
-  Recovery: 0.5
+  Recovery: 1
 --- !u!114 &1940225545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1724,14 +1723,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45c249bab83e3634d950d26f06bc7f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 1360036319244756842, guid: 461b5257d0bf7ec4eb6987e8ff86508b, type: 3}
+  Hitbox: {fileID: 8822350700248341829, guid: 461b5257d0bf7ec4eb6987e8ff86508b, type: 3}
   Time_Active: 1.5
-  Cast_Time: 0
   Damage: 15
+  Acceleration: 10
+  Max_Speed: 20
   Cooldown: 5
   Activate_Spell: 0
   Zjawa: {fileID: 1940225540}
-  Recovery: 0.5
+  Recovery: 1
+  Homing_Percentage: 20
 --- !u!114 &1940225547
 MonoBehaviour:
   m_ObjectHideFlags: 0
