@@ -19,6 +19,21 @@ TagManager:
   - Player_Character
   - Melee_Test_Attack
   - Push_Projectile
+  - Slot
+  - Slots
+  - Hotbar
+  - EquipmentSystem
+  - Panel
+  - Tooltip
+  - DraggingItem
+  - ItemIcon
+  - Item
+  - CraftSystem
+  - ResultSlot
+  - Canvas
+  - EventSystem
+  - MainInventory
+  - Timer
   layers:
   - Default
   - TransparentFX
@@ -26,7 +41,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - exp
   - 
   - 
   - 
@@ -59,9 +74,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Character
+    uniqueID: 3173909483
+    locked: 0
   - name: Attack
     uniqueID: 846738359
     locked: 0
   - name: Forground
     uniqueID: 1102921437
+    locked: 0
+  - name: ExpOrb
+    uniqueID: 1312761657
     locked: 0

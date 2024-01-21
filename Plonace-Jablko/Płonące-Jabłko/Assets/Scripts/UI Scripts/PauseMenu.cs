@@ -5,12 +5,14 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject inventoryMenu;
+    public GameObject hUDcanvas;
     public static bool isPaused;
 
     void Start()
     {
         inventoryMenu.SetActive(false);
         isPaused = false;
+        hUDcanvas.SetActive(true);
     }
 
     private void Update()
@@ -32,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     {
         inventoryMenu.SetActive(true);
         Time.timeScale = 0f;
+        hUDcanvas.SetActive(false);
         isPaused = true;
     }
 
@@ -39,6 +42,7 @@ public class PauseMenu : MonoBehaviour
     {
         inventoryMenu.SetActive(false);
         Time.timeScale = 1f;
+        hUDcanvas.SetActive(true);
         isPaused = false;
     }
 
@@ -46,6 +50,7 @@ public class PauseMenu : MonoBehaviour
     {
         inventoryMenu.SetActive(false);
         Time.timeScale = 1f;
+        hUDcanvas.SetActive(true);
         isPaused = false;
     }
 }

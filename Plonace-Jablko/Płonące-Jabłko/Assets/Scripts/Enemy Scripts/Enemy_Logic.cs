@@ -120,8 +120,9 @@ public class Enemy_Logic : MonoBehaviour
 
         //Debug.Log(Health);
         if (Health <= 0)
+        {
             Destroy(gameObject);
-
+        }
     }
 
 
@@ -165,6 +166,13 @@ public class Enemy_Logic : MonoBehaviour
         }
         //Debug.Log(Health);
         if (Health <= 0)
+        {
+            ExpSpawner expSpawner = FindObjectOfType<ExpSpawner>();
+            if (expSpawner != null)
+            {
+                expSpawner.SpawnExpCollectibles(transform.position);
+            }
             Destroy(gameObject);
+        }
     }
 }

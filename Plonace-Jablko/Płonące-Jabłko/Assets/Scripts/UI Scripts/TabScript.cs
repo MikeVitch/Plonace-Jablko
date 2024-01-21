@@ -19,10 +19,5 @@ public class TabScript : MonoBehaviour
             tabs[i].SetActive(false);
         }
         tabs[tab - 1].SetActive(true);
-
-        if (pauseMenu != null)
-        {
-            pauseMenu.ResumeGame();
-        }
     }
 }
