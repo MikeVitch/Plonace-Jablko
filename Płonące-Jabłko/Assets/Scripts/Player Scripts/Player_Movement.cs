@@ -3,16 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Movement : MonoBehaviour
 {
     private float Speed;
     public float Base_Speed = 5f;
+    LayerMask Collision_Mask;
 
     private void Start()
     {
         Speed = Base_Speed;
         Past_Position = Current_Position = GetComponent<Transform>().position;
+        Collision_Mask = LayerMask.GetMask("Wall");
     }
 
 
@@ -36,6 +39,10 @@ public class Player_Movement : MonoBehaviour
     float Dodge_Recovery_End;
     public bool Dodge_Is_Active;
     public bool Dodge_Recovery_Is_Active;
+    //Colliders below are separete as to allow the Player to slide of off terrain with a capsule collider while preventing them from vibrating when running into a wall
+    public Vector2 Collider_Vertical;
+    public Vector2 Collider_Horizontal;
+
     void Update()
     {
         Speed = Base_Speed;
@@ -89,19 +96,19 @@ public class Player_Movement : MonoBehaviour
 
 
         //Basic Movement
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
         }

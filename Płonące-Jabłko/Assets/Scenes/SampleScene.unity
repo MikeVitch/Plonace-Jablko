@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dom_Sprite
       objectReference: {fileID: 0}
+    - target: {fileID: 3289495878917465126, guid: c387e0714217b854282cae66b3724a4b, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6468840404070731809, guid: c387e0714217b854282cae66b3724a4b, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -304,6 +308,8 @@ MonoBehaviour:
   Dodge_Recovery_Slow: 0.5
   Dodge_Is_Active: 0
   Dodge_Recovery_Is_Active: 0
+  Collider_Vertical: {x: 0.31, y: 1.27}
+  Collider_Horizontal: {x: 1.1145, y: 0.333375}
 --- !u!50 &259789987
 Rigidbody2D:
   serializedVersion: 4
