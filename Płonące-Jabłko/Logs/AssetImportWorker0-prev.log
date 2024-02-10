@@ -1,16 +1,21 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.3f1 (7cdc2969a641) revision 8182825'; Using compiler version '192829333'; Build Type 'Release'
+<<<<<<< Updated upstream
 OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pl' Physical Memory: 23984 MB
+=======
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pl' Physical Memory: 65276 MB
+>>>>>>> Stashed changes
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.3f1\Editor\Unity.exe
+D:\Unity\2022.3.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< Updated upstream
 C:/Users/mzuze/OneDrive/Dokumenty/GitHub/Plonace-Jablko/Płonące-Jabłko
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +23,15 @@ Logs/AssetImportWorker0.log
 50621
 Successfully changed project path to: C:/Users/mzuze/OneDrive/Dokumenty/GitHub/Plonace-Jablko/Płonące-Jabłko
 C:/Users/mzuze/OneDrive/Dokumenty/GitHub/Plonace-Jablko/Płonące-Jabłko
+=======
+C:/Users/dagan/Desktop/Praktyki projekt/Plonace jabłko kod/Plonace-Jablko-main/Plonace-Jablko-main/Płonące-Jabłko
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50906
+Successfully changed project path to: C:/Users/dagan/Desktop/Praktyki projekt/Plonace jabłko kod/Plonace-Jablko-main/Plonace-Jablko-main/Płonące-Jabłko
+C:/Users/dagan/Desktop/Praktyki projekt/Plonace jabłko kod/Plonace-Jablko-main/Plonace-Jablko-main/Płonące-Jabłko
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +63,7 @@ C:/Users/mzuze/OneDrive/Dokumenty/GitHub/Plonace-Jablko/Płonące-Jabłko
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [9256] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2504576225 [EditorId] 2504576225 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0M16477R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [9256] Host "[IP] 192.168.1.23 [Port] 0 [Flags] 2 [Guid] 2504576225 [EditorId] 2504576225 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-0M16477R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -82,10 +97,46 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.291 seconds
 Domain Reload Profiling: 668ms
 	BeginReloadAssembly (110ms)
+=======
+Player connection [23452] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3693290140 [EditorId] 3693290140 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23452] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 3693290140 [EditorId] 3693290140 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.3f1 (7cdc2969a641)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dagan/Desktop/Praktyki projekt/Plonace jabłko kod/Plonace-Jablko-main/Plonace-Jablko-main/Płonące-Jabłko/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4090 (ID=0x2684)
+    Vendor:   NVIDIA
+    VRAM:     24142 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001908 seconds.
+- Loaded All Assemblies, in  0.178 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.147 seconds
+Domain Reload Profiling: 325ms
+	BeginReloadAssembly (45ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (13ms)
@@ -109,6 +160,31 @@ Domain Reload Profiling: 668ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (155ms)
 			ProcessInitializeOnLoadMethodAttributes (51ms)
+=======
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (44ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (147ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+>>>>>>> Stashed changes
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,6 +192,7 @@ Domain Reload Profiling: 668ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+<<<<<<< Updated upstream
 Symbol file LoadedFromMemory doesn't match image C:\Users\mzuze\OneDrive\Dokumenty\GitHub\Plonace-Jablko\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\mzuze\OneDrive\Dokumenty\GitHub\Plonace-Jablko\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.854 seconds
@@ -126,10 +203,23 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.597 seconds
 Domain Reload Profiling: 1446ms
 	BeginReloadAssembly (190ms)
+=======
+Symbol file LoadedFromMemory doesn't match image C:\Users\dagan\Desktop\Praktyki projekt\Plonace jabłko kod\Plonace-Jablko-main\Plonace-Jablko-main\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\dagan\Desktop\Praktyki projekt\Plonace jabłko kod\Plonace-Jablko-main\Plonace-Jablko-main\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 668ms
+	BeginReloadAssembly (66ms)
+>>>>>>> Stashed changes
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< Updated upstream
 		CreateAndSetChildDomain (38ms)
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (12ms)
@@ -164,9 +254,46 @@ Unloading 4047 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 69 unused Assets / (245.1 KB). Loaded Objects now: 4506.
 Memory consumption went from 139.5 MB to 139.2 MB.
 Total: 3.806400 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.082200 ms  DeleteObjects: 0.241200 ms)
+=======
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (289ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4005 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (60.4 KB). Loaded Objects now: 4470.
+Memory consumption went from 140.1 MB to 140.0 MB.
+Total: 1.976400 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.045600 ms MarkObjects: 1.731000 ms  DeleteObjects: 0.069800 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
@@ -178,10 +305,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 2685.289734 seconds.
   path: Assets/Scripts/Player Scripts/Player_Movement.cs
   artifactKey: Guid(cee157b3667b20d42a072d0dfe4b35d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Player Scripts/Player_Movement.cs using Guid(cee157b3667b20d42a072d0dfe4b35d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ff5299da427192db04660abc6677fa') in 0.002844 seconds
+=======
+  Time since last request: 6647.734498 seconds.
+  path: Assets/Scenes/Level_Temple.unity
+  artifactKey: Guid(105038092e97f5d41877bb4c303d3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level_Temple.unity using Guid(105038092e97f5d41877bb4c303d3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e217f2a2dc5764b8f0cc673728ebe5') in 0.001963 seconds
+>>>>>>> Stashed changes
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================

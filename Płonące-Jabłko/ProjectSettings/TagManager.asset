@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Player_Weapon
+<<<<<<< Updated upstream
   - Enemy
   - Template_DoT_Held
   - Template_AoE_OnMouse
@@ -24,6 +25,8 @@ TagManager:
   - Zjawa
   - Zjawa_Tornado_Projectile
   - Untargetable
+=======
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
@@ -63,9 +66,6 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Attack
-    uniqueID: 846738359
     locked: 0
   - name: Forground
     uniqueID: 1102921437
