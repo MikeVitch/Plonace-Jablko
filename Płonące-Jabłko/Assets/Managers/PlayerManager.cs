@@ -50,6 +50,7 @@ public class PlayerManager : ScriptableObject
             bool foundSpawn = false;
 
             foreach(GameObject spawner in spawns) {
+              
                 if (spawner.name == GameState.playerSpawnLocation)
                 {
                     foundSpawn = true;
@@ -59,12 +60,18 @@ public class PlayerManager : ScriptableObject
 
                     break;
                 }
-               
 
+               
             }
             if (!foundSpawn)
             {
-                throw new MissingReferenceException("Can't find player spawn location with name: "+ GameState.playerSpawnLocation );
+
+
+                // throw new MissingReferenceException("Can't find player spawn location with name: "+ GameState.playerSpawnLocation );
+                player.GetComponent<Transform>().position = defaultSpawnTransform.transform.position;
+
+                Debug.Log("Player spawned default: " + defaultSpawnTransform);
+
             }
         }
         else

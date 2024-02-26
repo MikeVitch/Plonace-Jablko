@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Player_Weapon
+  - Teleport_Area
+  - Fireball_Hitbox
+  - Template_AoE_OnMouse
+  - Ice_Shard_Projectile
+  - Push_Projectile
+  - Stone_Volley_Projectile
+  - Boulder_Throw_Projectile
+  - Fan_Of_Ice_Projectile
+  - Player_Character
   layers:
   - Default
   - TransparentFX
@@ -47,4 +56,7 @@ TagManager:
     locked: 0
   - name: Forground
     uniqueID: 1102921437
+    locked: 0
+  - name: Attack
+    uniqueID: 2073961005
     locked: 0
