@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3323900895112742492}
   - component: {fileID: 8287694066828441711}
   - component: {fileID: 5728735529701244459}
+  - component: {fileID: 4070751610746310141}
   - component: {fileID: 6057881895613806852}
-  - component: {fileID: 167966121282995433}
   - component: {fileID: 4155091708016362785}
   - component: {fileID: 8849223303917263729}
   - component: {fileID: 1696071325030547766}
@@ -38,7 +38,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3323900895112742492
 SpriteRenderer:
@@ -164,25 +164,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6057881895613806852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7286300185970550580}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f4dae05759c23341832a444ea8ce9cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  zjawa_logic: {fileID: 167966121282995433}
-  Base_Movement_Speed: 500
-  Aggro_Range: 15
-  Range: 8
-  Minimum_Distance: 4
-  Is_In_Range: 0
---- !u!114 &167966121282995433
+--- !u!114 &4070751610746310141
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,10 +181,28 @@ MonoBehaviour:
   Water_Resistance: 0
   Air_Resistance: 0
   Physical_Resistance: 0
-  Health: 70
+  Health: 100
   Burn_Damage: 5
   Burn_Frequency: 0.5
   Burn_Duration: 2
+--- !u!114 &6057881895613806852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7286300185970550580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f4dae05759c23341832a444ea8ce9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zjawa_logic: {fileID: 0}
+  Base_Movement_Speed: 500
+  Aggro_Range: 15
+  Range: 8
+  Minimum_Distance: 4
+  Is_In_Range: 0
 --- !u!114 &4155091708016362785
 MonoBehaviour:
   m_ObjectHideFlags: 0

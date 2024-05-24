@@ -18,7 +18,11 @@ public class Player_Movement : MonoBehaviour
         Collision_Mask = LayerMask.GetMask("Wall");
     }
 
-
+    public KeyCode Movement_Up;
+    public KeyCode Movement_Down;
+    public KeyCode Movement_Left;
+    public KeyCode Movement_Right;
+    public KeyCode Dodge_Roll;
     public Boulder_Throw boulder_throw;
     public Longstrider longstrider;
     public Misty_Step misty_step;
@@ -67,7 +71,7 @@ public class Player_Movement : MonoBehaviour
             Past_Position = Current_Position;
         Current_Position = GetComponent<Transform>().position;
         Direction_Of_Movement = Current_Position - Past_Position;
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0) && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKeyDown(Dodge_Roll) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0) && !player_logic.Player_Attack_Lockout)
         {
             Dodge_Direction = Direction_Of_Movement;
             x = Dodge_Direction.x;
@@ -96,19 +100,19 @@ public class Player_Movement : MonoBehaviour
 
 
         //Basic Movement
-        if (Input.GetKey(KeyCode.A) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.D) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Right) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.W) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Up) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.S) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Down) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
         }

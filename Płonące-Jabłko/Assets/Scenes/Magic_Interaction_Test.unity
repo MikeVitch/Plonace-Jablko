@@ -469,6 +469,7 @@ MonoBehaviour:
   Invincibility_On_Hit_Lenght: 0.5
   Invincibility: 0
   Player_Attack_Lockout: 0
+  Zjawa_Push_Collision: 0
 --- !u!114 &371839762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,6 +518,8 @@ MonoBehaviour:
   Dodge_Recovery_Slow: 0.5
   Dodge_Is_Active: 0
   Dodge_Recovery_Is_Active: 0
+  Collider_Vertical: {x: 0, y: 0}
+  Collider_Horizontal: {x: 0, y: 0}
 --- !u!4 &371839764
 Transform:
   m_ObjectHideFlags: 0

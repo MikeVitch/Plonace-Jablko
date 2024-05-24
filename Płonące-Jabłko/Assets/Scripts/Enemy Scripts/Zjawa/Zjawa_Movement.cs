@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Zjawa_Movement : MonoBehaviour
 {
-    public Zjawa_Logic zjawa_logic;
+    public Enemy_Logic enemy_logic;
     Player_Logic player_logic;
     Zjawa_Invincibility zjawa_invincibility;
     public float Base_Movement_Speed;
@@ -21,7 +21,7 @@ public class Zjawa_Movement : MonoBehaviour
         zjawa_invincibility = GetComponent<Zjawa_Invincibility>();
         player_logic = FindObjectOfType<Player_Logic>();
     }
-
+    
     // Update is called once per frame
     void Update()
     {
