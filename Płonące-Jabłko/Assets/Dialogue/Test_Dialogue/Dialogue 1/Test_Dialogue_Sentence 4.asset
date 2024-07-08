@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
   m_Name: Test_Dialogue_Sentence 4
   m_EditorClassIdentifier: 
-  from: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
-  text: Zdanie 3
-  nextSentence: {fileID: 0}
-  options:
-  - text: End
-    nextSentence: {fileID: 0}
-    consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
+  From: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
+  Text: Zdanie 3
+  Next_Sentence: {fileID: 0}
+  Player_Portrait: {fileID: 0}
+  NPC_Portrait: {fileID: 0}
+  Options:
+  - Text: End
+    NextSentence: {fileID: 0}
+    Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
+    Player_Portrait: {fileID: 0}
+    NPC_Portrait: {fileID: 0}

@@ -5,6 +5,17 @@ using UnityEngine;
 
 public class Player_Logic : MonoBehaviour
 {
+    public float Max_Health = 100f;
+    public float Invincibility_On_Hit_Lenght = 0.5f;
+    public KeyCode Interaction_Key = KeyCode.E;
+    public float Fire_Resistance = 0f;
+    public float Earth_Resistance = 0f;
+    public float Water_Resistance = 0f;
+    public float Air_Resistance = 0f;
+    public float Physical_Resistance = 0f;
+
+    [Header("Reference Scripts")]
+    public Dialogue_Manager dialogue_manager;
     public Enemy_Attack_Template_Melee enemy_attack_template_melee;
     public Player_Movement player_movement;
     public Restoration restoration;
@@ -20,18 +31,14 @@ public class Player_Logic : MonoBehaviour
     public Misty_Step misty_step;
     public Push push;
     public Stone_Volley stone_volley;
+
     Zjawa_Push zjawa_push;
     Zjawa_Tornado zjawa_tornado;
+
     float Restoration_Next_Tick = 0;
+    [Header("Script Access")]
     public Vector3 Player_Position;
-    public float Fire_Resistance = 0f;
-    public float Earth_Resistance = 0f;
-    public float Water_Resistance = 0f;
-    public float Air_Resistance = 0f;
-    public float Physical_Resistance = 0f;
-    public float Max_Health = 100f;
     public float Health = 100f;
-    public float Invincibility_On_Hit_Lenght = 0.5f;
     float Invincibilty_On_Hit_End;
     float Attack_Damage;
     public bool Invincibility;
@@ -107,6 +114,8 @@ public class Player_Logic : MonoBehaviour
         else if(push.Activate_Spell)
             Player_Attack_Lockout = true;
         else if(Zjawa_Push_Collision)
+            Player_Attack_Lockout = true;
+        else if(dialogue_manager.Dialogue_Active)
             Player_Attack_Lockout = true;
 
 

@@ -5,39 +5,38 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Sentence : ScriptableObject
 {
-    [Tooltip("A string variable representing the player or npc's name")]
-    public String_Variable from;
+    [Tooltip("String_Variable with the name of the character talking")]
+    public String_Variable From;
 
     [TextArea(3, 10)]
-    public string text = "text";
+    public string Text = "Text";
 
+    [Tooltip("Activates only when there aren't options")]
+    public Sentence Next_Sentence;
 
-    [Tooltip("Available only when it has no options")]
-    public Sentence nextSentence;
-    // public Choice[] options;
+    [Tooltip("Activates only when there aren't options")]
+    public Sprite Player_Portrait;
+    [Tooltip("Activates only when there aren't options")]
+    public Sprite NPC_Portrait;
 
-    public List<Choice> options = new List<Choice>();
-
+    public List<Choice> Options = new List<Choice>();
 
     public bool HasOptions()
     {
-        if (options.Count == 0)
+        if (Options.Count == 0)
             return false;
         else
             return true;
     }
-
-
-
 }
-
-
 
 [System.Serializable]
 public class Choice
 {
     [TextArea(3, 10)]
-    public string text;
-    public Sentence nextSentence;
-    public Game_Event consequence;
+    public string Text;
+    public Sentence NextSentence;
+    public Game_Event Consequence;
+    public Sprite Player_Portrait;
+    public Sprite NPC_Portrait;
 }

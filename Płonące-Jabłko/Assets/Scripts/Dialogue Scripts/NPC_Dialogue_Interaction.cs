@@ -20,7 +20,7 @@ public class NPC_Dialogue_Interaction : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(Interaction_Key)) 
+        if(Input.GetKeyDown(Interaction_Key) && !dialogue_manager.Dialogue_Active) 
         {
             if(Vector2.Distance(gameObject.transform.position,Player_Character.transform.position) <= Interaction_Radius)
             {

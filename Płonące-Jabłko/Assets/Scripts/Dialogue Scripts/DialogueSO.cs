@@ -4,8 +4,9 @@ using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue")]
 public class DialogueSO : ScriptableObject
-{
-    //public string with;                  
-    public Sentence startingSentence;
-    public bool isAvailable;
+{              
+    public Sentence Starting_Sentence;
+    public bool Is_Available;
+    public Sprite Player_Portrait;
+    public Sprite NPC_Portrait;
 }

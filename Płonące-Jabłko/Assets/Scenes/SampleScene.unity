@@ -295,6 +295,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base_Speed: 5
+  Movement_Up: 119
+  Movement_Down: 115
+  Movement_Left: 97
+  Movement_Right: 100
+  Dodge_Roll: 32
   boulder_throw: {fileID: 1574273288}
   longstrider: {fileID: 1674843288}
   misty_step: {fileID: 1674843287}
@@ -399,6 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168843d922b3e67459daaa5dacbfcc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Interaction_Key: 101
   enemy_attack_template_melee: {fileID: 0}
   player_movement: {fileID: 259789986}
   restoration: {fileID: 1674843289}

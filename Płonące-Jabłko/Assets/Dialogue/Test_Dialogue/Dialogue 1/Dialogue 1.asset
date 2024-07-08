@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2baf66b3ee1d8b744ae213f97f234b03, type: 3}
   m_Name: Dialogue 1
   m_EditorClassIdentifier: 
-  startingSentence: {fileID: 11400000, guid: b46ffb03eecb94044a3dd4909a1c524d, type: 2}
-  isAvailable: 1
+  Starting_Sentence: {fileID: 11400000, guid: b46ffb03eecb94044a3dd4909a1c524d, type: 2}
+  Is_Available: 1
+  Player_Portrait: {fileID: 21300000, guid: 6b83c75ac47e202489565cc8e07a58eb, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: 7ac6e4b5558957240a49c9d7d2c107a2, type: 3}

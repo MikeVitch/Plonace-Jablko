@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 public class Game_Event_Listener : MonoBehaviour
 {
-    [Tooltip("The event to listent to")]
+    [Tooltip("The event to listen to")]
     public Game_Event Event;
 
     [Tooltip("The response once the event is raised")]

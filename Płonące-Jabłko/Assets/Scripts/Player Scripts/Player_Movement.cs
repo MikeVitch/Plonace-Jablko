@@ -8,44 +8,53 @@ using UnityEngine.UI;
 public class Player_Movement : MonoBehaviour
 {
     private float Speed;
+
+    [Header("Base Movement")]
     public float Base_Speed = 5f;
-    LayerMask Collision_Mask;
-
-    private void Start()
-    {
-        Speed = Base_Speed;
-        Past_Position = Current_Position = GetComponent<Transform>().position;
-        Collision_Mask = LayerMask.GetMask("Wall");
-    }
-
     public KeyCode Movement_Up;
     public KeyCode Movement_Down;
     public KeyCode Movement_Left;
     public KeyCode Movement_Right;
+    //Colliders below are separete as to allow the Player to slide of off terrain with a capsule collider while preventing them from jittering when running into a wall
+    [Header("Anti-Jitter Colliders")]
+    [Tooltip("Size of the collision box spawned")]
+    public Vector2 Collider_Vertical;
+    [Tooltip("Size of the collision box spawned")]
+    public Vector2 Collider_Horizontal;
+    [Header("Dodging")]
     public KeyCode Dodge_Roll;
+    public float Dodge_Speed;
+    public float Dodge_Length;
+    float Dodge_End;
+    public float Dodge_Recovery;
+    public float Dodge_Recovery_Slow;
+    float Dodge_Recovery_End;
+    [Header("Reference Scripts")]
     public Boulder_Throw boulder_throw;
     public Longstrider longstrider;
     public Misty_Step misty_step;
     public Restoration restoration;
     public Sword_Attack sword_attack;
     public Player_Logic player_logic;
-    public Vector3 Direction_Of_Movement;
     Vector3 Past_Position;
     Vector3 Current_Position;
     Vector3 Dodge_Direction;
     float x;
     float y;
-    public float Dodge_Speed;
-    public float Dodge_Length; 
-    float Dodge_End;
-    public float Dodge_Recovery;
-    public float Dodge_Recovery_Slow;
-    float Dodge_Recovery_End;
+    [Header("Script Access")]
+    public Vector3 Direction_Of_Movement;
     public bool Dodge_Is_Active;
     public bool Dodge_Recovery_Is_Active;
-    //Colliders below are separete as to allow the Player to slide of off terrain with a capsule collider while preventing them from vibrating when running into a wall
-    public Vector2 Collider_Vertical;
-    public Vector2 Collider_Horizontal;
+
+
+    //JitterFix mask
+    LayerMask Collision_Mask;
+    private void Start()
+    {
+        Speed = Base_Speed;
+        Past_Position = Current_Position = GetComponent<Transform>().position;
+        Collision_Mask = LayerMask.GetMask("Wall");
+    }
 
     void Update()
     {

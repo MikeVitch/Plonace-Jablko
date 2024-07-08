@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
   m_Name: Test_Dialogue_Sentence 3b
   m_EditorClassIdentifier: 
-  from: {fileID: 11400000, guid: 9b48bd71c6ae69545b8cd6d08790e6c3, type: 2}
-  text: "Odpowied\u017A 2b"
-  nextSentence: {fileID: 11400000, guid: 150cef7cf90c64148a3693cac3fc5f04, type: 2}
-  options: []
+  From: {fileID: 11400000, guid: 9b48bd71c6ae69545b8cd6d08790e6c3, type: 2}
+  Text: "Odpowied\u017A 2b"
+  Next_Sentence: {fileID: 11400000, guid: 150cef7cf90c64148a3693cac3fc5f04, type: 2}
+  Player_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: c9c3a8ddf5ee48c418f6bd14c3d676d6, type: 3}
+  Options: []

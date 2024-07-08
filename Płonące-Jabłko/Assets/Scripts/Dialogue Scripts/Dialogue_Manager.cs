@@ -2,87 +2,98 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class Dialogue_Manager : MonoBehaviour
 {
     [Header("GameEvents")]
-    public Game_Event ConversationEnded;
-    public Game_Event ConversationStarted;
+    public Game_Event Conversation_Ended;
+    public Game_Event Conversation_Started;
     [Space]
-    public String_Variable playerName;
-    [Tooltip("For the typing animation. Determine how long it takes for each character to appear")]
-    public float timeBetweenChars = 0.05f;
+    public String_Variable Player_Name;
+    [Tooltip("Time between characters")]
+    public float Time_Between_Chars = 0.05f;
     [Header("UI")]
-    public TextMeshProUGUI TextUI;
+    public TextMeshProUGUI Text_UI;
+    public TextMeshProUGUI Speaker_Name;
 
-    [Tooltip("The part of UI that display the UI")]
-    public GameObject DialogueUI;
-    [Tooltip("The text UIs that display options")]
-    public TextMeshProUGUI[] optionsUI;
-
+    public GameObject Player_Portrait_Object;
+    public GameObject NPC_Portrait_Object;
+    [Tooltip("Disappears when options appear")]
+    public GameObject Next_Button;
+    [Tooltip("Options")]
+    public TextMeshProUGUI[] Options_UI;
+    [Space]
+    public bool Dialogue_Active;
     DialogueSO dialogue;
-    Sentence currentSentence;
-
+    Sentence Current_Sentence;
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
-        if (!dialogueSO.isAvailable)
+        if (!dialogueSO.Is_Available)
         {
             return;
         }
-        if (ConversationStarted != null)
+        if (Conversation_Started != null)
         {
-            ConversationStarted.Raise();
-
+            Conversation_Started.Raise();
+            Dialogue_Active = true;
         }
-        //animator.SetTrigger("InDialogue");
 
-        TextUI.text = null;
+        Text_UI.text = null;
         HideOptions();
-        DialogueUI.SetActive(false);
+        Next_Button.SetActive(false);
 
         dialogue = dialogueSO;
-        currentSentence = dialogue.startingSentence;
+        Current_Sentence = dialogue.Starting_Sentence;
+
+        Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.Player_Portrait;
+        NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.NPC_Portrait;
+        Time.timeScale = 0;
 
         DisplayDialogue();
     }
 
     public void GoToNextSentence()
     {
-        currentSentence = currentSentence.nextSentence;
+        Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
+        NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
+        Current_Sentence = Current_Sentence.Next_Sentence;
         DisplayDialogue();
     }
 
     public void DisplayDialogue()
     {
-        if (currentSentence == null)
+        if (Current_Sentence == null)
         {
             EndDialogue();
             return;
         }
 
-        if (!currentSentence.HasOptions())
+        if (!Current_Sentence.HasOptions())
         {
-            DialogueUI.SetActive(true);
+            //Sentence with no options
+            Next_Button.SetActive(true);
             HideOptions();
-            // sentence with no options
-            TextMeshProUGUI dialogueText;
-                dialogueText = TextUI;
+            TextMeshProUGUI Dialogue_Text;
+                Dialogue_Text = Text_UI;
+            Speaker_Name.text = Current_Sentence.From.Value;
 
-            // display the text
+            //Display text
             StopAllCoroutines();
-            StartCoroutine(Typeout(currentSentence.text, dialogueText));
+            StartCoroutine(Typeout(Current_Sentence.Text, Dialogue_Text));
         }
         else
         {
-            // with options. can only be from player
+            //Sentence with options
             DisplayOptions();
-            TextMeshProUGUI dialogueText;
-            dialogueText = TextUI;
+            TextMeshProUGUI Dialogue_Text;
+                Dialogue_Text = Text_UI;
+            Speaker_Name.text = Current_Sentence.From.Value;
+
+            //Display text
             StopAllCoroutines();
-            StartCoroutine(Typeout(currentSentence.text, dialogueText));
+            StartCoroutine(Typeout(Current_Sentence.Text, Dialogue_Text));
         }
     }
 
@@ -92,46 +103,48 @@ public class Dialogue_Manager : MonoBehaviour
         foreach (var letter in sentence.ToCharArray())
         {
             textbox.text += letter;
-            yield return new WaitForSeconds(timeBetweenChars);
-
+            yield return new WaitForSecondsRealtime(Time_Between_Chars);
         }
     }
 
     public void OptionsOnClick(int index)
     {
-        Choice option = currentSentence.options[index];
-        if (option.consequence != null)
+        if (!Dialogue_Active)
+            return;
+        else if (!Current_Sentence.HasOptions())
+            return;
+
+        Choice option = Current_Sentence.Options[index];
+        if (option.Consequence != null)
         {
-            Debug.Log("Raise Events");
-            option.consequence.Raise();
+            option.Consequence.Raise();
 
         }
-        currentSentence = option.nextSentence;
+        Current_Sentence = option.NextSentence;
 
         DisplayDialogue();
+
+        Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.Player_Portrait;
+        NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.NPC_Portrait;
     }
 
     public void DisplayOptions()
     {
-        //Debug.Log(currentSentence.options.Count);
-        DialogueUI.SetActive(false);
-        //OptionsUI.SetActive(true);
+        Next_Button.SetActive(false);
 
-
-        if (currentSentence.options.Count <= optionsUI.Length)
+        if (Current_Sentence.Options.Count <= Options_UI.Length)
         {
-            for (int i = 0; i < currentSentence.options.Count; i++)
+            for (int i = 0; i < Current_Sentence.Options.Count; i++)
             {
-                Debug.Log(currentSentence.options[i].text);
-                optionsUI[i].text = currentSentence.options[i].text;
-                optionsUI[i].gameObject.SetActive(true);
+                Options_UI[i].text = Current_Sentence.Options[i].Text;
+                Options_UI[i].gameObject.SetActive(true);
             }
         }
     }
 
     public void HideOptions()
     {
-        foreach (TextMeshProUGUI option in optionsUI)
+        foreach (TextMeshProUGUI option in Options_UI)
         {
             option.gameObject.SetActive(false);
         }
@@ -139,12 +152,11 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void EndDialogue()
     {
-        Debug.Log("Dialogue ended");
-        //animator.SetTrigger("OutDialogue");
-        if (ConversationEnded != null)
+        if (Conversation_Ended != null)
         {
-            ConversationEnded.Raise();
-
+            Conversation_Ended.Raise();
+            Time.timeScale = 1.0f;
+            Dialogue_Active = false;
         }
 
     }

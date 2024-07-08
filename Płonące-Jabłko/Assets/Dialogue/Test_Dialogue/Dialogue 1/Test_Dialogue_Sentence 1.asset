@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
   m_Name: Test_Dialogue_Sentence 1
   m_EditorClassIdentifier: 
-  from: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
-  text: Zdanie 1
-  nextSentence: {fileID: 11400000, guid: 3eac9b963afb0234298c17bd6d1745be, type: 2}
-  options: []
+  From: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
+  Text: Zdanie
+  Next_Sentence: {fileID: 11400000, guid: 3eac9b963afb0234298c17bd6d1745be, type: 2}
+  Player_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
+  NPC_Portrait: {fileID: 7482667652216324306, guid: c49bec10adeb80b4e8a50be9559de697, type: 3}
+  Options: []
