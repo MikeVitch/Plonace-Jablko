@@ -7,35 +7,54 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     private float Speed;
+
+    [Header("Base Movement")]
     public float Base_Speed = 5f;
-
-    private void Start()
-    {
-        Speed = Base_Speed;
-        Past_Position = Current_Position = GetComponent<Transform>().position;
-    }
-
-
+    public KeyCode Movement_Up;
+    public KeyCode Movement_Down;
+    public KeyCode Movement_Left;
+    public KeyCode Movement_Right;
+    //Colliders below are separete as to allow the Player to slide of off terrain with a capsule collider while preventing them from jittering when running into a wall
+    [Header("Anti-Jitter Colliders")]
+    [Tooltip("Size of the collision box spawned")]
+    public Vector2 Collider_Vertical;
+    [Tooltip("Size of the collision box spawned")]
+    public Vector2 Collider_Horizontal;
+    [Header("Dodging")]
+    public KeyCode Dodge_Roll;
+    public float Dodge_Speed;
+    public float Dodge_Length;
+    float Dodge_End;
+    public float Dodge_Recovery;
+    public float Dodge_Recovery_Slow;
+    float Dodge_Recovery_End;
+    [Header("Reference Scripts")]
     public Boulder_Throw boulder_throw;
     public Longstrider longstrider;
     public Misty_Step misty_step;
     public Restoration restoration;
     public Sword_Attack sword_attack;
-    new Rigidbody2D rigidbody;
-    public Vector3 Direction_Of_Movement;
+    public Player_Logic player_logic;
     Vector3 Past_Position;
     Vector3 Current_Position;
     Vector3 Dodge_Direction;
     float x;
     float y;
-    public float Dodge_Speed;
-    public float Dodge_Length; 
-    float Dodge_End;
-    public float Dodge_Recovery;
-    public float Dodge_Recovery_Slow;
-    float Dodge_Recovery_End;
+    [Header("Script Access")]
+    public Vector3 Direction_Of_Movement;
     public bool Dodge_Is_Active;
     public bool Dodge_Recovery_Is_Active;
+
+
+    //JitterFix mask
+    LayerMask Collision_Mask;
+    private void Start()
+    {
+        Speed = Base_Speed;
+        Past_Position = Current_Position = GetComponent<Transform>().position;
+        Collision_Mask = LayerMask.GetMask("Wall");
+    }
+
     void Update()
     {
         Speed = Base_Speed;
@@ -58,7 +77,7 @@ public class Player_Movement : MonoBehaviour
             Past_Position = Current_Position;
         Current_Position = GetComponent<Transform>().position;
         Direction_Of_Movement = Current_Position - Past_Position;
-        if (Input.GetKeyDown(KeyCode.Space) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0))
+        if (Input.GetKeyDown(Dodge_Roll) && Time.time > Dodge_Recovery_End && (Direction_Of_Movement.x != 0 || Direction_Of_Movement.y !=0) && !player_logic.Player_Attack_Lockout)
         {
             Dodge_Direction = Direction_Of_Movement;
             x = Dodge_Direction.x;
@@ -87,19 +106,19 @@ public class Player_Movement : MonoBehaviour
 
 
         //Basic Movement
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(Movement_Right) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(Movement_Up) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(Movement_Down) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
         }

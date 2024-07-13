@@ -224,7 +224,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cee157b3667b20d42a072d0dfe4b35d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  Base_Speed: 5
+  Movement_Up: 119
+  Movement_Down: 115
+  Movement_Left: 97
+  Movement_Right: 100
+  Dodge_Roll: 32
+  boulder_throw: {fileID: 1574273288}
+  longstrider: {fileID: 1674843288}
+  misty_step: {fileID: 1674843287}
+  restoration: {fileID: 1674843289}
+  sword_attack: {fileID: 289208426}
+  player_logic: {fileID: 259789990}
+  Direction_Of_Movement: {x: 0, y: 0, z: 0}
+  Dodge_Speed: 15
+  Dodge_Length: 0.3
+  Dodge_Recovery: 0.15
+  Dodge_Recovery_Slow: 0.5
+  Dodge_Is_Active: 0
+  Dodge_Recovery_Is_Active: 0
+  Collider_Vertical: {x: 0.31, y: 1.27}
+  Collider_Horizontal: {x: 1.1145, y: 0.333375}
 --- !u!50 &259789987
 Rigidbody2D:
   serializedVersion: 4
@@ -287,6 +307,83 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 2.22, y: 3.17}
   m_Direction: 0
+--- !u!114 &259789989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259789983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ceef4b1d3f543947847371532f1ab94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Max_Mana: 1000
+  Mana_Regen: 2
+  Current_Mana: 0
+--- !u!114 &259789990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259789983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168843d922b3e67459daaa5dacbfcc04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interaction_Key: 101
+  enemy_attack_template_melee: {fileID: 0}
+  player_movement: {fileID: 259789986}
+  restoration: {fileID: 1674843289}
+  sword_attack: {fileID: 289208426}
+  ice_shield: {fileID: 1674843290}
+  block: {fileID: 259789991}
+  boulder_throw: {fileID: 1574273288}
+  fan_of_ice: {fileID: 1574273289}
+  fireball: {fileID: 1574273291}
+  flamethrower: {fileID: 577028739}
+  ice_shard: {fileID: 1574273290}
+  longstrider: {fileID: 1674843288}
+  misty_step: {fileID: 1674843287}
+  push: {fileID: 1574273292}
+  stone_volley: {fileID: 1574273287}
+  Player_Position: {x: 0, y: 0, z: 0}
+  Fire_Resistance: 0
+  Earth_Resistance: 0
+  Water_Resistance: 0
+  Air_Resistance: 0
+  Physical_Resistance: 0
+  Max_Health: 100
+  Health: 100
+  Invincibility_On_Hit_Lenght: 0.5
+  Invincibility: 0
+  Player_Attack_Lockout: 0
+  Zjawa_Push_Collision: 0
+--- !u!114 &259789991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259789983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7a7a4e2ee14fc48ac2d38233b6785c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cast: 324
+  Block_Is_Active: 0
+  Perfect_Parry_Window: 0.1
+  Perfect_Parry_Cooldown: 0.9
+  Perfect_Parry: 0
+  Fire_Resistance: 40
+  Earth_Resistance: 40
+  Water_Resistance: 40
+  Air_Resistance: 40
+  Physical_Resistance: 40
 --- !u!1 &289208422
 GameObject:
   m_ObjectHideFlags: 0
