@@ -82,8 +82,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 25
-  Hitbox: {fileID: 8582325834683211416, guid: 7ac109d40b716ef40a24789a58ef2fcb, type: 3}
-  Time_Active: 0.1
+  Hitbox: {fileID: 8582325834683211416, guid: 217eba938f94a0c4ab5893fa39ed2801, type: 3}
+  Projectile_Time_Active: 0.25
+  Fireball_Time_Active: 0.1
+  fireball: {fileID: 0}
 --- !u!1 &6537392704413129649
 GameObject:
   m_ObjectHideFlags: 0

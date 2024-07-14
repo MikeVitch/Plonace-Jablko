@@ -19,7 +19,7 @@ public class Restoration : MonoBehaviour
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held)
             mana_tracker.Current_Mana -= Mana_Cost_Held * Time.deltaTime;
         else
             Spell_Is_On = false;
@@ -37,5 +37,7 @@ public class Restoration : MonoBehaviour
             Spell_Is_On = true;
             mana_tracker.Current_Mana -= Mana_Cost_Initial;
         }
+        if (!Input.GetKeyDown(Cast) && !Input.GetKey(Cast))
+            Activate_Spell = false;
     }
 }

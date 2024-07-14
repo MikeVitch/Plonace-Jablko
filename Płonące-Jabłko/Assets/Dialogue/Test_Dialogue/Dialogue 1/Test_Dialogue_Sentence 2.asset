@@ -16,15 +16,15 @@ MonoBehaviour:
   Text: "Odpowied\u017A"
   Next_Sentence: {fileID: 0}
   Player_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
-  NPC_Portrait: {fileID: 21300000, guid: 6b83c75ac47e202489565cc8e07a58eb, type: 3}
+  NPC_Portrait: {fileID: 0}
   Options:
   - Text: Zdanie 2a
     NextSentence: {fileID: 11400000, guid: 7339f14761026c346a60f0776ae39896, type: 2}
     Consequence: {fileID: 0}
-    Player_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
-    NPC_Portrait: {fileID: 7482667652216324306, guid: c49bec10adeb80b4e8a50be9559de697, type: 3}
+    Player_Portrait: {fileID: 1743474330, guid: 1e9b43b7e1d70be45a9d84248907326a, type: 3}
+    NPC_Portrait: {fileID: -2413806693520163455, guid: 7eac59dd836e3a84eb5c7ddf7e42afb8, type: 3}
   - Text: Zdanie 2b
     NextSentence: {fileID: 11400000, guid: 99b36aa0b95402a40a1a2a840f1ad8b4, type: 2}
     Consequence: {fileID: 0}
-    Player_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
+    Player_Portrait: {fileID: -237227020, guid: 42e60dd6a92c77e4daf7636f253865dc, type: 3}
     NPC_Portrait: {fileID: 21300000, guid: c9c3a8ddf5ee48c418f6bd14c3d676d6, type: 3}

@@ -413,7 +413,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 464512796}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f1ad956df1c6074597a78458b925873, type: 3}
+  m_Script: {fileID: 11500000, guid: 055f6cc1821ea8142bfae70ac6e991d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   defaultPlayerSpawn: {fileID: 719626870}
@@ -590,23 +590,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 168843d922b3e67459daaa5dacbfcc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Max_Health: 100
+  Invincibility_On_Hit_Lenght: 0.5
+  Interaction_Key: 101
+  Fire_Resistance: 0
+  Earth_Resistance: 0
+  Water_Resistance: 0
+  Air_Resistance: 0
+  Physical_Resistance: 0
+  dialogue_manager: {fileID: 0}
   enemy_attack_template_melee: {fileID: 0}
   player_movement: {fileID: 612208063}
   restoration: {fileID: 1440750104}
   sword_attack: {fileID: 831754422}
   ice_shield: {fileID: 1440750099}
   block: {fileID: 612208058}
+  boulder_throw: {fileID: 2036541504}
+  fan_of_ice: {fileID: 2036541508}
+  fireball: {fileID: 2036541506}
+  flamethrower: {fileID: 747015565}
+  ice_shard: {fileID: 2036541507}
+  longstrider: {fileID: 1440750100}
+  misty_step: {fileID: 1440750101}
+  push: {fileID: 2036541505}
+  stone_volley: {fileID: 2036541509}
   Player_Position: {x: 0, y: 0, z: 0}
-  Fire_Resistance: 0
-  Earth_Resistance: 0
-  Water_Resistance: 0
-  Air_Resistance: 0
-  Physical_Resistance: 0
-  Max_Health: 100
   Health: 100
-  Invincibility_On_Hit_Lenght: 0.5
   Invincibility: 0
   Player_Attack_Lockout: 0
+  Zjawa_Push_Collision: 0
 --- !u!114 &612208060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -697,16 +709,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Base_Speed: 5
+  Movement_Up: 119
+  Movement_Down: 115
+  Movement_Left: 97
+  Movement_Right: 100
+  Collider_Vertical: {x: 0, y: 0}
+  Collider_Horizontal: {x: 0, y: 0}
+  Dodge_Roll: 32
+  Dodge_Speed: 15
+  Dodge_Length: 0.3
+  Dodge_Recovery: 0.15
+  Dodge_Recovery_Slow: 0.5
   boulder_throw: {fileID: 2036541504}
   longstrider: {fileID: 1440750100}
   misty_step: {fileID: 1440750101}
   restoration: {fileID: 1440750104}
   sword_attack: {fileID: 831754422}
+  player_logic: {fileID: 612208059}
   Direction_Of_Movement: {x: 0, y: 0, z: 0}
-  Dodge_Speed: 15
-  Dodge_Length: 0.3
-  Dodge_Recovery: 0.15
-  Dodge_Recovery_Slow: 0.5
   Dodge_Is_Active: 0
   Dodge_Recovery_Is_Active: 0
 --- !u!212 &612208064
@@ -932,6 +952,8 @@ MonoBehaviour:
   Damage_Tickrate: 0.25
   Cast: 49
   mana_tracker: {fileID: 612208060}
+  Spell_Is_On: 0
+  Activate_Spell: 0
   Cast_Time: 0.5
   player_logic: {fileID: 0}
 --- !u!60 &747015566
@@ -3544,6 +3566,7 @@ MonoBehaviour:
   Mana_Cost: 20
   mana_tracker: {fileID: 612208060}
   Activate_Spell: 0
+  Spell_Is_Cast: 0
   Speed_Boost: 0.5
   player_logic: {fileID: 612208059}
 --- !u!114 &1440750101
@@ -22336,6 +22359,7 @@ MonoBehaviour:
   Mana_Cost: 15
   Damage: 10
   mana_tracker: {fileID: 612208060}
+  Activate_Spell: 0
   player: {fileID: 612208065}
   player_logic: {fileID: 612208059}
 --- !u!114 &2036541506
@@ -22356,6 +22380,7 @@ MonoBehaviour:
   Mana_Cost: 20
   Damage: 20
   mana_tracker: {fileID: 612208060}
+  Activate_Spell: 0
   player: {fileID: 612208065}
   player_logic: {fileID: 612208059}
 --- !u!114 &2036541507
@@ -22377,6 +22402,7 @@ MonoBehaviour:
   Mana_Cost: 20
   Damage: 35
   mana_tracker: {fileID: 612208060}
+  Activate_Spell: 0
   player: {fileID: 612208065}
   player_logic: {fileID: 612208059}
 --- !u!114 &2036541508
@@ -22398,6 +22424,7 @@ MonoBehaviour:
   Mana_Cost: 15
   Damage: 10
   mana_tracker: {fileID: 612208060}
+  Activate_Spell: 0
   player: {fileID: 612208065}
   Projectile_Offset_Side: 0.3
   Projectile_Offset_Down: 0.7
@@ -22424,6 +22451,7 @@ MonoBehaviour:
   Amount_Of_Shots: 3
   Shot_Interval: 0.3
   mana_tracker: {fileID: 612208060}
+  Activate_Spell: 0
   player: {fileID: 612208065}
   player_logic: {fileID: 612208059}
 --- !u!114 &2036541510

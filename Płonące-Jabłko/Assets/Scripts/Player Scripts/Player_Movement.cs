@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Movement : MonoBehaviour
 {
@@ -71,6 +72,8 @@ public class Player_Movement : MonoBehaviour
         if (Dodge_Recovery_Is_Active)
             Speed *= 1 - Dodge_Recovery_Slow;
         if (sword_attack.Attack_Is_Active)
+            Speed = 0;
+        if(player_logic.Zjawa_Push_Collision)
             Speed = 0;
 
         //Dodging

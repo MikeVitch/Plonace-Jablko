@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Logic : MonoBehaviour
+public class EnemyLogic : MonoBehaviour
 {
     Sword_Attack sword_attack;
     Template_DoT_Held template_dot_held;
@@ -16,7 +16,7 @@ public class Enemy_Logic : MonoBehaviour
     Fan_Of_Ice fan_of_ice;
     Push push;
     Push_Projectile push_projectile;
-    public Player_Logic player_logic;
+    Player_Logic player_logic;
     public float Fire_Resistance = 0f;
     public float Earth_Resistance = 0f;
     public float Water_Resistance = 0f;
@@ -34,7 +34,10 @@ public class Enemy_Logic : MonoBehaviour
     float Burn_Next_Tick;
     float Projectile_Speed;
 
-
+    private void Start()
+    {
+        player_logic = FindObjectOfType<Player_Logic>();
+    }
     private void Update()
     {
 

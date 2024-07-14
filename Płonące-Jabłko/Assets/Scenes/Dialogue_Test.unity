@@ -422,7 +422,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 846738359
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: c49bec10adeb80b4e8a50be9559de697, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -432,7 +432,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &416565305
@@ -576,8 +576,8 @@ MonoBehaviour:
   Movement_Down: 115
   Movement_Left: 97
   Movement_Right: 100
-  Collider_Vertical: {x: 0, y: 0}
-  Collider_Horizontal: {x: 0, y: 0}
+  Collider_Vertical: {x: 0.31, y: 1.27}
+  Collider_Horizontal: {x: 1.1145, y: 0.333375}
   Dodge_Roll: 32
   Dodge_Speed: 15
   Dodge_Length: 0.3
@@ -1441,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbd22ad0b5e11a4fb5f79710f33c33f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 5907727086880333763, guid: 1512a50a150aae34cb10592f455cdc05, type: 3}
+  Hitbox: {fileID: 5907727086880333763, guid: 8c7436e7debbd7042bd127a611d68109, type: 3}
   Cast: 54
   Time_Active: 1
   Cast_Time: 1
@@ -1519,7 +1519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1169aae3d3659647bac4accc85a3643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 4998484745703174116, guid: 97081a6e79be0074e828b1d0d5b764c9, type: 3}
+  Hitbox: {fileID: 4998484745703174116, guid: 4c818ab5294715a40b389cb132a8b91c, type: 3}
   Cast: 256
   Time_Active: 0.1
   Cast_Time: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25e00e28ab2fb4843b5af91e58dbad9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 8487920633779571518, guid: ef5367d6003248543bb1ce49d747113a, type: 3}
+  Hitbox: {fileID: 8487920633779571518, guid: 27de793faf15d7e43a8e2f96feedfe89, type: 3}
   Cast: 51
   Time_Active: 1
   Cast_Time: 0
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe497c1f075bb74f9b7ffd9caab0fcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 4558071832044947213, guid: 30e69cda6abd1b34cbdd57dd4e7b1f8e, type: 3}
+  Hitbox: {fileID: 4558071832044947213, guid: a6f49c0432f550b4ca831321cfb25176, type: 3}
   Cast: 50
   Cast_Time: 0
   Mana_Cost: 20
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4b3408a0609c70468b5f342e35cb546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 4745156164796667004, guid: 251fb2d7f3cabbb4f9e23918555f3c2f, type: 3}
+  Hitbox: {fileID: 4745156164796667004, guid: dd54cc70fdc11ee439ef2e89e9b5964a, type: 3}
   Cast: 52
   Time_Active: 0.25
   Cast_Time: 0
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e07da2b64fb87345839062638cc6efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hitbox: {fileID: 4249398661287943647, guid: 15287a0b678298a468f8310566c1ed27, type: 3}
+  Hitbox: {fileID: 4249398661287943647, guid: 2da8d2ee0f070d94eac9c5246073f2e0, type: 3}
   Cast: 53
   Time_Active: 1.5
   Cast_Time: 1.5
@@ -2906,7 +2906,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 846738359
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7ac6e4b5558957240a49c9d7d2c107a2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

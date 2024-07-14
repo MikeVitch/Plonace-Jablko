@@ -14,6 +14,14 @@ TagManager:
   - Boulder_Throw_Projectile
   - Fan_Of_Ice_Projectile
   - Player_Character
+  - Zjawa
+  - Template_DoT_Held
+  - Flamethrower_Hitbox
+  - Column_Push_Projectile
+  - Scenery
+  - Zjawa_Push_Projectile
+  - Zjawa_Tornado_Projectile
+  - Untargetable
   layers:
   - Default
   - TransparentFX
@@ -21,8 +29,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Column_Floor
+  - Wall
   - 
   - 
   - 

@@ -32,11 +32,14 @@ public class Fireball_Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag != "Player_Character")
+
+        if (collision.gameObject.tag == "Player_Character" || collision.gameObject.tag == "Untargetable")
+        { }
+        else
         {
             Destroy(gameObject);
             Destroy(Instantiate(Hitbox, Hitbox_Position, Hitbox_Rotation, Hitbox_Transform), Fireball_Time_Active);
         }
-
+            
     }
 }

@@ -16,21 +16,13 @@ public class Fireball : MonoBehaviour
     public float Damage = 20f;
     public Mana_Tracker mana_tracker;
     private float Input_Time;
-    bool Activate_Spell = false;
+    public bool Activate_Spell = false;
     public Transform player;
     public Player_Logic player_logic;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-
-
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
-        {
-            mana_tracker.Current_Mana -= Mana_Cost;
-            Input_Time = Time.time;
-            Activate_Spell = true;
-        }
 
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)
         {
@@ -39,6 +31,13 @@ public class Fireball : MonoBehaviour
             Hitbox_Position = Camera.main.ScreenToWorldPoint(Player_Position);
             Instantiate(Hitbox, Player_Position, Hitbox_Rotation, Hitbox_Transform);
             Activate_Spell = false;
+        }
+
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        {
+            mana_tracker.Current_Mana -= Mana_Cost;
+            Input_Time = Time.time;
+            Activate_Spell = true;
         }
     }
 }

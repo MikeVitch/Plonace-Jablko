@@ -15,6 +15,6 @@ MonoBehaviour:
   From: {fileID: 11400000, guid: 9b48bd71c6ae69545b8cd6d08790e6c3, type: 2}
   Text: "Odpowied\u017A 2a"
   Next_Sentence: {fileID: 11400000, guid: 150cef7cf90c64148a3693cac3fc5f04, type: 2}
-  Player_Portrait: {fileID: 7482667652216324306, guid: c49bec10adeb80b4e8a50be9559de697, type: 3}
-  NPC_Portrait: {fileID: -2413806693520163455, guid: 668a3ad7ac8e9634b9e585563fd4334d, type: 3}
+  Player_Portrait: {fileID: 21300000, guid: cd866c08fae5eae40a9b5c0dd298fa6b, type: 3}
+  NPC_Portrait: {fileID: -998239109, guid: 42e60dd6a92c77e4daf7636f253865dc, type: 3}
   Options: []

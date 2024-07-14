@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Logic : MonoBehaviour
@@ -42,11 +43,12 @@ public class Player_Logic : MonoBehaviour
     float Attack_Damage;
     public bool Invincibility;
     public bool Player_Attack_Lockout;
+    public bool Zjawa_Push_Collision;
 
     void Update()
     {
         Player_Position = GetComponent<Transform>().position;
-        if (Health > Max_Health)
+        if(Health > Max_Health)
             Health = Max_Health;
 
         //Restoration
@@ -66,7 +68,7 @@ public class Player_Logic : MonoBehaviour
         Air_Resistance = 0;
         Physical_Resistance = 0;
 
-        if (ice_shield.Spell_Is_Active)
+        if(ice_shield.Spell_Is_Active)
         {
             Fire_Resistance += (100 - Fire_Resistance) * ice_shield.Fire_Resistance * 0.01f;
             Earth_Resistance += (100 - Earth_Resistance) * ice_shield.Earth_Resistance * 0.01f;
@@ -85,6 +87,8 @@ public class Player_Logic : MonoBehaviour
         }
 
         //Player_Attack_Lockout
+        Player_Attack_Lockout = false;
+
         if (player_movement.Dodge_Is_Active || player_movement.Dodge_Recovery_Is_Active)
             Player_Attack_Lockout = true;
         else if (sword_attack.Attack_Is_Active)
@@ -111,7 +115,7 @@ public class Player_Logic : MonoBehaviour
             Player_Attack_Lockout = true;
         else if(Zjawa_Push_Collision)
             Player_Attack_Lockout = true;
-        else if(dialogue_manager.Dialogue_Active)
+        else if(dialogue_manager != null && dialogue_manager.Dialogue_Active)
             Player_Attack_Lockout = true;
 
 
@@ -124,26 +128,49 @@ public class Player_Logic : MonoBehaviour
         if (Time.time <= Invincibilty_On_Hit_End || player_movement.Dodge_Is_Active)
             Invincibility = true;
         else
-            Invincibility = false;
-
+            Invincibility= false;
 
         //Debug.Log(Health);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Melee_Test_Attack
-        if (collision.gameObject.tag == "Melee_Test_Attack" && !Invincibility)
+        if(collision.gameObject.tag == "Melee_Test_Attack" && !Invincibility)
         {
             enemy_attack_template_melee = FindObjectOfType<Enemy_Attack_Template_Melee>();
             Attack_Damage = enemy_attack_template_melee.Attack_Damage;
             Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
             Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
+
+        //Zjawa_Tornado
+        if (collision.gameObject.tag == "Zjawa_Tornado_Projectile" && !Invincibility)
+        {
+            zjawa_tornado = FindObjectOfType<Zjawa_Tornado>();
+            Attack_Damage = zjawa_tornado.Damage;
+            Health -= Attack_Damage * (1 - 0.01f * Air_Resistance);
+            Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
+        }
         //Debug.Log(Health);
-
-
-
     }
-
-
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        //Zjawa_Push
+        if (collision.gameObject.tag == "Zjawa_Push_Projectile" && !Invincibility)
+        {
+            zjawa_push = FindObjectOfType<Zjawa_Push>();
+            //transform.position += (gameObject.transform.position - collision.transform.position)/Vector3.Distance(gameObject.transform.position, collision.transform.position) * zjawa_push.Projectile_Speed * Time.deltaTime;
+            transform.position += collision.transform.right * zjawa_push.Projectile_Speed * Time.deltaTime;
+            Zjawa_Push_Collision = true;
+        }
+            
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        //Zjawa_Push
+        if (collision.gameObject.tag == "Zjawa_Push_Projectile")
+        {
+            Zjawa_Push_Collision = false;
+        }
+    }
 }
