@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Zjawa_Movement : MonoBehaviour
 {
-    public EnemyLogic enemy_logic;
     Player_Logic player_logic;
     Zjawa_Invincibility zjawa_invincibility;
     public float Base_Movement_Speed;

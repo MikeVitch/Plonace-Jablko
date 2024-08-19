@@ -29,6 +29,10 @@ public class Player_Movement : MonoBehaviour
     public float Dodge_Recovery;
     public float Dodge_Recovery_Slow;
     float Dodge_Recovery_End;
+    [Header("Stealth")]
+    public KeyCode Crouching;
+    [Tooltip("Fraction by which to multiply Speed")]
+    public float Crouching_Speed;
     [Header("Reference Scripts")]
     public Boulder_Throw boulder_throw;
     public Longstrider longstrider;
@@ -45,6 +49,7 @@ public class Player_Movement : MonoBehaviour
     public Vector3 Direction_Of_Movement;
     public bool Dodge_Is_Active;
     public bool Dodge_Recovery_Is_Active;
+    public bool Is_Crouching;
 
 
     //JitterFix mask
@@ -75,6 +80,8 @@ public class Player_Movement : MonoBehaviour
             Speed = 0;
         if(player_logic.Zjawa_Push_Collision)
             Speed = 0;
+        if(Is_Crouching)
+            Speed *= Crouching_Speed;
 
         //Dodging
             Past_Position = Current_Position;
@@ -107,6 +114,11 @@ public class Player_Movement : MonoBehaviour
             Dodge_Recovery_Is_Active = false;
         }
 
+        //Stealth
+        if(Input.GetKeyDown(Crouching)) 
+        {
+            Is_Crouching = !Is_Crouching;
+        }
 
         //Basic Movement
         if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))

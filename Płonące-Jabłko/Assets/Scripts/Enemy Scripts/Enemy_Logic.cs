@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyLogic : MonoBehaviour
+public class Enemy_Logic : MonoBehaviour
 {
     Sword_Attack sword_attack;
     Template_DoT_Held template_dot_held;

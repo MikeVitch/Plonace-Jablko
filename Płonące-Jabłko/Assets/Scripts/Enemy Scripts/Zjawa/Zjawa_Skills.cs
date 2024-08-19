@@ -10,7 +10,7 @@ public class Zjawa_Skills : MonoBehaviour
     Zjawa_Push zjawa_push;
     Zjawa_Tornado zjawa_tornado;
     Zjawa_Invincibility zjawa_invincibility;
-    EnemyLogic enemy_logic;
+    Enemy_Logic enemy_logic;
     float Push_Time_Of_Cast;
     float Tornado_Time_Of_Cast;
     float Invincibility_Time_Of_Cast;
@@ -25,7 +25,7 @@ public class Zjawa_Skills : MonoBehaviour
         zjawa_push = GetComponent<Zjawa_Push>();
         zjawa_tornado = GetComponent<Zjawa_Tornado>();
         zjawa_invincibility = GetComponent<Zjawa_Invincibility>();
-        enemy_logic = GetComponent<EnemyLogic>();
+        enemy_logic = GetComponent<Enemy_Logic>();
         player_logic = FindObjectOfType<Player_Logic>();
 
         //Making all skills available at spawn
