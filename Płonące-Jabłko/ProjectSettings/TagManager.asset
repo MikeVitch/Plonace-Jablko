@@ -22,6 +22,8 @@ TagManager:
   - Zjawa_Push_Projectile
   - Zjawa_Tornado_Projectile
   - Untargetable
+  - Button
+  - UIpanel
   layers:
   - Default
   - TransparentFX

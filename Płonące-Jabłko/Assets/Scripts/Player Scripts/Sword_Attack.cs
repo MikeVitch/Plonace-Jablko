@@ -21,7 +21,7 @@ public class Sword_Attack : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time > Next_Attack && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && Time.time > Next_Attack && !player_logic.Player_Attack_Lockout && Time.timeScale!=0)
         {
                 GetComponent<SpriteRenderer>().enabled = true;
                 GetComponent<PolygonCollider2D>().enabled = true;

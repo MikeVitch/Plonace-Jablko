@@ -7,6 +7,9 @@ public class Mana_Tracker : MonoBehaviour
     public float Max_Mana = 100f;
     public float Mana_Regen = 1f;
     public float Current_Mana;
+
+    public ScreenMenu_Manager screenMenuManager;
+
     void Start()
     {
         Current_Mana = Max_Mana;
@@ -14,6 +17,7 @@ public class Mana_Tracker : MonoBehaviour
 
     void Update()
     {
+        screenMenuManager.SetMana(Current_Mana);
         if (Current_Mana < Max_Mana)
         {
             Current_Mana += Mana_Regen * Time.deltaTime;
@@ -21,5 +25,6 @@ public class Mana_Tracker : MonoBehaviour
         else
             Current_Mana = Max_Mana;
         //Debug.Log(Current_Mana);
+       
     }
 }

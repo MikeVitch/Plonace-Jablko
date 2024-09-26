@@ -17,10 +17,10 @@ public class LocationManager : ScriptableObject
         SceneEvents.sceneExit += OnSceneExit;
     }
 
-    private void OnSceneExit(SceneAsset nextLocation, string playerSpawnTransormName)
+    private void OnSceneExit(int nextLocation, string playerSpawnTransormName)
     {
         GameState.playerSpawnLocation = playerSpawnTransormName;
-        SceneManager.LoadScene(nextLocation.name, LoadSceneMode.Single);
+        SceneManager.LoadScene(nextLocation, LoadSceneMode.Single);
     }
 
 
