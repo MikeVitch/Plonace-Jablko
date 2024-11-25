@@ -3,52 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\events\\sceneevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\events\\sceneevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\player scripts\\player_dialogue_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_dialogue_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\editor\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\managers\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\editor\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\editor\\sceneevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\sceneevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\enterbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\enterbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\editor\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\locationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\enterbuildingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\enterbuildingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\teleportbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\teleportbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\unlocktemple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\unlocktemple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scriptableobjects\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptableobjects\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\managers\\datamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\events\\playerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\events\\playerevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\editor\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\gamescene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,152 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnterBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\EnterBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\EnterBehaviour.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\EnterBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\EnterBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:04:22.857Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnterBuildingBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\EnterBuildingBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\EnterBuildingBehaviour.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\EnterBuildingBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\EnterBuildingBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:04:21.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TeleportBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\TeleportBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\TeleportBehaviour.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\TeleportBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\TeleportBehaviour.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:04:17.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UnlockTemple.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\UnlockTemple.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\UnlockTemple.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\UnlockTemple.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\UnlockTemple.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:04:14.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\ScriptableObjects\\GameState.cs",
-              "RelativeDocumentMoniker": "Assets\\ScriptableObjects\\GameState.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\ScriptableObjects\\GameState.cs",
-              "RelativeToolTip": "Assets\\ScriptableObjects\\GameState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:52.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\PlayerManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\PlayerManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\PlayerManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:35.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LocationManager.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\LocationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\LocationManager.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\LocationManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\LocationManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:33.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameStateManager.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\GameStateManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\GameStateManager.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\GameStateManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\GameStateManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:31.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataManager.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\DataManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Managers\\DataManager.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Managers\\DataManager.cs",
-              "RelativeToolTip": "Assets\\Managers\\DataManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:30.481Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SceneEvents.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Events\\SceneEvents.cs",
-              "RelativeDocumentMoniker": "Assets\\Events\\SceneEvents.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Events\\SceneEvents.cs",
-              "RelativeToolTip": "Assets\\Events\\SceneEvents.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Title": "Player_Dialogue_Interaction.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Dialogue_Interaction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Dialogue_Interaction.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Dialogue_Interaction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Dialogue_Interaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:25.186Z",
+              "WhenOpened": "2024-11-14T22:00:04.523Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerEvents.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Events\\PlayerEvents.cs",
-              "RelativeDocumentMoniker": "Assets\\Events\\PlayerEvents.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Events\\PlayerEvents.cs",
-              "RelativeToolTip": "Assets\\Events\\PlayerEvents.cs",
+              "DocumentIndex": 3,
+              "Title": "SceneEvents.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\SceneEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\SceneEvents.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\SceneEvents.cs",
+              "RelativeToolTip": "Assets\\Editor\\SceneEvents.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:03:22.022Z"
+              "WhenOpened": "2024-11-14T21:54:06.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameStateManager.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameStateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\GameStateManager.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameStateManager.cs",
+              "RelativeToolTip": "Assets\\Editor\\GameStateManager.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:54:01.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GameScene.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scenes\\GameScene.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\GameScene.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scenes\\GameScene.cs",
-              "RelativeToolTip": "Assets\\Scenes\\GameScene.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\PlayerManager.cs",
+              "RelativeToolTip": "Assets\\Editor\\PlayerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T01:00:38.71Z"
+              "WhenOpened": "2024-11-13T18:06:20.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\LocationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\LocationManager.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\LocationManager.cs",
+              "RelativeToolTip": "Assets\\Editor\\LocationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:06:14.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameScene.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameScene.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\GameScene.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameScene.cs",
+              "RelativeToolTip": "Assets\\Editor\\GameScene.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:05:55.037Z",
+              "EditorCaption": ""
             }
           ]
         }
