@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
+  "WorkspaceRootPath": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\floor_changer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\mzuze\\onedrive\\dokumenty\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\floor_changer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\floor_changer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\fade_out_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\fade_out_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\fade_out_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogueso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogueso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\dialogueso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\teleporter_local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\teleporter_local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\teleporter_local.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,11 +39,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Floor_Changer.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAcwBgAAAAbAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwFsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T17:11:23.026Z",
               "EditorCaption": ""
@@ -52,22 +52,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Fade_Out_Data.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T20:00:19.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T20:00:19.024Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "DialogueSO.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Dialogue_Manager.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAAAwwGMAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,9 +88,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Teleporter_Local.cs",
-              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
-              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
               "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Teleporter_Local.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -102,9 +101,9 @@
               "DocumentIndex": 5,
               "Title": "Dialogue_Trigger.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
-              "RelativeDocumentMoniker": "..\\..\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
-              "RelativeToolTip": "..\\..\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T00:30:54.691Z"
             }

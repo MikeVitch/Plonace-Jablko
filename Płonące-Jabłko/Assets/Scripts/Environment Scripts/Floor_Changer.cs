@@ -23,6 +23,8 @@ public class Floor_Changer : MonoBehaviour
         fade_out_data = FindObjectOfType<Fade_Out_Data>();
         fade_out = FadeOut();
         fade_in = FadeIn();
+        //Before fade in we spawn a copy of the object, because the original gets deactivated and stops working. It is then activated on start here
+        //the name check is future proofing so that objects don't accidentally delete themselves if we decide to add a fade in when loading a new scene or smth
         if (Black_Screen.GetComponent<Image>().color.a >= 1f && gameObject.name.Contains("(Clone)"))
         {
             StartCoroutine(fade_in);
@@ -58,17 +60,16 @@ public class Floor_Changer : MonoBehaviour
 
     IEnumerator FadeOut()
     {
-        Debug.Log("1");
         while (true)
         {
-            Debug.Log("2");
-            Black_Screen.GetComponent<Image>().color += new Color(0, 0, 0, (1 / fade_out_data.Fade_Out_Speed) * Time.deltaTime);
-            Debug.Log(Black_Screen.GetComponent<Image>().color);
+            if(fade_out_data.Fade_Out_Speed > 0)
+                Black_Screen.GetComponent<Image>().color += new Color(0, 0, 0, (1 / fade_out_data.Fade_Out_Speed) * Time.deltaTime);
+            else
+                Black_Screen.GetComponent<Image>().color = new Color(0, 0, 0, 1);
+            //Debug.Log(Black_Screen.GetComponent<Image>().color);
             if (Black_Screen.GetComponent<Image>().color.a >= 1f)
             {
-                Debug.Log("Fade_Out off");
                 yield return new WaitForSeconds(fade_out_data.Time_Faded_Out);
-                Debug.Log("Fade_Out on");
                 Current_Floor.SetActive(false);
                 player_logic.transform.position = Exit.transform.position;
                 Destination_Floor.SetActive(true);
@@ -84,8 +85,11 @@ public class Floor_Changer : MonoBehaviour
     {
         while (true)
         {
-            Black_Screen.GetComponent<Image>().color -= new Color(0, 0, 0, (1 / fade_out_data.Fade_Out_Speed) * Time.deltaTime);
-            Debug.Log(Black_Screen.GetComponent<Image>().color);
+            if(fade_out_data.Fade_Out_Speed > 0)
+                Black_Screen.GetComponent<Image>().color -= new Color(0, 0, 0, (1 / fade_out_data.Fade_Out_Speed) * Time.deltaTime);
+            else
+                Black_Screen.GetComponent<Image>().color = new Color(0, 0, 0, 0);
+            //Debug.Log(Black_Screen.GetComponent<Image>().color);
             if (Black_Screen.GetComponent<Image>().color.a <= 0f)
             {
                 Destroy(gameObject);
