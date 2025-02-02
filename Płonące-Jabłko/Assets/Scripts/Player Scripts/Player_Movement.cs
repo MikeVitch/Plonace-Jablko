@@ -15,12 +15,6 @@ public class Player_Movement : MonoBehaviour
     public KeyCode Movement_Down;
     public KeyCode Movement_Left;
     public KeyCode Movement_Right;
-    //Colliders below are separete as to allow the Player to slide of off terrain with a capsule collider while preventing them from jittering when running into a wall
-    [Header("Anti-Jitter Colliders")]
-    [Tooltip("Size of the collision box spawned")]
-    public Vector2 Collider_Vertical;
-    [Tooltip("Size of the collision box spawned")]
-    public Vector2 Collider_Horizontal;
     [Header("Dodging")]
     public KeyCode Dodge_Roll;
     public float Dodge_Speed;
@@ -100,6 +94,12 @@ public class Player_Movement : MonoBehaviour
         if (Time.time < Dodge_End)
         {
             Speed = 0;
+            if(Physics2D.OverlapCapsule(gameObject.transform.position + Dodge_Direction * Dodge_Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale * new Vector2(0.99f,0.99f), gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
+            {
+                Dodge_End = Time.time;
+                Dodge_Recovery_End = Dodge_End + Dodge_Recovery;
+            }
+            else
             GetComponent<Transform>().position += Dodge_Direction * Dodge_Speed * Time.deltaTime;
             Dodge_Is_Active = true;
         }
@@ -121,19 +121,19 @@ public class Player_Movement : MonoBehaviour
         }
 
         //Basic Movement
-        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(Movement_Right) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, Collider_Horizontal, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Right) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(Movement_Up) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Up) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
-        if (Input.GetKey(Movement_Down) && !Physics2D.OverlapBox(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, Collider_Vertical, 0f, Collision_Mask))
+        if (Input.GetKey(Movement_Down) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
         }
