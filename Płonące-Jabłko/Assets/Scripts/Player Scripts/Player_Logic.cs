@@ -44,6 +44,7 @@ public class Player_Logic : MonoBehaviour
     public bool Invincibility;
     public bool Player_Attack_Lockout;
     public bool Zjawa_Push_Collision;
+    public bool Is_Hidden;
 
     void Update()
     {

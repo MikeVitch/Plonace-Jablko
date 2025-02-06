@@ -619,6 +619,7 @@ MonoBehaviour:
   Invincibility: 0
   Player_Attack_Lockout: 0
   Zjawa_Push_Collision: 0
+  Is_Hidden: 0
 --- !u!114 &612208060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +721,8 @@ MonoBehaviour:
   Dodge_Length: 0.3
   Dodge_Recovery: 0.15
   Dodge_Recovery_Slow: 0.5
+  Crouching: 0
+  Crouching_Speed: 0
   boulder_throw: {fileID: 2036541504}
   longstrider: {fileID: 1440750100}
   misty_step: {fileID: 1440750101}
@@ -729,6 +732,7 @@ MonoBehaviour:
   Direction_Of_Movement: {x: 0, y: 0, z: 0}
   Dodge_Is_Active: 0
   Dodge_Recovery_Is_Active: 0
+  Is_Crouching: 0
 --- !u!212 &612208064
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1253,7 +1257,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831754421}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.434, y: -0.1875, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
