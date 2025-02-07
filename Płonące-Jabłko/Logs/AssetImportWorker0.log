@@ -15,7 +15,7 @@ C:/Users/dagan/Documents/GitHub/Plonace-Jablko/Płonące-Jabłko
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59289
+60736
 Successfully changed project path to: C:/Users/dagan/Documents/GitHub/Plonace-Jablko/Płonące-Jabłko
 C:/Users/dagan/Documents/GitHub/Plonace-Jablko/Płonące-Jabłko
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/dagan/Documents/GitHub/Plonace-Jablko/Płonące-Jabłko
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [36772] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3707121942 [EditorId] 3707121942 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [23540] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 257251462 [EditorId] 257251462 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [36772] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3707121942 [EditorId] 3707121942 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [23540] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 257251462 [EditorId] 257251462 [Version] 1048832 [Id] WindowsEditor(7,Dagan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.07 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.3f1 (7cdc2969a641)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -69,19 +69,19 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002488 seconds.
-- Loaded All Assemblies, in  0.184 seconds
+Registered in 0.002672 seconds.
+- Loaded All Assemblies, in  0.191 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.140 seconds
-Domain Reload Profiling: 324ms
-	BeginReloadAssembly (56ms)
+- Finished resetting the current domain, in  0.137 seconds
+Domain Reload Profiling: 328ms
+	BeginReloadAssembly (58ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -89,26 +89,26 @@ Domain Reload Profiling: 324ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (76ms)
-		LoadAssemblies (56ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (79ms)
+		LoadAssemblies (58ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (74ms)
-			TypeCache.Refresh (73ms)
-				TypeCache.ScanAssembly (67ms)
+		AnalyzeDomain (77ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (141ms)
+	FinalizeReload (138ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (109ms)
+		SetupLoadedEditorAssemblies (107ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,52 +118,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\dagan\Documents\GitHub\Plonace-Jablko\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\dagan\Documents\GitHub\Plonace-Jablko\Płonące-Jabłko\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.411 seconds
-Refreshing native plugins compatible for Editor in 3.44 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.307 seconds
-Domain Reload Profiling: 717ms
+- Finished resetting the current domain, in  0.292 seconds
+Domain Reload Profiling: 693ms
 	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
 		LoadAssemblies (166ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (138ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (132ms)
 			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (307ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (222ms)
+		SetupLoadedEditorAssemblies (210ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4126 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 63 unused Assets / (60.8 KB). Loaded Objects now: 4592.
+Unloading 63 unused Assets / (60.5 KB). Loaded Objects now: 4592.
 Memory consumption went from 146.1 MB to 146.1 MB.
-Total: 2.181700 ms (FindLiveObjects: 0.144600 ms CreateObjectMapping: 0.049200 ms MarkObjects: 1.893100 ms  DeleteObjects: 0.094000 ms)
+Total: 2.024200 ms (FindLiveObjects: 0.163000 ms CreateObjectMapping: 0.062800 ms MarkObjects: 1.714900 ms  DeleteObjects: 0.082800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,17 +179,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 166333.306156 seconds.
-  path: Assets/Scripts/Environment Scripts/Room_Vision.cs
-  artifactKey: Guid(8d37d1c738380ee49b45f3a800a2a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Environment Scripts/Room_Vision.cs using Guid(8d37d1c738380ee49b45f3a800a2a2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53bfb43aec175e8af52875ae08f3cf4') in 0.001638 seconds
+  Time since last request: 5357.527643 seconds.
+  path: Assets/Assets/Castle/dekoracje_dodatkowe.png
+  artifactKey: Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Castle/dekoracje_dodatkowe.png using Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff490a674eef13e15796c6fe7bbb2d8f') in 0.055398 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 93.352763 seconds.
-  path: Assets/Prefabs/Character_Sprite.prefab
-  artifactKey: Guid(0f53c200575e05642ba75c23e5706f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Character_Sprite.prefab using Guid(0f53c200575e05642ba75c23e5706f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7656a2a6a71f0f8b642a9874b884a839') in 0.083903 seconds
+  Time since last request: 6.971021 seconds.
+  path: Assets/Assets/Castle/dekoracje_dodatkowe.png
+  artifactKey: Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Castle/dekoracje_dodatkowe.png using Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f42e3d1a9d9ae8e8e2d4c5aad8fb6f') in 0.004452 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 191
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.136029 seconds.
+  path: Assets/Assets/Castle/dekoracje_dodatkowe.png
+  artifactKey: Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Castle/dekoracje_dodatkowe.png using Guid(d02db54ee2b801e4689961f57f31abf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4216e8494dbf72d67b1d78dcf067212') in 0.008529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 412.807074 seconds.
+  path: Assets/Assets/City/stajnia_bramka.png
+  artifactKey: Guid(6f4efc8fdb8175e44b36e7d6df49a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/City/stajnia_bramka.png using Guid(6f4efc8fdb8175e44b36e7d6df49a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5624bde4e22586ea82989f4191587a41') in 0.008615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.531623 seconds.
+  path: Assets/Assets/City/stajnia_bramka.png
+  artifactKey: Guid(6f4efc8fdb8175e44b36e7d6df49a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/City/stajnia_bramka.png using Guid(6f4efc8fdb8175e44b36e7d6df49a955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d15e47fde86c75519b587d0721769b3') in 0.006007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.462500 seconds.
+  path: Assets/Assets/City/fontanna2.png
+  artifactKey: Guid(a71d111b4a46ab847b0d5da81b43bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/City/fontanna2.png using Guid(a71d111b4a46ab847b0d5da81b43bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63b77535e23d6ccaed863b15bfc847d') in 0.007199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.166250 seconds.
+  path: Assets/Assets/City/fontanna2.png
+  artifactKey: Guid(a71d111b4a46ab847b0d5da81b43bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/City/fontanna2.png using Guid(a71d111b4a46ab847b0d5da81b43bfd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4a62de16d50ef3a5d1e64d1f100e1e') in 0.005588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
