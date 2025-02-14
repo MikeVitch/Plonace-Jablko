@@ -59,7 +59,7 @@ public class Player_Movement : MonoBehaviour
     void Update()
     {
         Speed = Base_Speed;
-        animator.SetFloat("speed", Speed);
+        
         //Current Movement Speed calculations
         if (boulder_throw.Activate_Spell)
             Speed *= 1 - boulder_throw.Self_Slow;
@@ -121,27 +121,39 @@ public class Player_Movement : MonoBehaviour
             Is_Crouching = !Is_Crouching;
         }
 
+        animator.SetFloat("speed", 0);
+
         //Basic Movement
         if (Input.GetKey(Movement_Left) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 1);
+            animator.SetFloat("speed", 1);
+
             GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
         }
         if (Input.GetKey(Movement_Right) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 2);
+            animator.SetFloat("speed", 1);
+
             GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
         }
         if (Input.GetKey(Movement_Up) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 3);
+            animator.SetFloat("speed", 1);
+
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
         if (Input.GetKey(Movement_Down) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 4);
+            animator.SetFloat("speed", 1);
+
             GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
         }
+
+        
     }
 
 }

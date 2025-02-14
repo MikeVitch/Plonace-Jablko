@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|d:\\p\u0142on\u0105ce jab\u0142ko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\room_vision2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\room_vision2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\room_vision2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|d:\\p\u0142on\u0105ce jab\u0142ko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\room_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\room_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\room_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowDQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAowJwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T18:09:11.591Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Room_Vision2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:14:10.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T15:14:10.403Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Room_Vision.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:56:48.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T14:56:48.069Z"
             }
           ]
         }

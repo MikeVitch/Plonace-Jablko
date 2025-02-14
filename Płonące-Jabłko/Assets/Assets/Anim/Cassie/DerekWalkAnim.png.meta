@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 399640898bf749148b72bd30d698b19c
+guid: ac1ebbf53c040cd47ac9b91fef6ceaa0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,9 +70,9 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_0
+      name: DerekWalkAnim_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 064a33b8cd78ead498de8e8a2ccb4dd7
-      internalID: 1095003011
+      spriteID: 351110f656117534f8f300101e134ad4
+      internalID: -346419584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_1
+      name: DerekWalkAnim_1
       rect:
         serializedVersion: 2
         x: 256
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccecf9b4e3832734c87cc860f4632a0a
-      internalID: -1871230287
+      spriteID: beac352b886faf44a9ce16e65a9cb936
+      internalID: -672642552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_2
+      name: DerekWalkAnim_2
       rect:
         serializedVersion: 2
         x: 512
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5724578aa8a8d31459712fd1614190bb
-      internalID: -1252642636
+      spriteID: eca895edccd570d46bc5556dbdb293c5
+      internalID: 342922287
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_3
+      name: DerekWalkAnim_3
       rect:
         serializedVersion: 2
         x: 768
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 551236666e261a9468e87f0b95a268ec
-      internalID: -1436462928
+      spriteID: 0a361090fb82cdf4ca0011ca0d6b27b0
+      internalID: -2135230365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_4
+      name: DerekWalkAnim_4
       rect:
         serializedVersion: 2
         x: 0
@@ -208,14 +208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7e7b0263b007a349aa6ece55d4754d0
-      internalID: -2039366201
+      spriteID: cb77be238ba894c4eb18b8fa41cfa4c6
+      internalID: 1444738374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_5
+      name: DerekWalkAnim_5
       rect:
         serializedVersion: 2
         x: 256
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78905ff89ebdc0449bc30f80e7deb321
-      internalID: 1359347689
+      spriteID: af8537af91c05e549a93cf057b11f2ab
+      internalID: -378500743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_6
+      name: DerekWalkAnim_6
       rect:
         serializedVersion: 2
         x: 512
@@ -250,14 +250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aea61f269a8697d4485a3628785e0142
-      internalID: -801069496
+      spriteID: 4fa43718e608cca48b57319d704e8456
+      internalID: -1263367179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_7
+      name: DerekWalkAnim_7
       rect:
         serializedVersion: 2
         x: 768
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddca3cf0f65330344b81aafeb0e6c774
-      internalID: 923763817
+      spriteID: 3f6e21c7de6e8e74297d7a33b55f7aa7
+      internalID: 788987835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_8
+      name: DerekWalkAnim_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e98aeeed086279445be891a8cb1c4808
-      internalID: 1946246915
+      spriteID: 17e1d1fd225737743b8379a5a4d5c5bb
+      internalID: -799146646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_9
+      name: DerekWalkAnim_9
       rect:
         serializedVersion: 2
         x: 256
@@ -313,14 +313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0be62778f12f30c47ae15abfe687cd94
-      internalID: -1660619174
+      spriteID: 2f8b0d0c15fa33340a5bc65098cadf36
+      internalID: -169608070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_10
+      name: DerekWalkAnim_10
       rect:
         serializedVersion: 2
         x: 512
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa3a2d57dd34b6c4788f54cd39542afd
-      internalID: -43224130
+      spriteID: a93bcce71b12e6c4f9dac19aa5c1dcf9
+      internalID: 2058123618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_11
+      name: DerekWalkAnim_11
       rect:
         serializedVersion: 2
         x: 768
@@ -355,14 +355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a37db856f59d134f8286506ae36f876
-      internalID: -298246565
+      spriteID: 1df850d398155e841a27ce092c642214
+      internalID: -149327709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_12
+      name: DerekWalkAnim_12
       rect:
         serializedVersion: 2
         x: 0
@@ -376,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52bf70f20edb79d49ba5bfc24bc7464d
-      internalID: 88666768
+      spriteID: 0fa55ddc561701949a2f7c0526c06167
+      internalID: 1431931514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_13
+      name: DerekWalkAnim_13
       rect:
         serializedVersion: 2
         x: 256
@@ -397,14 +397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8795fcd1d3c29040bc2259fe179f94b
-      internalID: 28787345
+      spriteID: 8b42222c6d8947b4799e9c3368b374af
+      internalID: 1839614507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_14
+      name: DerekWalkAnim_14
       rect:
         serializedVersion: 2
         x: 512
@@ -418,14 +418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa155a3c9c80b8c4b87739461a8e73a0
-      internalID: 1895387573
+      spriteID: 5b4618c7d6f517a4684cebc6e560196f
+      internalID: 815942140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CassieIdleAnimSprites_15
+      name: DerekWalkAnim_15
       rect:
         serializedVersion: 2
         x: 768
@@ -439,8 +439,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0973464d482a27347a29542e298958b8
-      internalID: -1447736555
+      spriteID: 9352315610c06d249be7e357dd0a149b
+      internalID: -122538348
       vertices: []
       indices: 
       edges: []
@@ -456,22 +456,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CassieIdleAnimSprites_0: 1095003011
-      CassieIdleAnimSprites_1: -1871230287
-      CassieIdleAnimSprites_10: -43224130
-      CassieIdleAnimSprites_11: -298246565
-      CassieIdleAnimSprites_12: 88666768
-      CassieIdleAnimSprites_13: 28787345
-      CassieIdleAnimSprites_14: 1895387573
-      CassieIdleAnimSprites_15: -1447736555
-      CassieIdleAnimSprites_2: -1252642636
-      CassieIdleAnimSprites_3: -1436462928
-      CassieIdleAnimSprites_4: -2039366201
-      CassieIdleAnimSprites_5: 1359347689
-      CassieIdleAnimSprites_6: -801069496
-      CassieIdleAnimSprites_7: 923763817
-      CassieIdleAnimSprites_8: 1946246915
-      CassieIdleAnimSprites_9: -1660619174
+      DerekWalkAnim_0: -346419584
+      DerekWalkAnim_1: -672642552
+      DerekWalkAnim_10: 2058123618
+      DerekWalkAnim_11: -149327709
+      DerekWalkAnim_12: 1431931514
+      DerekWalkAnim_13: 1839614507
+      DerekWalkAnim_14: 815942140
+      DerekWalkAnim_15: -122538348
+      DerekWalkAnim_2: 342922287
+      DerekWalkAnim_3: -2135230365
+      DerekWalkAnim_4: 1444738374
+      DerekWalkAnim_5: -378500743
+      DerekWalkAnim_6: -1263367179
+      DerekWalkAnim_7: 788987835
+      DerekWalkAnim_8: -799146646
+      DerekWalkAnim_9: -169608070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
