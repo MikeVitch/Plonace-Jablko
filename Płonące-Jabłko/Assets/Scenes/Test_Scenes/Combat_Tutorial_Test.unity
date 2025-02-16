@@ -179,13 +179,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4243154824661189692, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6191904830984814394, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: m_Name
       value: Character_Sprite
       objectReference: {fileID: 0}
     - target: {fileID: 7262046873777149416, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: Cast
-      value: 9
+      value: 324
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -202,6 +206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 362991013}
   - component: {fileID: 362991012}
+  - component: {fileID: 362991019}
   - component: {fileID: 362991016}
   - component: {fileID: 362991017}
   - component: {fileID: 362991014}
@@ -253,13 +258,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 1574451076, guid: 87e5d56e5cb2b2f40bed495d01b041db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 2.56, y: 2.56}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -274,7 +279,7 @@ Transform:
   m_GameObject: {fileID: 362991011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.42, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1801349710}
@@ -402,6 +407,27 @@ MonoBehaviour:
   Burn_Damage: 5
   Burn_Frequency: 0.5
   Burn_Duration: 2
+--- !u!95 &362991019
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362991011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24515b550f7167f4b85aabbe39b17e1a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &610721659 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6191904830984814394, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
