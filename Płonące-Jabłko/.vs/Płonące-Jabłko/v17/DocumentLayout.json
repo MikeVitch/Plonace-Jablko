@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
+  "WorkspaceRootPath": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\mzuze\\onedrive\\dokumenty\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\derek_tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\derek\\derek_tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\room_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\room_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\mzuze\\onedrive\\dokumenty\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\attack_rotation_derek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\derek\\attack_rotation_derek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\mzuze\\onedrive\\dokumenty\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SpriteShapeController.cs",
-              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs",
-              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.spriteshape@9.0.2\\Runtime\\SpriteShapeController.cs",
-              "ViewState": "AgIAAKABAAAAAAAAAAAAAL8BAAC6AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Attack_Rotation_Derek.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Attack_Rotation_Derek.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Attack_Rotation_Derek.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Attack_Rotation_Derek.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Derek\\Attack_Rotation_Derek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:56:47.177Z",
+              "WhenOpened": "2025-02-16T19:17:10.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Room_Vision.cs",
-              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Room_Vision.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Room_Vision.cs",
-              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Room_Vision.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Room_Vision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Derek_Tutorial.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwFoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:27:59.186Z",
+              "WhenOpened": "2025-02-16T19:05:50.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player_Movement.cs",
+              "DocumentMoniker": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "ToolTip": "C:\\Users\\mzuze\\OneDrive\\Dokumenty\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAYwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:02:56.25Z",
               "EditorCaption": ""
             }
           ]

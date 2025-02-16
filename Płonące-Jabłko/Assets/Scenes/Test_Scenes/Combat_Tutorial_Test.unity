@@ -299,11 +299,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Tutorial_Trigger: {fileID: 1307197872}
-  Tutorial_Trigger_Past: 0
-  Attack_Tutorial: 0
-  Dodge_Tutorial: 0
-  Parry_Tutorial: 0
-  Combat_Tutorial: 0
   End_Tutorial: 0
   dialogue_manager: {fileID: 1918590148}
   dialogue: {fileID: 11400000, guid: 452998ed203ee3343a73b100ca3c700d, type: 2}
@@ -314,7 +309,8 @@ MonoBehaviour:
   Player_Character: {fileID: 610721659}
   Start_Dialogue: {fileID: 11400000, guid: d78d9fc657ca6874c86f1c64d8930109, type: 2}
   Movement_Speed: 4
-  Minimal_Distance: 1
+  Attack_Range: 2
+  Minimal_Distance: 2
   Attack_Duration: 0.1
   Attack_Windup: 0.4
   Attack_Recovery: 0.5
