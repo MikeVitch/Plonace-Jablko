@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class Room_Vision : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class Room_Vision : MonoBehaviour
     Color color;
     void Start()
     {
-        Target_Color = gameObject.GetComponent<SpriteRenderer>().color;
+        Target_Color = gameObject.GetComponent<SpriteShapeRenderer>().color;
         Target_Color.a = Unexplored_Alpha;
-        gameObject.GetComponent<SpriteRenderer>().color = Target_Color;
+        gameObject.GetComponent<SpriteShapeRenderer>().color = Target_Color;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -22,7 +23,7 @@ public class Room_Vision : MonoBehaviour
         if (collision.tag == "Player_Character")
         {
             Target_Color.a = Present_Alpha;
-            //gameObject.GetComponent<SpriteRenderer>().color = color;
+            //gameObject.GetComponent<SpriteShapeRenderer>().color = color;
         }
     }
 
@@ -31,17 +32,17 @@ public class Room_Vision : MonoBehaviour
         if (collision.tag == "Player_Character")
         {
             Target_Color.a = Explored_Alpha;
-            //gameObject.GetComponent<SpriteRenderer>().color = color;
+            //gameObject.GetComponent<SpriteShapeRenderer>().color = color;
         }
     }
 
     private void Update()
     {
-        if(Target_Color.a != gameObject.GetComponent<SpriteRenderer>().color.a)
+        if(Target_Color.a != gameObject.GetComponent<SpriteShapeRenderer>().color.a)
         {
-            color = gameObject.GetComponent<SpriteRenderer>().color;
-            color.a -= (gameObject.GetComponent<SpriteRenderer>().color.a - Target_Color.a) * 1 * Time.deltaTime;
-            gameObject.GetComponent<SpriteRenderer>().color = color;
+            color = gameObject.GetComponent<SpriteShapeRenderer>().color;
+            color.a -= (gameObject.GetComponent<SpriteShapeRenderer>().color.a - Target_Color.a) * 1 * Time.deltaTime;
+            gameObject.GetComponent<SpriteShapeRenderer>().color = color;
         }
     }
 }

@@ -56,6 +56,11 @@ public class Stealth_Enemy_Logic : MonoBehaviour
 
     void Update()
     {
+        if (Player_Seen) 
+        {
+            Debug.Log("See you!!");
+        }
+
         for (i = 0; i < Vision_Areas.Count; i++)
         {
             if (Vision_Areas[i].Player_Seen)

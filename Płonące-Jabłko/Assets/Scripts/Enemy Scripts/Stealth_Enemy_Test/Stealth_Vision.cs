@@ -39,8 +39,12 @@ public class Stealth_Vision : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
+        Debug.Log("stealthCollision tag: "+ collision.tag);
+
         if((collision.tag == "Player_Character" && !player_logic.Is_Hidden && !Player_Behind_Wall) || (collision.tag == "Player_Character" && Vector2.Distance(gameObject.transform.position,player_logic.transform.position) <= stealth_enemy_logic.Combat_Hide_Zone_Detection_Distance && stealth_enemy_logic.Aggressive))
         {
+            Debug.Log("stealthCollision tag Player_Character: " + collision.tag);
+
             Player_Seen = true;
             Last_Player_Position = collision.transform.position;
         }
