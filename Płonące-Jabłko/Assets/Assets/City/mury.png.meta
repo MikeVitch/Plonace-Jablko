@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecb1289353d44ab43b9ea59a14dd6ebe
+guid: 9a3666a1350f7264c8bbf6212384ed2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -123,11 +123,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_0
+      name: mury_0
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 2048
+        x: 512
+        y: 1792
         width: 256
         height: 256
       alignment: 0
@@ -137,56 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d03174785802bf44e831ed023daf5b77
-      internalID: -804154023
+      spriteID: c86f4bb76689ba0458fc0e15eafe80d3
+      internalID: 134132069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_1
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 2048
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c056cfc162305c34da19371377d77594
-      internalID: -746185820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_2
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 2048
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35963a43930d06b4590e793152ad1e49
-      internalID: -1250521118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_3
+      name: mury_1
       rect:
         serializedVersion: 2
         x: 768
@@ -200,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cbc678e993e3c2478d44c5f111b494c
-      internalID: 703603746
+      spriteID: cf70b0a1455f96148bfa5c4f6c2566a8
+      internalID: -1006857530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_4
+      name: mury_2
       rect:
         serializedVersion: 2
         x: 1024
@@ -221,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 487510fffe422d742aae729ef8ac1729
-      internalID: 479031702
+      spriteID: 3cb8d233ad6166b4cadff9dd59e525e4
+      internalID: -559189212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_5
+      name: mury_3
       rect:
         serializedVersion: 2
         x: 1280
@@ -242,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 313b4f593474fab46974f40d3135cc27
-      internalID: -1895727463
+      spriteID: 78834d5accd8a27439bb6bcf787007ed
+      internalID: 1046469087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_6
+      name: mury_4
       rect:
         serializedVersion: 2
         x: 1536
@@ -263,35 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3596dd7ed30dd8d4981808556ddc1e4a
-      internalID: -1501251495
+      spriteID: ad091cba00f4c2b46b00a99922d85d07
+      internalID: -1627820146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_7
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 1792
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 498af2fb0b1d10f4ea45f258611385e5
-      internalID: -437926252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_8
+      name: mury_5
       rect:
         serializedVersion: 2
         x: 512
@@ -305,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b44d44c90156c9489fc5b3188fba64e
-      internalID: 795553425
+      spriteID: bd50e71fc5b4b6e4093739530635d82e
+      internalID: 555391595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_9
+      name: mury_6
       rect:
         serializedVersion: 2
         x: 768
@@ -326,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de230897b6cde5949af573143b6418da
-      internalID: -1275797116
+      spriteID: 89dd59d9af8cc1447b49562603fe82fb
+      internalID: 1139180217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_10
+      name: mury_7
       rect:
         serializedVersion: 2
         x: 1024
@@ -347,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 468d8e9ebac538842b0204d12423904d
-      internalID: -1596529329
+      spriteID: 1e3a4766e78578949a7bb00d3606e00d
+      internalID: -1038204251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_11
+      name: mury_8
       rect:
         serializedVersion: 2
         x: 1280
@@ -368,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b876f75678463a4eacb8ecab552de67
-      internalID: 758300655
+      spriteID: b5d927db0c3e85140a550c0120ce17b1
+      internalID: 2105702741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_12
+      name: mury_9
       rect:
         serializedVersion: 2
         x: 1536
@@ -389,56 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8b9f48705edcb2418153e37e33f8ffc
-      internalID: -639655488
+      spriteID: 53075eee3655d6f4c948fbdd2194c101
+      internalID: -926648020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_13
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 1536
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6a85167e032752d4f82a97dc2f40cef4
-      internalID: 2112655303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_14
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1536
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a5f48029ff7dfc45b06e45a7867e183
-      internalID: -940429267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_15
+      name: mury_10
       rect:
         serializedVersion: 2
         x: 512
@@ -452,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc57532dd1c61454aaa09f9a68378496
-      internalID: -448074435
+      spriteID: 35800c4b40a4e2e459a0657abeade800
+      internalID: -544874767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_16
+      name: mury_11
       rect:
         serializedVersion: 2
         x: 768
@@ -473,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f2e1569421de9d419b63027811ddf93
-      internalID: 1345249686
+      spriteID: 199e4b99a6a3cd1438bca651b7d17597
+      internalID: 1572380115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_17
+      name: mury_12
       rect:
         serializedVersion: 2
         x: 1024
@@ -494,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6975516091a25441a04100962ea8f7e
-      internalID: -1161446760
+      spriteID: 0437d8afc6a9b19499f24e4c66b3720f
+      internalID: 795604359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_18
+      name: mury_13
       rect:
         serializedVersion: 2
         x: 1280
@@ -515,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb6b8ad5b2495c948ba24a7761c9c969
-      internalID: -297155238
+      spriteID: f6d3539b75e31764780c527e7e974b35
+      internalID: -46278048
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_19
+      name: mury_14
       rect:
         serializedVersion: 2
         x: 1536
@@ -536,56 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6eab4a341e374614da50c25734741d10
-      internalID: 924731925
+      spriteID: fe1e6898059e5c740a47a88d662f3dc1
+      internalID: 2064408813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_20
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 1280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eca53ba416f82944dbf94b4a201b15f8
-      internalID: -814182116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_21
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1280
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4374dc2e22712ac4895a4e46045d053b
-      internalID: -1982464482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_22
+      name: mury_15
       rect:
         serializedVersion: 2
         x: 512
@@ -599,18 +452,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c346df20a2f8248b97bf2dda3f6c45
-      internalID: 808020118
+      spriteID: 599513eeaed5ef840aa46c4dd2ace186
+      internalID: 796742846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_23
+      name: mury_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41e9fcaf40b33b49aa882036c08bfa1
+      internalID: -315091430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af863f2809c2744c94b722ba879ab3f
+      internalID: -1207974682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7028779bf8714489acd7c6f5f56952
+      internalID: -565588784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a863fde2ec14489dcf0657d524ccf
+      internalID: 1260900529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_20
       rect:
         serializedVersion: 2
         x: 768
-        y: 1024
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -620,18 +557,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1880a77ffa0a341b2487c2bd634450
-      internalID: 1881854173
+      spriteID: dd9188b9e3a25bf4b921a00a36bea489
+      internalID: 2057027235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_24
+      name: mury_21
       rect:
         serializedVersion: 2
         x: 1024
-        y: 1024
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -641,18 +578,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf096b84f3a3a0c41868b1b5780dcacf
-      internalID: 101916633
+      spriteID: a93e7b40e11a5a64b9b48c55a342b70e
+      internalID: -1174263903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_25
+      name: mury_22
       rect:
         serializedVersion: 2
         x: 1280
-        y: 1024
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -662,18 +599,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddb2dfdf9fb22ec40a9b34573be80fde
-      internalID: -1755916845
+      spriteID: fa75b0ce0620a674ba1e7a1e2afcb1ef
+      internalID: 1646994494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_26
+      name: mury_23
       rect:
         serializedVersion: 2
         x: 1536
-        y: 1024
+        y: 512
         width: 256
         height: 256
       alignment: 0
@@ -683,102 +620,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad38ed4179ab64742b521433b504fd18
-      internalID: 2054883468
+      spriteID: d6bb31101344e7744ad8d6015c44016a
+      internalID: 777967497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_27
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 1024
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4716f37ce88031f418fb73bf0f0c65e6
-      internalID: -1185671177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_28
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 1024
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a2db517f77f31c4c97ae0785acc2c56
-      internalID: 1646400946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_29
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dbfea33a1fa637419eb63017d6f1ea0
-      internalID: -1643641738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_30
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b77057134fa3bd499dc195ad4a880a8
-      internalID: 76903419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_31
+      name: mury_24
       rect:
         serializedVersion: 2
         x: 512
-        y: 768
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -788,18 +641,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ff97a011d7b6d147b6a2687ea3ef7bd
-      internalID: -1665692100
+      spriteID: 342bbf446ef68c24c930ee12908c75b7
+      internalID: 335808084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_32
+      name: mury_25
       rect:
         serializedVersion: 2
         x: 768
-        y: 768
+        y: 256
         width: 256
         height: 256
       alignment: 0
@@ -809,266 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef53266ae3637c44b85746cd63b7f728
-      internalID: -1678262687
+      spriteID: b6de1b1fd5775a44387d814d7ede42b6
+      internalID: -1999919214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_33
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f418b0b3da2e25a4bb3b098a319907e6
-      internalID: 1904678810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_34
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c1ea1a0da4d8ec4bac9adda8f6027fe
-      internalID: -964387313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_35
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c423232a093b1d44ba9da5d87d91c3d
-      internalID: 579215387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_36
-      rect:
-        serializedVersion: 2
-        x: 1792
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbb50b80d89fe2c41b3465e67022cf7a
-      internalID: -58694133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_37
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 768
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3e4e4b83eabd314c9b9ec1ae208b46f
-      internalID: 2114598392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_38
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90978d68ade551742b60d9e3737006a7
-      internalID: 2102644906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_39
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90874cc5e9097a84880677d8e4961dc8
-      internalID: -853003019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_40
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62b3785659f5ca7419eadf905aec2c35
-      internalID: 2033053683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_41
-      rect:
-        serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f86514b22c8aab44b8267f07b4038032
-      internalID: -520492283
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_42
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15015f1e297d1874e8b72d96d4acf473
-      internalID: 470379940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_43
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bda143b8f3edf745ad18cd682ad5970
-      internalID: 1885218680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_44
-      rect:
-        serializedVersion: 2
-        x: 2048
-        y: 512
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a15da6c06fb212c4583ebf4237732e9b
-      internalID: 1594106990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_45
+      name: mury_26
       rect:
         serializedVersion: 2
         x: 1024
@@ -1082,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 466f1be48c0dfa946ad1209eea7368a8
-      internalID: 1838266028
+      spriteID: 19453f128ef904443940c09b31005b82
+      internalID: 606719017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_46
+      name: mury_27
       rect:
         serializedVersion: 2
         x: 1280
@@ -1103,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbc84b61f5c44fe469cab4f136dc7d2d
-      internalID: -2124198194
+      spriteID: e96c8c827bd4bf64e87ba21a2e94480a
+      internalID: 704176693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_47
+      name: mury_28
       rect:
         serializedVersion: 2
         x: 1536
@@ -1124,14 +725,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130dd3db2453c044680ad46f2c0b1748
-      internalID: 406302323
+      spriteID: 7c714b51b676f504fbb8896120b8b3a7
+      internalID: 1244689345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_48
+      name: mury_29
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36256b98850a9c6409e41324642dc5a4
+      internalID: 1624108961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5348e2c9a97524a95d2d31f4e3d1f9
+      internalID: 819742990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mury_31
       rect:
         serializedVersion: 2
         x: 1024
@@ -1145,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a99337ff57198c4cbb52616e81b7836
-      internalID: 774236535
+      spriteID: b54fdab9619084c468d22efb1d25be1b
+      internalID: -810039162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_49
+      name: mury_32
       rect:
         serializedVersion: 2
         x: 1280
@@ -1166,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f0a7a079081ff44294c6b5500d8c791
-      internalID: -1573836312
+      spriteID: 669a6e590aa9e3546ac6c0097ebc552c
+      internalID: -1871309897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zamek_sciany_wyzsze2_50
+      name: mury_33
       rect:
         serializedVersion: 2
         x: 1536
@@ -1187,8 +830,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d80f63bb999d3a4982dddbb25c01c15
-      internalID: 1911624887
+      spriteID: a575dc8645ac591458e62cf7f256b939
+      internalID: -1056665184
       vertices: []
       indices: 
       edges: []
@@ -1204,57 +847,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      zamek_sciany_wyzsze2_0: -804154023
-      zamek_sciany_wyzsze2_1: -746185820
-      zamek_sciany_wyzsze2_10: -1596529329
-      zamek_sciany_wyzsze2_11: 758300655
-      zamek_sciany_wyzsze2_12: -639655488
-      zamek_sciany_wyzsze2_13: 2112655303
-      zamek_sciany_wyzsze2_14: -940429267
-      zamek_sciany_wyzsze2_15: -448074435
-      zamek_sciany_wyzsze2_16: 1345249686
-      zamek_sciany_wyzsze2_17: -1161446760
-      zamek_sciany_wyzsze2_18: -297155238
-      zamek_sciany_wyzsze2_19: 924731925
-      zamek_sciany_wyzsze2_2: -1250521118
-      zamek_sciany_wyzsze2_20: -814182116
-      zamek_sciany_wyzsze2_21: -1982464482
-      zamek_sciany_wyzsze2_22: 808020118
-      zamek_sciany_wyzsze2_23: 1881854173
-      zamek_sciany_wyzsze2_24: 101916633
-      zamek_sciany_wyzsze2_25: -1755916845
-      zamek_sciany_wyzsze2_26: 2054883468
-      zamek_sciany_wyzsze2_27: -1185671177
-      zamek_sciany_wyzsze2_28: 1646400946
-      zamek_sciany_wyzsze2_29: -1643641738
-      zamek_sciany_wyzsze2_3: 703603746
-      zamek_sciany_wyzsze2_30: 76903419
-      zamek_sciany_wyzsze2_31: -1665692100
-      zamek_sciany_wyzsze2_32: -1678262687
-      zamek_sciany_wyzsze2_33: 1904678810
-      zamek_sciany_wyzsze2_34: -964387313
-      zamek_sciany_wyzsze2_35: 579215387
-      zamek_sciany_wyzsze2_36: -58694133
-      zamek_sciany_wyzsze2_37: 2114598392
-      zamek_sciany_wyzsze2_38: 2102644906
-      zamek_sciany_wyzsze2_39: -853003019
-      zamek_sciany_wyzsze2_4: 479031702
-      zamek_sciany_wyzsze2_40: 2033053683
-      zamek_sciany_wyzsze2_41: -520492283
-      zamek_sciany_wyzsze2_42: 470379940
-      zamek_sciany_wyzsze2_43: 1885218680
-      zamek_sciany_wyzsze2_44: 1594106990
-      zamek_sciany_wyzsze2_45: 1838266028
-      zamek_sciany_wyzsze2_46: -2124198194
-      zamek_sciany_wyzsze2_47: 406302323
-      zamek_sciany_wyzsze2_48: 774236535
-      zamek_sciany_wyzsze2_49: -1573836312
-      zamek_sciany_wyzsze2_5: -1895727463
-      zamek_sciany_wyzsze2_50: 1911624887
-      zamek_sciany_wyzsze2_6: -1501251495
-      zamek_sciany_wyzsze2_7: -437926252
-      zamek_sciany_wyzsze2_8: 795553425
-      zamek_sciany_wyzsze2_9: -1275797116
+      mury_0: 134132069
+      mury_1: -1006857530
+      mury_10: -544874767
+      mury_11: 1572380115
+      mury_12: 795604359
+      mury_13: -46278048
+      mury_14: 2064408813
+      mury_15: 796742846
+      mury_16: -315091430
+      mury_17: -1207974682
+      mury_18: -565588784
+      mury_19: 1260900529
+      mury_2: -559189212
+      mury_20: 2057027235
+      mury_21: -1174263903
+      mury_22: 1646994494
+      mury_23: 777967497
+      mury_24: 335808084
+      mury_25: -1999919214
+      mury_26: 606719017
+      mury_27: 704176693
+      mury_28: 1244689345
+      mury_29: 1624108961
+      mury_3: 1046469087
+      mury_30: 819742990
+      mury_31: -810039162
+      mury_32: -1871309897
+      mury_33: -1056665184
+      mury_4: -1627820146
+      mury_5: 555391595
+      mury_6: 1139180217
+      mury_7: -1038204251
+      mury_8: 2105702741
+      mury_9: -926648020
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
