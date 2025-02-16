@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player_Logic : MonoBehaviour
 {
+
     public float Max_Health = 100f;
     public float Invincibility_On_Hit_Lenght = 0.5f;
     public KeyCode Interaction_Key = KeyCode.E;
@@ -31,6 +32,8 @@ public class Player_Logic : MonoBehaviour
     public Misty_Step misty_step;
     public Push push;
     public Stone_Volley stone_volley;
+    public ScreenMenu_Manager screenMenuManager;
+
 
     Zjawa_Push zjawa_push;
     Zjawa_Tornado zjawa_tornado;
@@ -131,7 +134,10 @@ public class Player_Logic : MonoBehaviour
         else
             Invincibility= false;
 
-        //Debug.Log(Health);
+       // Debug.Log(Health);
+
+        screenMenuManager.SetHealth(Health);
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
