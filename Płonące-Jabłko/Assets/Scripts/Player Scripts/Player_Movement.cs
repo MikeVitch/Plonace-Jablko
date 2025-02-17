@@ -54,6 +54,7 @@ public class Player_Movement : MonoBehaviour
         Speed = Base_Speed;
         Past_Position = Current_Position = GetComponent<Transform>().position;
         Collision_Mask = LayerMask.GetMask("Wall");
+        Collision_Mask = LayerMask.GetMask("Feet");
     }
 
     void Update()
