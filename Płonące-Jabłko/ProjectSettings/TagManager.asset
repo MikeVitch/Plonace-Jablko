@@ -25,6 +25,7 @@ TagManager:
   - Button
   - UIpanel
   - Behind
+  - Derek_Attack
   layers:
   - Default
   - TransparentFX

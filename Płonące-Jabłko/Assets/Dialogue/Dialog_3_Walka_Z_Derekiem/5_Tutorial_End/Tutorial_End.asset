@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2baf66b3ee1d8b744ae213f97f234b03, type: 3}
-  m_Name: Tutorial_Dialogue_5
+  m_Name: Tutorial_End
   m_EditorClassIdentifier: 
-  Starting_Sentence: {fileID: 11400000, guid: fca63b4ef670a25429f9c367e565109b, type: 2}
+  Starting_Sentence: {fileID: 11400000, guid: 54fbdb075acd918469f0b5bd1080d2c8, type: 2}
   Is_Available: 1
-  Player_Portrait: {fileID: 21300000, guid: e3b98e98eb50ebb4ea505dde24d988af, type: 3}
-  NPC_Portrait: {fileID: 21300000, guid: b66f567a70f91a84899f284eeef33743, type: 3}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: e1ddaee745d56ca459ff2f6cfc43f4e9, type: 3}

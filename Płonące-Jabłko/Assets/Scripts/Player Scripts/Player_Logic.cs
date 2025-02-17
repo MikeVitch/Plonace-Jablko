@@ -37,6 +37,7 @@ public class Player_Logic : MonoBehaviour
 
     Zjawa_Push zjawa_push;
     Zjawa_Tornado zjawa_tornado;
+    Derek_Attack derek_attack;
 
     float Restoration_Next_Tick = 0;
     [Header("Script Access")]
@@ -156,6 +157,14 @@ public class Player_Logic : MonoBehaviour
             zjawa_tornado = FindObjectOfType<Zjawa_Tornado>();
             Attack_Damage = zjawa_tornado.Damage;
             Health -= Attack_Damage * (1 - 0.01f * Air_Resistance);
+            Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
+        }
+
+        //Derek_Attack
+        if (collision.gameObject.tag == "Derek_Attack" && !Invincibility)
+        {
+            Attack_Damage = FindObjectOfType<Derek_Attack>().Attack_Damage;
+            Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
             Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
         //Debug.Log(Health);
