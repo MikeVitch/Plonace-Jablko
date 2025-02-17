@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Logic : MonoBehaviour
+public class Derek_Logic : MonoBehaviour
 {
     Sword_Attack sword_attack;
     Template_DoT_Held template_dot_held;
@@ -134,7 +134,7 @@ public class Enemy_Logic : MonoBehaviour
 
             //Debug.Log(Health);
             if (Health <= 0)
-                Destroy(gameObject);
+                GetComponent<Derek_Tutorial>().End_Tutorial = true;
         }
 
     }
@@ -185,7 +185,7 @@ public class Enemy_Logic : MonoBehaviour
             }
             //Debug.Log(Health);
             if (Health <= 0)
-                Destroy(gameObject);
+                GetComponent<Derek_Tutorial>().End_Tutorial = true;
         }
     }
 }
