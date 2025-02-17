@@ -14,6 +14,7 @@ public class Sentence : ScriptableObject
     [Tooltip("Activates only when there aren't options")]
     public Sentence Next_Sentence;
 
+
     [Tooltip("Activates only when there aren't options")]
     public Sprite Player_Portrait;
     [Tooltip("Activates only when there aren't options")]

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2baf66b3ee1d8b744ae213f97f234b03, type: 3}
   m_Name: Tutorial_Start
   m_EditorClassIdentifier: 
-  Starting_Sentence: {fileID: 11400000, guid: 4fa88c128cef78047b675240eb78caa1, type: 2}
+  Starting_Sentence: {fileID: 11400000, guid: c0705c56ae88dc1428629d5a80a6d3ed, type: 2}
   Is_Available: 1
-  Player_Portrait: {fileID: 21300000, guid: 852eabb2fd81dab4d82d3bef5328c6fa, type: 3}
-  NPC_Portrait: {fileID: 21300000, guid: 64fb90212ca2c5d4fbdfe305d72f0ac3, type: 3}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: e1ddaee745d56ca459ff2f6cfc43f4e9, type: 3}

@@ -6,20 +6,20 @@ using UnityEngine;
 public class Derek_Tutorial : MonoBehaviour
 {
     public GameObject Tutorial_Trigger;
-    bool Tutorial_Trigger_Past;
-    bool Attack_Tutorial;
-    bool Dodge_Tutorial;
-    bool Parry_Tutorial;
-    bool Combat_Tutorial;
+   public bool Tutorial_Trigger_Past;
+   public bool Attack_Tutorial;
+   public bool Dodge_Tutorial;
+   public bool Parry_Tutorial;
+   public bool Combat_Tutorial;
    public bool End_Tutorial;
     int Attack_Tutorial_Hit;
     public Dialogue_Manager dialogue_manager;
-    public DialogueSO dialogue;
+    public DialogueSO dialogue_1;
     public DialogueSO dialogue_2;
     public DialogueSO dialogue_3;
     public DialogueSO dialogue_4;
     public DialogueSO dialogue_5;
-    public GameObject Player_Character;
+     GameObject Player_Character;
     public Game_Event Start_Dialogue;
     [Header("Movement")]
     public float Movement_Speed;
@@ -65,7 +65,7 @@ public class Derek_Tutorial : MonoBehaviour
         if(Tutorial_Trigger.GetComponent<Collision_Detection>().Triggered != Tutorial_Trigger_Past)
         {
             Start_Dialogue.Raise();
-            dialogue_manager.StartDialogue(dialogue);
+            dialogue_manager.StartDialogue(dialogue_1);
             Attack_Tutorial = true;
         }
         Tutorial_Trigger_Past = Tutorial_Trigger.GetComponent<Collision_Detection>().Triggered;
@@ -93,8 +93,8 @@ public class Derek_Tutorial : MonoBehaviour
                 if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                 {
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = true;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = true;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
                     Attack_Deactivation = Time.time + Attack_Duration;
                     Windup_Done = true;
                     if (Player_Character.GetComponent<Player_Movement>().Dodge_Is_Active == true && !Dodge_Counted)
@@ -106,8 +106,8 @@ public class Derek_Tutorial : MonoBehaviour
                 if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                 {
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = false;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = false;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
                     Attack_End = Time.time + Attack_Recovery;
                     Attack_Done = true;
                     Dodge_Counted = false;
@@ -151,8 +151,8 @@ public class Derek_Tutorial : MonoBehaviour
                     if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                     {
                         Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
-                        Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = true;
-                        Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = true;
+                        Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
+                        Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
                         Attack_Deactivation = Time.time + Attack_Duration;
                         Windup_Done = true;
                         if (Player_Character.GetComponent<Block>().Block_Is_Active == true && !Block_Counted)
@@ -164,8 +164,8 @@ public class Derek_Tutorial : MonoBehaviour
                     if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                     {
                         Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
-                        Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = false;
-                        Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = false;
+                        Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
+                        Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
                         Attack_End = Time.time + Attack_Recovery;
                         Attack_Done = true;
                         Block_Counted = false;
@@ -211,16 +211,16 @@ public class Derek_Tutorial : MonoBehaviour
                 if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                 {
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = true;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = true;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
                     Attack_Deactivation = Time.time + Attack_Duration;
                     Windup_Done = true;
                 }
                 if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                 {
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().isTrigger = false;
-                    Attack_Hitbox.GetComponent<CapsuleCollider2D>().enabled = false;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
+                    Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
                     Attack_End = Time.time + Attack_Recovery;
                     Attack_Done = true;
                     Block_Counted = false;

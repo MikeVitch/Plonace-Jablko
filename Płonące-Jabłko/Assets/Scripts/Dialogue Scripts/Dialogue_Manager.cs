@@ -56,10 +56,10 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void GoToNextSentence()
     {
-        Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
-        NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
-        Current_Sentence = Current_Sentence.Next_Sentence;
-        DisplayDialogue();
+            Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
+            NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
+            Current_Sentence = Current_Sentence.Next_Sentence;
+            DisplayDialogue();
     }
 
     public void DisplayDialogue()
