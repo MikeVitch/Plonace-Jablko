@@ -48,7 +48,7 @@ public class SeeThroughBehaviour : MonoBehaviour
             //playerMask.enabled = true;
 
             thisSprite.maskInteraction = SpriteMaskInteraction.VisibleOutsideMask;
-            Debug.Log(thisSprite.maskInteraction);
+            //Debug.Log(thisSprite.maskInteraction);
             //thisSpriteTrans.enabled = true;
         }
         else

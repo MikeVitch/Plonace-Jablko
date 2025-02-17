@@ -28,7 +28,7 @@ public class PauseMenu_Manager : MonoBehaviour
     }
     public void OnPanelChange(GameObject openPanel)
     {
-        Debug.Log("PanelChange");
+       // Debug.Log("PanelChange");
         GameObject ActivePanel = GameObject.FindGameObjectWithTag("UIpanel");
        if(ActivePanel!=null) ActivePanel.SetActive(false);
         openPanel.SetActive(true);
@@ -52,6 +52,7 @@ public class PauseMenu_Manager : MonoBehaviour
             {
                 PauseMenu.SetActive(true);
                 Time.timeScale = 0;
+                
             }
             else
             {
@@ -60,7 +61,7 @@ public class PauseMenu_Manager : MonoBehaviour
             }
            
 
-            Debug.Log("Pause klicked");
+           // Debug.Log("Pause klicked");
         }
          if (Input.GetKeyDown(Inventory)) 
         {
