@@ -26,6 +26,7 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     Vector3 Direction_Of_Player;
     Player_Logic player_logic;
     public float Combat_Hide_Zone_Detection_Distance;
+    [SerializeField] SayBubble sayGuard;
     private void Start()
     {
         player_logic = FindObjectOfType<Player_Logic>();
@@ -59,7 +60,9 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     {
         if (Player_Seen) 
         {
-            Debug.Log("See you!!");
+           // Debug.Log("See you!!");
+
+            sayGuard.showText(1, "Znów siê wymykasz?");
         }
 
         for (i = 0; i < Vision_Areas.Count; i++)

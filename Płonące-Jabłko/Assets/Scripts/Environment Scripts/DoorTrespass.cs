@@ -68,7 +68,7 @@ public class TrespassDoor : MonoBehaviour
 
 
 
-                Debug.Log("anim done! locked: " + animLocked);
+               // Debug.Log("anim done! locked: " + animLocked);
             }
             else
             {
