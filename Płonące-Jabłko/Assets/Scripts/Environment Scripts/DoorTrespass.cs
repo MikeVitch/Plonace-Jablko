@@ -73,7 +73,7 @@ public class TrespassDoor : MonoBehaviour
             else
             {
                 //Debug.Log("Cant open this! ");
-                sayCassie.showText(1, "Can't open this! ");
+                sayCassie.showText(1, "Zamkniête ");
 
 
             }

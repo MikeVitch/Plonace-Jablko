@@ -53,11 +53,13 @@ public class PauseMenu_Manager : MonoBehaviour
                 PauseMenu.SetActive(true);
                 Time.timeScale = 0;
                 
+
             }
             else
             {
                 PauseMenu.SetActive(false);
                 Time.timeScale = 1;
+                
             }
            
 

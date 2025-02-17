@@ -62,7 +62,7 @@ public class Stealth_Enemy_Logic : MonoBehaviour
         {
            // Debug.Log("See you!!");
 
-            sayGuard.showText(1, "Znów siê wymykasz?");
+            sayGuard.showText(1, "Znów siê wymykasz? ");
         }
 
         for (i = 0; i < Vision_Areas.Count; i++)
