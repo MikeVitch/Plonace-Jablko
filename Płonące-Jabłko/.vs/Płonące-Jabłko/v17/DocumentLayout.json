@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Newest\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\",
+  "WorkspaceRootPath": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|d:\\p\u0142on\u0105ce jab\u0142ko\\newest\\plonace-jablko-level-design-dagon\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\seethroughbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\p\u0142on\u0105ce jab\u0142ko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\seethroughwallbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\environment scripts\\seethroughwallbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\seethroughbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\seethroughbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|d:\\p\u0142on\u0105ce jab\u0142ko\\newest\\plonace-jablko-level-design-dagon\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SeeThroughBehaviour.cs",
-              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Newest\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
-              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Newest\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAALAAAAAAAAAA==",
+              "Title": "SeeThroughWallBehaviour.cs",
+              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehaviour.cs",
+              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:36:37.434Z",
+              "WhenOpened": "2025-02-17T13:36:34.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SeeThroughBehaviour.cs",
+              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T12:36:37.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Player_Movement.cs",
-              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Newest\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Newest\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
+              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T12:08:24.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T12:08:24.171Z"
             }
           ]
         }
