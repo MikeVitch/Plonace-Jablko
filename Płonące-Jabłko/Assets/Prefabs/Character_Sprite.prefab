@@ -594,7 +594,7 @@ MonoBehaviour:
   Activate_Spell: 0
   Speed_Boost: 50
   player_logic: {fileID: 2856522490076684982}
-  player_movement: {fileID: 0}
+  player_movement: {fileID: 814459938877681117}
   Player_Character: {fileID: 3591088483792379444}
 --- !u!114 &5120378903373919024
 MonoBehaviour:
@@ -1397,6 +1397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3591088483792379444}
   - component: {fileID: 7422866896559675958}
+  - component: {fileID: 814459938877681117}
   - component: {fileID: 6818707710280052942}
   - component: {fileID: 5378593198687186093}
   - component: {fileID: 7043416023173355514}
@@ -1489,6 +1490,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &814459938877681117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191904830984814394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee157b3667b20d42a072d0dfe4b35d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Base_Speed: 5
+  Movement_Up: 119
+  Movement_Down: 115
+  Movement_Left: 97
+  Movement_Right: 100
+  Dodge_Roll: 32
+  Dodge_Speed: 15
+  Dodge_Length: 0.3
+  Dodge_Recovery: 0.15
+  Dodge_Recovery_Slow: 0.5
+  Crouching: 99
+  Crouching_Speed: 0.5
+  boulder_throw: {fileID: 5769699837950374995}
+  longstrider: {fileID: 5120378903373919024}
+  misty_step: {fileID: 2072740024415183335}
+  restoration: {fileID: 3502475105366442918}
+  sword_attack: {fileID: 7578772117418524680}
+  player_logic: {fileID: 2856522490076684982}
+  Direction_Of_Movement: {x: 0, y: 0, z: 0}
+  Dodge_Is_Active: 0
+  Dodge_Recovery_Is_Active: 0
+  Is_Crouching: 0
 --- !u!70 &6818707710280052942
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1589,7 +1624,7 @@ MonoBehaviour:
   Physical_Resistance: 0
   dialogue_manager: {fileID: 5672354313374050109}
   enemy_attack_template_melee: {fileID: 0}
-  player_movement: {fileID: 0}
+  player_movement: {fileID: 814459938877681117}
   restoration: {fileID: 3502475105366442918}
   sword_attack: {fileID: 7578772117418524680}
   ice_shield: {fileID: 8557109054889822788}
