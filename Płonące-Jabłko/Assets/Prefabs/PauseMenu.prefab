@@ -664,7 +664,7 @@ MonoBehaviour:
   Inventory: 105
   Diary: 108
   Map: 109
-  Character: 0
+  Character: 107
   PauseMenu: {fileID: 7162275582515519284}
   InventoryPanel: {fileID: 3207670124741629403}
   DiaryPanel: {fileID: 3714164613887440111}
