@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 
 public class SeeThroughBehaviour : MonoBehaviour
@@ -8,11 +10,11 @@ public class SeeThroughBehaviour : MonoBehaviour
     [SerializeField] SpriteMask playerMask;
    // [SerializeField] SpriteRenderer playerShapeMask;
 
-    [SerializeField] int behindCassie = 9;
-    [SerializeField] int inFrontCassie = 11;
+   // [SerializeField] int behindCassie = 9;
+   // [SerializeField] int inFrontCassie = 11;
     bool isPlayerBehind = false;
-    SpriteRenderer thisSprite;
-    //SpriteRenderer thisSpriteTrans;
+    public TilemapRenderer thisSpriteTilemap;
+    public SpriteRenderer thisSprite;
 
 
     Color thisColor;
@@ -21,7 +23,23 @@ public class SeeThroughBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        thisSprite = GetComponentInParent<SpriteRenderer>();
+
+       
+
+
+         thisSpriteTilemap = GetComponentInParent<TilemapRenderer>();
+          if (thisSpriteTilemap == null)
+          {
+              thisSpriteTilemap = GetComponent<TilemapRenderer>();
+          }
+
+          thisSprite = GetComponentInParent<SpriteRenderer>();
+          if (thisSprite == null)
+          {
+              thisSprite = GetComponent<SpriteRenderer>();
+          }
+
+
         /*thisSpriteTrans = gameObject.AddComponent(typeof(SpriteRenderer)) as SpriteRenderer;
         thisSpriteTrans.sprite = thisSprite.sprite;
         thisSpriteTrans.transform.position = thisSprite.transform.position;
@@ -44,20 +62,34 @@ public class SeeThroughBehaviour : MonoBehaviour
         if (isPlayerBehind)
         {
             //thisColor.a = 0.5f;
-            thisSprite.sortingOrder = inFrontCassie;
+            //thisSprite.sortingOrder = inFrontCassie;
             //playerMask.enabled = true;
+            if (thisSprite != null)
+            {
+                thisSprite.maskInteraction = SpriteMaskInteraction.VisibleOutsideMask;
+            }
+            else
+            {
+                thisSpriteTilemap.maskInteraction = SpriteMaskInteraction.VisibleOutsideMask;
 
-            thisSprite.maskInteraction = SpriteMaskInteraction.VisibleOutsideMask;
-            Debug.Log(thisSprite.maskInteraction);
+            }
+            //Debug.Log(thisSprite.maskInteraction);
             //thisSpriteTrans.enabled = true;
         }
         else
         {
             //thisColor.a = 1f;
-            thisSprite.sortingOrder = behindCassie;
+            // thisSprite.sortingOrder = behindCassie;
             //playerMask.enabled = false;
-            thisSprite.maskInteraction = SpriteMaskInteraction.None;
+            if (thisSprite != null)
+            {
+                thisSprite.maskInteraction = SpriteMaskInteraction.None;
+            }
+            else
+            {
+                thisSpriteTilemap.maskInteraction = SpriteMaskInteraction.None;
 
+            }
             //thisSpriteTrans.enabled = false;
 
         }
@@ -72,7 +104,7 @@ public class SeeThroughBehaviour : MonoBehaviour
         { 
             if (collision.tag == "Player_Character") 
             {
-                Debug.Log("Player behind!");
+                //Debug.Log("Player behind!");
                 isPlayerBehind = true;
             }
         }
@@ -84,7 +116,7 @@ public class SeeThroughBehaviour : MonoBehaviour
         {
             if (collision.tag == "Player_Character")
             {
-                Debug.Log("Player not behind!");
+                //Debug.Log("Player not behind!");
                 isPlayerBehind = false;
             }
         }

@@ -1,6 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Płonące-Jabłko/Assets/ShapeProfile.meta
+guid: db607435032cf4b42b8dc3434d6c4bd5
+folderAsset: yes
+DefaultImporter:
+========
 guid: 8d63f1bfcce2cf6489767560a389d5c4
 PrefabImporter:
+>>>>>>>> origin/Kinu-Animacje:Płonące-Jabłko/Assets/Prefabs/BehindCollider.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

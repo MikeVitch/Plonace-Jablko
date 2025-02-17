@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewCastle.unity
     guid: fd04d34464227444cacf610c5b72f077
+  - enabled: 1
+    path: Assets/Scenes/Level_Podzamcze.unity
+    guid: 10b75297018e88240a0f0221060325eb
   m_configObjects: {}

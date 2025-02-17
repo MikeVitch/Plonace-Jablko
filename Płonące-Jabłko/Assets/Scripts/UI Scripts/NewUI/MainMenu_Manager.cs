@@ -39,7 +39,7 @@ public class MainMenu_Manager : MonoBehaviour
     public void OnOptions()
     {
         // open options window
-        Debug.Log("Show Options...");
+       // Debug.Log("Show Options...");
         optionsPanel.SetActive(true);
 
     }
@@ -47,14 +47,14 @@ public class MainMenu_Manager : MonoBehaviour
     public void OnControls()
     {
         // open controls window
-        Debug.Log("Show Controls...");
+       // Debug.Log("Show Controls...");
         controlsPanel.SetActive(true);
 
     }
     public void OnCredits()
     {
         // open credits window
-        Debug.Log("Show Credits...");
+        //Debug.Log("Show Credits...");
         creditsPanel.SetActive(true);
 
 
@@ -62,7 +62,7 @@ public class MainMenu_Manager : MonoBehaviour
     public void OnQuit()
     {
         // quit game - works only on build
-        Debug.Log("Quitting...");
+        //Debug.Log("Quitting...");
         Application.Quit();
     }
 

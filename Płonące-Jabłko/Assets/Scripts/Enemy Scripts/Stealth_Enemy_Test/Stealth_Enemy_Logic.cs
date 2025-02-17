@@ -20,11 +20,13 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     Enemy_Logic enemy_logic;
     float Past_Health;
     public string Raycast_Layer_1 = "Wall";
+    public string Raycast_Layer_2 = "Feet";
     LayerMask Layer_Mask;
     public bool Player_Behind_Wall;
     Vector3 Direction_Of_Player;
     Player_Logic player_logic;
     public float Combat_Hide_Zone_Detection_Distance;
+    [SerializeField] SayBubble sayGuard;
     private void Start()
     {
         player_logic = FindObjectOfType<Player_Logic>();
@@ -38,9 +40,9 @@ public class Stealth_Enemy_Logic : MonoBehaviour
         //Layer_Mask = (1 << LayerMask.NameToLayer("Raycast_Layer_1")) | (1 << LayerMask.NameToLayer("Raycast_Layer_2")itd.);
 
        // RaycastHit2D Hit;
-        Layer_Mask = (1 << LayerMask.NameToLayer(Raycast_Layer_1));
+        Layer_Mask = (1 << LayerMask.NameToLayer(Raycast_Layer_1) | (1 << LayerMask.NameToLayer(Raycast_Layer_2)));
         Direction_Of_Player = player_logic.transform.position - transform.position;
-        if (Physics2D.Raycast(transform.position, Direction_Of_Player, Mathf.Infinity, Layer_Mask))
+        if (Physics2D.Raycast(transform.position, Direction_Of_Player, 5.25f, Layer_Mask))
         {
             //Debug.DrawRay(transform.position, Direction_Of_Player, Color.yellow);
             Player_Behind_Wall = true;
@@ -58,7 +60,9 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     {
         if (Player_Seen) 
         {
-            Debug.Log("See you!!");
+           // Debug.Log("See you!!");
+
+            sayGuard.showText(1, "Znów siê wymykasz? ");
         }
 
         for (i = 0; i < Vision_Areas.Count; i++)

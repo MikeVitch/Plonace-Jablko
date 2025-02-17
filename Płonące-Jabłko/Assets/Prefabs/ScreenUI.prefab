@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 616592067173636086}
-  manaSlider: {fileID: 0}
+  manaSlider: {fileID: 2069036356533142719}
   deathScreen: {fileID: 7822963650689062410}
 --- !u!1 &4087612136967938123
 GameObject:
