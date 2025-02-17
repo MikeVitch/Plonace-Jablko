@@ -1,10 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dagan\\Desktop\\Nowy folder (16)\\Plonace-Jablko-Level-design-Dagon\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\",
+  "WorkspaceRootPath": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\desktop\\nowy folder (16)\\plonace-jablko-level-design-dagon\\plonace-jablko-level-design-dagon\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\doortrespass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\doortrespass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\player scripts\\sword_rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\sword_rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\newui\\pausemenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\newui\\pausemenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\newui\\mainmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\newui\\mainmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\seethroughbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\seethroughbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_vision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\goto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\goto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\stairbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\stairbubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\saybubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\saybubble.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\seethroughwallbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\seethroughwallbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\spell scripts\\mana_tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spell scripts\\mana_tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\newui\\screenmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\newui\\screenmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\AlphaMask.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +73,200 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player_Movement.cs",
-              "DocumentMoniker": "C:\\Users\\dagan\\Desktop\\Nowy folder (16)\\Plonace-Jablko-Level-design-Dagon\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "ToolTip": "C:\\Users\\dagan\\Desktop\\Nowy folder (16)\\Plonace-Jablko-Level-design-Dagon\\Plonace-Jablko-Level-design-Dagon\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDgAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Sword_Rotation.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Sword_Rotation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Sword_Rotation.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Sword_Rotation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Sword_Rotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T14:00:55.146Z",
+              "WhenOpened": "2025-02-17T08:30:46Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainMenu_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:27:53.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PauseMenu_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\PauseMenu_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\NewUI\\PauseMenu_Manager.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\PauseMenu_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\NewUI\\PauseMenu_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:01:09.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stealth_Vision.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Vision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Vision.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Vision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Vision.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T04:38:41.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoTo.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\GoTo.cs",
+              "RelativeDocumentMoniker": "Assets\\GoTo.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\GoTo.cs",
+              "RelativeToolTip": "Assets\\GoTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:49:30.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StairBubble.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\StairBubble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\StairBubble.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\StairBubble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\StairBubble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T03:23:37.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoorTrespass.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\DoorTrespass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\DoorTrespass.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\DoorTrespass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\DoorTrespass.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T00:50:45.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SayBubble.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\SayBubble.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\SayBubble.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\SayBubble.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\SayBubble.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T00:51:36.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy_Logic.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T01:35:58.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stealth_Enemy_Logic.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwEAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T00:11:01.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SeeThroughWallBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehavior.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\SeeThroughWallBehavior.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwD0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:02:06.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mana_Tracker.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:57:27.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ScreenMenu_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:57:19.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AlphaMask.shader",
+              "DocumentMoniker": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\AlphaMask.shader",
+              "ToolTip": "D:\\P\u0142on\u0105ce Jab\u0142ko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\AlphaMask.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-02-16T18:22:20.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mask.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@1.0.0\\Runtime\\UI\\Core\\Mask.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:17:43.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SeeThroughBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\SeeThroughBehaviour.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T18:12:53.093Z"
             }
           ]
         }
