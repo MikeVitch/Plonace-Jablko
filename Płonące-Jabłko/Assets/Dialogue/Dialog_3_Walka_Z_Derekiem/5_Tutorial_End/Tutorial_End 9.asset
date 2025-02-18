@@ -16,6 +16,7 @@ MonoBehaviour:
   Text: "(Przysuwa si\u0119 do niego i \u0142apie jego twarz w d\u0142onie) Wielkie
     szcz\u0119\u015Bcie, \u017Ce wygra\u0142am z tak pot\u0119\u017Cnym rycerzem!"
   Next_Sentence: {fileID: 11400000, guid: 92f35edeb48b1f6439410caaeebcf8cd, type: 2}
-  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  Player_Portrait: {fileID: 21300000, guid: 42d50bc94f84e4a4aafff6fee76c8271, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: e1ddaee745d56ca459ff2f6cfc43f4e9, type: 3}
+  Background_Image: {fileID: 0}
   Options: []

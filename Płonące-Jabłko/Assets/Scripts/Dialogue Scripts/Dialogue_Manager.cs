@@ -17,6 +17,7 @@ public class Dialogue_Manager : MonoBehaviour
     public TextMeshProUGUI Text_UI;
     public TextMeshProUGUI Speaker_Name;
 
+    public GameObject Background_Image_Object;
     public GameObject Player_Portrait_Object;
     public GameObject NPC_Portrait_Object;
     [Tooltip("Disappears when options appear")]
@@ -58,6 +59,7 @@ public class Dialogue_Manager : MonoBehaviour
     {
             Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
             NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
+            Background_Image_Object.GetComponent <SpriteRenderer>().sprite = Current_Sentence.Background_Image;
             Current_Sentence = Current_Sentence.Next_Sentence;
             DisplayDialogue();
     }

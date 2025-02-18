@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1397.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 103
+  controlID: 110
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,8 +141,8 @@ MonoBehaviour:
     y: 0
     width: 281.33337
     height: 1347.3334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -334,9 +334,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6ef9feff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 8044ffff9844ffff1a45ffff604bfffff856ffff1260ffff3060ffff7a60fffff060ffff9261ffff0472ffff7a72ffff9c72ffff7c7affff567cffff5682ffff5e86ffff7686fffff886ffffd68dffffa092ffff7895ffff3eb0ffffecb0fffffeb0ffff84b4ffffa6d0ffffc2d1ffffd2d1ffffd4d1ffff1ad9ffff64dcffff56e3fffffcf9ffff7c8b0000a2b40000ccb40000
+      m_ExpandedIDs: a8e3fdffcee3fdff4ae4fdffc8e4fdffc8e8fdff1ef0fdff38f6fdff1cfdfdff8e08feff0a09feffc60bfeff0010feff2019feff781bfefffe1bfeff5223feff6027feffc629feff0a2afeffba2dfeff442ffeffd037feff1038feff8e3efefff64afeff66f9fffffcf9ffff22c800004cc80000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/Dialogue/Dialog_1_K\u0142\xF3tnia_Z_Ojcem"
+    - Assets/Dialogue/VN_Art
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -460,16 +460,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - "Assets/Dialogue/Dialog_1_K\u0142\xF3tnia_Z_Ojcem"
+  - Assets/Dialogue/VN_Art
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce040100
-    m_LastClickedID: 66766
-    m_ExpandedIDs: 00000000968a00009c8a0000b48a0000c28a0000c68a0000909e000000ca9a3b
+    m_SelectedIDs: f0830000
+    m_LastClickedID: 33776
+    m_ExpandedIDs: 00000000c2830000c4830000c6830000c8830000ca830000e6830000068400000e84000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,7 +497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000968a0000988a00009a8a00009c8a0000
+    m_ExpandedIDs: 00000000c2830000c4830000c6830000c8830000ca830000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,22 +524,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 627f0000dc610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Julian_VNPlus
+      m_OriginalName: Julian_VNPlus
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 34142
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 7}
     m_CreateAssetUtility:
@@ -1001,7 +1001,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 48, y: 10.666626}
+      snapOffset: {x: 48, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -1020,9 +1020,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -41.170906, y: 6.486175, z: -1.0245335}
+    m_Target: {x: 15.558401, y: -21.782444, z: 0.14878035}
     speed: 2
-    m_Value: {x: -41.170906, y: 6.486175, z: -1.0245335}
+    m_Value: {x: 15.558401, y: -21.782444, z: 0.14878035}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1072,9 +1072,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 31.074554
+    m_Target: 38.48802
     speed: 2
-    m_Value: 31.074554
+    m_Value: 38.48802
   m_Ortho:
     m_Target: 1
     speed: 2

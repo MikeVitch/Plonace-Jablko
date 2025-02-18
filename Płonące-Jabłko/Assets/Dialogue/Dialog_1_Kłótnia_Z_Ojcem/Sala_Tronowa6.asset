@@ -15,18 +15,21 @@ MonoBehaviour:
   From: {fileID: 11400000, guid: 697f6f22ac60d26449bbfcb4dcc98b4f, type: 2}
   Text: "Dobrze. Fridericku, wr\xF3\u0107. Prosz\u0119 o 5 potencjalnych rozwi\u0105za\u0144
     tego problemu do jutra."
-  Next_Sentence: {fileID: 11400000, guid: e4206b59d8a869b42b2a2ec615898f5e, type: 2}
+  Next_Sentence: {fileID: 0}
   Player_Portrait: {fileID: 21300000, guid: a2d327e1cc575414787ad67aed6cfea0, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: 7f1eaf41b3b391743ba3f98cde6d3521, type: 3}
+  Background_Image: {fileID: 0}
   Options:
   - Text: "[podirytowana]: Widz\u0119, \u017Ce jeste\u015B w to bardzo zaanga\u017Cowany..."
     NextSentence: {fileID: 11400000, guid: e4206b59d8a869b42b2a2ec615898f5e, type: 2}
     Consequence: {fileID: 0}
     Player_Portrait: {fileID: 21300000, guid: fd12b79f3555fba4a96b8fc976514f18, type: 3}
     NPC_Portrait: {fileID: 21300000, guid: a2d327e1cc575414787ad67aed6cfea0, type: 3}
+    Background_Portraits: {fileID: 0}
   - Text: "[przej\u0119ta]: Naprawd\u0119, m\xF3g\u0142by\u015B troch\u0119 bardziej
       si\u0119 tym przej\u0105\u0107. To powa\u017Cne problemy dla tych ludzi."
     NextSentence: {fileID: 11400000, guid: f5d33ec2ce8f28b4abc0f0518b6c2eb9, type: 2}
     Consequence: {fileID: 0}
     Player_Portrait: {fileID: 21300000, guid: e42127573a350b2429c620a17c5982c8, type: 3}
     NPC_Portrait: {fileID: 21300000, guid: a2d327e1cc575414787ad67aed6cfea0, type: 3}
+    Background_Portraits: {fileID: 0}
