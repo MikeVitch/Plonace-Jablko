@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &3169974543690995992
 Animator:
@@ -125,6 +125,7 @@ MonoBehaviour:
   isOpen: 0
   animLength: 0.45
   doorCollider: {fileID: 8202686763999540903}
+  sayCassie: {fileID: 0}
 --- !u!60 &2499427083572317304
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -212,7 +213,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.3026371, y: 1.4335909}
+  m_Offset: {x: 1.3253927, y: 0.18961048}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -223,5 +224,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7152214, y: 2.8317661}
+  m_Size: {x: 1.7607327, y: 0.3438053}
   m_EdgeRadius: 0

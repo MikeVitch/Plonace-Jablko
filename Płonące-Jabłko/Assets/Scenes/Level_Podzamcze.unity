@@ -2056,6 +2056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vision
       objectReference: {fileID: 0}
+    - target: {fileID: 4780171540536055192, guid: e7cdefddd0adf4440937537b5e208b5e, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 5336576047590445189, guid: e7cdefddd0adf4440937537b5e208b5e, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14816,6 +14820,10 @@ PrefabInstance:
     - target: {fileID: 4780171540536055192, guid: e7cdefddd0adf4440937537b5e208b5e, type: 3}
       propertyPath: m_Name
       value: Vision
+      objectReference: {fileID: 0}
+    - target: {fileID: 4780171540536055192, guid: e7cdefddd0adf4440937537b5e208b5e, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5336576047590445189, guid: e7cdefddd0adf4440937537b5e208b5e, type: 3}
       propertyPath: m_RootOrder
