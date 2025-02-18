@@ -27,11 +27,17 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     Player_Logic player_logic;
     public float Combat_Hide_Zone_Detection_Distance;
     [SerializeField] SayBubble sayGuard;
+    public bool isSeen;
+    public GameObject backPoint;
+    public GameObject Cassie;
+    
     private void Start()
     {
         player_logic = FindObjectOfType<Player_Logic>();
         enemy_logic = GetComponent<Enemy_Logic>();
         Past_Health = enemy_logic.Health;
+        
+
     }
 
     private void FixedUpdate()
@@ -39,7 +45,7 @@ public class Stealth_Enemy_Logic : MonoBehaviour
         //Je¿eli bêdzie trzeba sprawdzaæ na wiêcej ni¿ jednej warstwie
         //Layer_Mask = (1 << LayerMask.NameToLayer("Raycast_Layer_1")) | (1 << LayerMask.NameToLayer("Raycast_Layer_2")itd.);
 
-       // RaycastHit2D Hit;
+        // RaycastHit2D Hit;
         Layer_Mask = (1 << LayerMask.NameToLayer(Raycast_Layer_1) | (1 << LayerMask.NameToLayer(Raycast_Layer_2)));
         Direction_Of_Player = player_logic.transform.position - transform.position;
         if (Physics2D.Raycast(transform.position, Direction_Of_Player, 5.25f, Layer_Mask))
@@ -52,17 +58,20 @@ public class Stealth_Enemy_Logic : MonoBehaviour
             //Debug.DrawRay(transform.position, Direction_Of_Player, Color.green);
             Player_Behind_Wall = false;
         }
-       // Hit = Physics2D.Raycast(transform.position, Direction_Of_Player, Mathf.Infinity, Layer_Mask);
-       // Debug.Log(Hit.collider);
+        // Hit = Physics2D.Raycast(transform.position, Direction_Of_Player, Mathf.Infinity, Layer_Mask);
+        // Debug.Log(Hit.collider);
     }
 
     void Update()
     {
-        if (Player_Seen) 
+        if (Player_Seen)
         {
-           // Debug.Log("See you!!");
+            // Debug.Log("See you!!");
 
             sayGuard.showText(1, "Znów siê wymykasz? ");
+
+            isSeen = true;
+
         }
 
         for (i = 0; i < Vision_Areas.Count; i++)
@@ -81,6 +90,8 @@ public class Stealth_Enemy_Logic : MonoBehaviour
             Player_Seen = true;
         else
             Player_Seen = false;
+        isSeen = false;
+
 
         Vision_Areas_Seeing_Player = 0;
 
@@ -90,35 +101,35 @@ public class Stealth_Enemy_Logic : MonoBehaviour
             Past_Health = enemy_logic.Health;
         }
 
-        if(Player_Seen)
+        if (Player_Seen)
         {
             Last_Time_Player_Seen = Time.time;
 
         }
 
-        if(Idle && Alertness >= 50)
+        if (Idle && Alertness >= 50)
         {
             Idle = false;
             Suspicious = true;
         }
 
-        if(Suspicious && Alertness >= 100)
+        if (Suspicious && Alertness >= 100)
         {
             Suspicious = false;
             Aggressive = true;
         }
 
-        if(Aggressive)
+        if (Aggressive)
         {
             Alertness = 100;
-            if(Time.time - Last_Time_Player_Seen >= Time_To_Lose_Aggro)
+            if (Time.time - Last_Time_Player_Seen >= Time_To_Lose_Aggro)
             {
                 Aggressive = false;
                 Suspicious = true;
             }
         }
 
-        if(Suspicious && Time.time - Last_Time_Player_Seen >= Alertness_Decay_Delay)
+        if (Suspicious && Time.time - Last_Time_Player_Seen >= Alertness_Decay_Delay)
         {
             Alertness -= Alertness_Decay_Rate * Time.deltaTime;
             if (Alertness < 50)
@@ -131,5 +142,26 @@ public class Stealth_Enemy_Logic : MonoBehaviour
             if (Alertness < 0)
                 Alertness = 0;
         }
+        TeleportOnSeen();
     }
+
+    public void TeleportOnSeen()
+    {
+        if (Aggressive == true)
+        {
+            Cassie.transform.position = backPoint.transform.position;
+            //Time.timeScale = 0;
+            Debug.Log("return");
+
+        }
+        else
+        {
+
+            return;
+
+        }
+
+    }
+
+    
 }
