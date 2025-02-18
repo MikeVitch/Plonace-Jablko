@@ -30,6 +30,8 @@ public class Stealth_Enemy_Logic : MonoBehaviour
     public bool isSeen;
     public GameObject backPoint;
     public GameObject Cassie;
+    public GameObject First_Floor;
+    public GameObject Second_Floor;
     
     private void Start()
     {
@@ -151,8 +153,9 @@ public class Stealth_Enemy_Logic : MonoBehaviour
         {
             Cassie.transform.position = backPoint.transform.position;
             //Time.timeScale = 0;
-            Debug.Log("return");
-
+            //Debug.Log("return");
+            First_Floor.SetActive(false);
+            Second_Floor.SetActive(true);
         }
         else
         {

@@ -20148,6 +20148,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1330891271}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Cassie
+      value: 
+      objectReference: {fileID: 1678525709}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: isSeen
       value: 0
       objectReference: {fileID: 0}
@@ -20155,6 +20159,22 @@ PrefabInstance:
       propertyPath: sayGuard
       value: 
       objectReference: {fileID: 345207577}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: backPoint
+      value: 
+      objectReference: {fileID: 1058869050}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Time_To_Lose_Aggro
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8582633652619418877, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -20282,9 +20302,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 117093831}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Cassie
+      value: 
+      objectReference: {fileID: 1678525709}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: sayGuard
       value: 
       objectReference: {fileID: 2105995797}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: backPoint
+      value: 
+      objectReference: {fileID: 1058869050}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Time_To_Lose_Aggro
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8582633652619418877, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -66208,6 +66248,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 6163471910475363762, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6163471910475363762, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6191904830984814394, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: m_Name
       value: Character_Sprite
@@ -85325,12 +85373,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Cassie
+      value: 
+      objectReference: {fileID: 1678525709}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: sayGuard
       value: 
       objectReference: {fileID: 1900199632}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: backPoint
+      value: 
+      objectReference: {fileID: 1058869050}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: Aggressive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Time_To_Lose_Aggro
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6118955366329331623, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_SortingOrder
@@ -85391,7 +85459,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7782695170854424501, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
 --- !u!114 &1900199632 stripped
 MonoBehaviour:
@@ -85950,8 +86021,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1058869050}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: Time_To_Lose_Aggro
-      value: 0.8
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8582633652619418877, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_RootOrder
@@ -89518,12 +89597,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Cassie
+      value: 
+      objectReference: {fileID: 1678525709}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: sayGuard
       value: 
       objectReference: {fileID: 2106757077}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: backPoint
+      value: 
+      objectReference: {fileID: 1058869050}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: Aggressive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Time_To_Lose_Aggro
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6118955366329331623, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_SortingOrder
@@ -89584,7 +89683,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7782695170854424501, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
 --- !u!4 &2106757076 stripped
 Transform:
@@ -89844,9 +89946,29 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 402619684}
     - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Cassie
+      value: 
+      objectReference: {fileID: 1678525709}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: sayGuard
       value: 
       objectReference: {fileID: 668478112}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: backPoint
+      value: 
+      objectReference: {fileID: 1058869050}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: First_Floor
+      value: 
+      objectReference: {fileID: 288000465}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Second_Floor
+      value: 
+      objectReference: {fileID: 1314686893}
+    - target: {fileID: 5501404465632010796, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
+      propertyPath: Time_To_Lose_Aggro
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8582633652619418877, guid: 8cb3c1f510f115a49b4ed408df202f20, type: 3}
       propertyPath: m_RootOrder
       value: -1

@@ -20,7 +20,8 @@ public class Start_Dialogue_Trigger : MonoBehaviour
     Player_Logic player_logic;
     Player_Movement player_movement;
     float Base_Speed;
-    bool Dialogue_1_Done;
+    public bool Dialogue_1_Done;
+    public bool Dialogue_2_Done;
 
 
     void Start()
@@ -41,6 +42,9 @@ public class Start_Dialogue_Trigger : MonoBehaviour
     {
         if (!Dialogue_1_Done)
             player_logic.Player_Attack_Lockout = true;
+        if (!Dialogue_2_Done)
+            player_logic.Player_Attack_Lockout = true;
+
 
         if (IsdialougeStart)
         {
@@ -49,7 +53,7 @@ public class Start_Dialogue_Trigger : MonoBehaviour
             dialogue_manager_scene.StartDialogue(dialogue_1_Castle);
         }
 
-        if(Dialogue_1_Done && Black_Screen.GetComponent<Image>().color.a >= 1f)
+        if(Dialogue_1_Done && Black_Screen.GetComponent<Image>().color.a >= 1f && !Dialogue_2_Done)
             IsSecondDialouge = true;
 
         if(IsSecondDialouge && Black_Screen.GetComponent<Image>().color.a <= 0f)
@@ -57,6 +61,7 @@ public class Start_Dialogue_Trigger : MonoBehaviour
             IsSecondDialouge = false;
             Start_Dialogue_scene.Raise();
             dialogue_manager_scene.StartDialogue(dialogue_2_Castle);
+            Dialogue_2_Done = true;
         }
 
         
@@ -74,10 +79,13 @@ public class Start_Dialogue_Trigger : MonoBehaviour
             if (Black_Screen.GetComponent<Image>().color.a <= 0f)
             {
                 IsdialougeStart = true;
+
+                
                 Dialogue_1_Done = true;
                 player_movement.Base_Speed = Base_Speed;
                 floor_changer.Teleport = true;
                 StopCoroutine(fade_in);
+                
             }
             yield return null;
         }

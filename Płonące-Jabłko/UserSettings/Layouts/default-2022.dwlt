@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1397.3334
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 50}
   m_MaxSize: {x: 32384, y: 8096}
   vertical: 0
-  controlID: 111
+  controlID: 117
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,10 +333,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 180}
-      m_SelectedIDs: b8f9ffff
-      m_LastClickedID: -1608
-      m_ExpandedIDs: 5ef9fffffcf9ffff10750000e0760000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 82460100
+      m_LastClickedID: 83586
+      m_ExpandedIDs: c69affffb0a3ffff70f8ffffec760000e84601004c4c0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -452,7 +452,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Enemy Scripts/Stealth_Enemy_Test
+    - Assets/Scripts/Dialogue Scripts
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -460,16 +460,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts/Enemy Scripts/Stealth_Enemy_Test
+  - Assets/Scripts/Dialogue Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c8c0000
-    m_LastClickedID: 35868
-    m_ExpandedIDs: 00000000308b0000328b0000348b0000368b0000388b00003a8b00003c8b00003e8b000000ca9a3b
+    m_SelectedIDs: 328c0000
+    m_LastClickedID: 35890
+    m_ExpandedIDs: 000000004a8b00004c8b00004e8b0000508b0000528b0000548b0000568b0000588b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -497,7 +497,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000308b0000328b0000348b0000368b0000388b00003a8b00003c8b00003e8b0000
+    m_ExpandedIDs: 000000004a8b00004c8b00004e8b0000508b0000528b0000548b0000568b0000588b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1020,9 +1020,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 26.694721, y: -25.89501, z: 0.2289148}
+    m_Target: {x: 21.493576, y: -40.629066, z: 3.32404}
     speed: 2
-    m_Value: {x: 26.694721, y: -25.89501, z: 0.2289148}
+    m_Value: {x: 21.493576, y: -40.629066, z: 3.32404}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1072,9 +1072,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 15.187249
+    m_Target: 24.222181
     speed: 2
-    m_Value: 15.187249
+    m_Value: 24.222181
   m_Ortho:
     m_Target: 1
     speed: 2

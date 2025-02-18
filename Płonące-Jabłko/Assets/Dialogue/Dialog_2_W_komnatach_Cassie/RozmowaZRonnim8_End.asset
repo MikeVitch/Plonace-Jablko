@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RozmowaZRonnim8_End
   m_EditorClassIdentifier: 
   From: {fileID: 11400000, guid: 92ec0866ec1d2b140840af0746e90a79, type: 2}
-  Text: Text
+  Text: 
   Next_Sentence: {fileID: 0}
   Player_Portrait: {fileID: 0}
   NPC_Portrait: {fileID: 0}
@@ -24,4 +24,4 @@ MonoBehaviour:
     Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
     Player_Portrait: {fileID: 0}
     NPC_Portrait: {fileID: 0}
-    Background_Portraits: {fileID: 0}
+    Background_Image: {fileID: 0}
