@@ -12,7 +12,8 @@ public class Floor_Changer : MonoBehaviour
     GameObject Black_Screen;
     Fade_Out_Data fade_out_data;
     bool Player_In_Range;
-    bool Teleport;
+    [HideInInspector]
+    public bool Teleport;
     IEnumerator fade_out;
     IEnumerator fade_in;
 
