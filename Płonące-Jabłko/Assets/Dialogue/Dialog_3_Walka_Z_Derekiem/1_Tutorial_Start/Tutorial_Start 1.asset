@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: Tutorial_Start 1
   m_EditorClassIdentifier: 
   From: {fileID: 11400000, guid: 92ec0866ec1d2b140840af0746e90a79, type: 2}
-  Text: "Cassie i Ronnie id\u0105 korytarzem zamku, aby dosta\u0107 si\u0119 do tylnego
-    wyj\u015Bcia. Gdy id\u0105 korytarzem tajemnicza posta\u0107 wyskakuje zza \u015Bciany
-    i oboje odskakuj\u0105 wystraszeni."
+  Text: "Cassie i Ronnie id\u0105 do zachodniej bramy, aby dosta\u0107 si\u0119 do
+    wyj\u015Bcia. Gdy id\u0105 gdy si\u0119 zbli\u017Caj\u0105. Posta\u0107 wyskakuje
+    zza \u015Bciany i oboje odskakuj\u0105 wystraszeni."
   Next_Sentence: {fileID: 11400000, guid: 26a462adcef11404a972ef2423fa7c7c, type: 2}
   Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: e1ddaee745d56ca459ff2f6cfc43f4e9, type: 3}
+  Background_Image: {fileID: 0}
   Options: []

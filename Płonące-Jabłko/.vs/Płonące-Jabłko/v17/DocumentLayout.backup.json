@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\ui scripts\\newui\\screenmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui scripts\\newui\\screenmenu_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\enemy scripts\\enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\player scripts\\player_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\dialogue scripts\\start_dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\start_dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\floor_changer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\floor_changer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\start_dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\start_dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\stealth_enemy_test\\stealth_enemy_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\dagan\\documents\\github\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\player scripts\\player_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player scripts\\player_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\ui scripts\\fade_out_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,6 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScreenMenu_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI Scripts\\NewUI\\ScreenMenu_Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:20:01.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Enemy_Logic.cs",
+              "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Enemy_Logic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T19:18:38.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Stealth_Enemy_Logic.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
@@ -74,12 +108,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Stealth_Enemy_Test\\Stealth_Enemy_Logic.cs",
               "ViewState": "AgIAAHoAAAAAAAAAAAAgwJsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:08:10.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T18:08:10.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "DialogueSO.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\DialogueSO.cs",
@@ -91,19 +124,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Player_Logic.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
               "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAQwCwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T14:27:13.367Z"
+              "WhenOpened": "2025-02-18T14:27:13.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Player_Movement.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
@@ -115,20 +149,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Floor_Changer.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
               "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Floor_Changer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:47:05.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:47:05.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Fade_Out_Data.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\Fade_Out_Data.cs",
@@ -140,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Sentence.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Sentence.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Sentence.cs",
@@ -152,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Game_Event.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Game_Event.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Game_Event.cs",
@@ -164,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Dialogue_Manager.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
@@ -172,12 +205,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
               "ViewState": "AgIAAG4AAAAAAAAAAAAIwIUAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:48:27.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T12:48:27.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MainMenu_Manager.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI Scripts\\NewUI\\MainMenu_Manager.cs",
@@ -189,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Collision_Detection.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
@@ -201,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Derek_Tutorial.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
@@ -213,13 +245,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Start_Dialogue_Trigger.cs",
               "DocumentMoniker": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Start_Dialogue_Trigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Start_Dialogue_Trigger.cs",
               "ToolTip": "C:\\Users\\dagan\\Documents\\GitHub\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Start_Dialogue_Trigger.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\Start_Dialogue_Trigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwD8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:05:07.999Z",
               "EditorCaption": ""

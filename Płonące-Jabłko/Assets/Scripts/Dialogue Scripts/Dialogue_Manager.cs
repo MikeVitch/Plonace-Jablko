@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class Dialogue_Manager : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class Dialogue_Manager : MonoBehaviour
     public bool Dialogue_Active;
     DialogueSO dialogue;
     Sentence Current_Sentence;
+     public bool isLastDialogue = false;
+    public ScreenMenu_Manager screenMenu;
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
@@ -163,6 +166,11 @@ public class Dialogue_Manager : MonoBehaviour
             Conversation_Ended.Raise();
             Time.timeScale = 1.0f;
             Dialogue_Active = false;
+
+            if (isLastDialogue)
+            {
+                screenMenu.ShowEndScreen();
+            }
         }
 
     }

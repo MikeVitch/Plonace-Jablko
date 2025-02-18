@@ -9,6 +9,7 @@ public class ScreenMenu_Manager : MonoBehaviour
     public Slider manaSlider;
 
     public GameObject deathScreen;
+    public GameObject endScreen;
 
     public void SetHealth(float health)
     {
@@ -28,5 +29,10 @@ public class ScreenMenu_Manager : MonoBehaviour
 
     }
 
+    public void ShowEndScreen()
+    {
+        endScreen.SetActive(true);
+        Time.timeScale = 0;
+    }
 
 }

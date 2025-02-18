@@ -52,6 +52,7 @@ public class Derek_Tutorial : MonoBehaviour
     bool Block_Counted;
     Animator animator;
     Vector3 Past_Position;
+    public ScreenMenu_Manager screen;
     void Start()
     {
         Player_Character = GameObject.FindWithTag("Player_Character");
@@ -250,6 +251,7 @@ public class Derek_Tutorial : MonoBehaviour
             Combat_Tutorial = false;
             Start_Dialogue.Raise();
             dialogue_manager.StartDialogue(dialogue_5);
+            dialogue_manager.isLastDialogue = true;
         }
 
        animator.SetFloat("direction", Vector3.Angle(Vector3.up, transform.position - Past_Position));
