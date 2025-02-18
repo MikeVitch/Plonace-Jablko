@@ -50,6 +50,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.NPC_Portrait;
+        Background_Image_Object.GetComponent <SpriteRenderer>().sprite = dialogueSO.Background_Image;
         Time.timeScale = 0;
 
         DisplayDialogue();
@@ -88,6 +89,8 @@ public class Dialogue_Manager : MonoBehaviour
         else
         {
             //Sentence with options
+            //We need to reset the options so they display properly when going from sentance with more options to less options
+            HideOptions();
             DisplayOptions();
             TextMeshProUGUI Dialogue_Text;
                 Dialogue_Text = Text_UI;
@@ -128,6 +131,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.NPC_Portrait;
+        Background_Image_Object.GetComponent<SpriteRenderer>().sprite = option.Background_Image;
     }
 
     public void DisplayOptions()

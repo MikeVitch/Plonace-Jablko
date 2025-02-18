@@ -42,5 +42,5 @@ public class Choice
     public Game_Event Consequence;
     public Sprite Player_Portrait;
     public Sprite NPC_Portrait;
-    public Sprite Background_Portraits;
+    public Sprite Background_Image;
 }

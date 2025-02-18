@@ -15,7 +15,7 @@ MonoBehaviour:
   From: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
   Text: "(zdenerwowana): Mam dosy\u0107 tego zamku. Chc\u0119 wyj\u015B\u0107 na
     \u015Bwie\u017Ce powietrze."
-  Next_Sentence: {fileID: 11400000}
+  Next_Sentence: {fileID: 11400000, guid: 7a71cfea1269f7d4a8e9b0beb72914fa, type: 2}
   Player_Portrait: {fileID: 21300000, guid: 1818100a6d013e841ab31279ac6facea, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: abd89a0297ddc444685e6d56ba7258a0, type: 3}
   Background_Image: {fileID: 0}
