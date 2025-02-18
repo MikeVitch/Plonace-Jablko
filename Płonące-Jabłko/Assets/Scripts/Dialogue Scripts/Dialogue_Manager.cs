@@ -50,6 +50,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.NPC_Portrait;
+        Background_Image_Object.GetComponent <SpriteRenderer>().sprite = dialogueSO.Background_Image;
         Time.timeScale = 0;
 
         DisplayDialogue();
@@ -130,6 +131,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.NPC_Portrait;
+        Background_Image_Object.GetComponent<SpriteRenderer>().sprite = option.Background_Image;
     }
 
     public void DisplayOptions()
