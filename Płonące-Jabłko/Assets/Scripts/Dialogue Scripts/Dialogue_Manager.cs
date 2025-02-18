@@ -88,6 +88,8 @@ public class Dialogue_Manager : MonoBehaviour
         else
         {
             //Sentence with options
+            //We need to reset the options so they display properly when going from sentance with more options to less options
+            HideOptions();
             DisplayOptions();
             TextMeshProUGUI Dialogue_Text;
                 Dialogue_Text = Text_UI;
