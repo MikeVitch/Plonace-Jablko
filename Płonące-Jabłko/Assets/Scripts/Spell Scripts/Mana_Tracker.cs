@@ -24,6 +24,6 @@ public class Mana_Tracker : MonoBehaviour
         else
             Current_Mana = Max_Mana;
         //Debug.Log(Current_Mana);
-        screenMenuManager.SetMana(Current_Mana);
+        //screenMenuManager.SetMana(Current_Mana);          uncomment after testing
     }
 }

@@ -53,6 +53,25 @@ public class Derek_Tutorial : MonoBehaviour
     Animator animator;
     Vector3 Past_Position;
     public ScreenMenu_Manager screen;
+    [Header("Parry")]
+    public float Parry_Cooldown;
+    float Parry_Ready;
+    public float Parry_Duration;
+    bool Parry_Is_Active;
+    float Parry_End;
+    [Header("Dodge")]
+    public float Min_Dodge_Activation_Distance;
+    public float Max_Dodge_Activation_Distance;
+    public float Dodge_Windup;
+    public float Dodge_Speed;
+    public float Dodge_Cooldown;
+    float Dodge_Ready;
+    bool Dodge_Is_Active;
+    float Dodge_Activation;
+    bool Dodge_Direction_Locked;
+    Vector3 Dodge_Direction;
+    float Dodge_Length;
+
     void Start()
     {
         Player_Character = GameObject.FindWithTag("Player_Character");
@@ -201,7 +220,53 @@ public class Derek_Tutorial : MonoBehaviour
         //Combat tutorial
         if (Combat_Tutorial)
         {
-            if (Vector3.Distance(transform.position, Player_Character.transform.position) <= Attack_Range || Attack_Is_Active)
+            //Parry
+            if(Vector3.Distance(transform.position, Player_Character.transform.position) <= Minimal_Distance && Parry_Ready <= Time.time && Dodge_Is_Active == false && !Attack_Is_Active)
+            {
+                Parry_Is_Active = true;
+                gameObject.tag = "Untargetable";
+                Parry_Ready = Time.time + Parry_Cooldown;
+                Parry_End = Time.time + Parry_Duration;
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(0.6f,1,1);
+            }
+            if(Parry_Is_Active && Time.time >= Parry_End)
+            {
+                gameObject.tag = "Untagged";
+                Parry_Is_Active = false;
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
+            }
+            //Dodge
+            if(Dodge_Ready <= Time.time && Parry_Is_Active == false && !Attack_Is_Active && Vector3.Distance(transform.position, Player_Character.transform.position) >= Min_Dodge_Activation_Distance && Vector3.Distance(transform.position, Player_Character.transform.position) <= Max_Dodge_Activation_Distance)
+            {
+                Dodge_Is_Active = true;
+                gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 0.5f, 0.5f);
+                Dodge_Activation = Time.time + Dodge_Windup;
+                Dodge_Ready = Time.time + Dodge_Cooldown;
+                Dodge_Length = Max_Dodge_Activation_Distance - Minimal_Distance;
+            }
+            if(Dodge_Is_Active && Dodge_Activation <= Time.time)
+            {
+                if(!Dodge_Direction_Locked)
+                {
+                    Dodge_Direction = (player_logic.transform.position - gameObject.transform.position).normalized;
+                    Dodge_Direction_Locked = true;
+                    gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 0.75f, 0.75f);
+                    gameObject.tag = "Untargetable";
+                }
+                transform.position += Dodge_Direction * Dodge_Speed * Time.deltaTime;
+                Dodge_Length -= Mathf.Abs(Dodge_Speed * Time.deltaTime);
+                if (Dodge_Length <= 0)
+                {
+                    Dodge_Is_Active = false;
+                    Dodge_Direction_Locked = false;
+                    gameObject.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1);
+                    Attack_Is_Active = true;
+                    Attack_Activation = Time.time + Attack_Windup / 8;
+                    gameObject.tag = "Untagged";
+                }
+            }
+            //Default
+            if ((Vector3.Distance(transform.position, Player_Character.transform.position) <= Attack_Range || Attack_Is_Active) && Parry_Is_Active == false && Dodge_Is_Active == false)
             {
                 //Is_In_Range = true;
                 if (Time.time >= Next_Attack && Attack_Is_Active == false && !Staggered)
@@ -238,7 +303,7 @@ public class Derek_Tutorial : MonoBehaviour
             else
             {
                 //Is_In_Range = false;
-                if (Time.time > Attack_End && Vector3.Distance(transform.position, Player_Character.transform.position) > Minimal_Distance)
+                if (Time.time > Attack_End && Vector3.Distance(transform.position, Player_Character.transform.position) > Minimal_Distance && Parry_Is_Active == false && Dodge_Is_Active == false)
                     transform.position -= Vector3.Normalize(transform.position - Player_Character.transform.position) * Movement_Speed * Time.deltaTime;
             }
 
@@ -272,6 +337,13 @@ public class Derek_Tutorial : MonoBehaviour
             {
                 Attack_Tutorial_Hit++;
             }
+        }
+
+        if (Parry_Is_Active)
+        {
+            Parry_End = Time.time;
+            Attack_Is_Active = true;
+            Attack_Activation = Time.time + Attack_Windup/8;
         }
     }
 }

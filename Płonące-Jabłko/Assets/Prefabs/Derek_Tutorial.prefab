@@ -198,7 +198,6 @@ MonoBehaviour:
   dialogue_3: {fileID: 11400000, guid: d2308b21db5e39644b1087e80506a3b9, type: 2}
   dialogue_4: {fileID: 11400000, guid: 5354947c1cf80f94199835ee5005c44c, type: 2}
   dialogue_5: {fileID: 11400000, guid: db414ee05e08ccc458c7e968982b3c1d, type: 2}
-  Player_Character: {fileID: 0}
   Start_Dialogue: {fileID: 11400000, guid: d78d9fc657ca6874c86f1c64d8930109, type: 2}
   Movement_Speed: 4
   Attack_Range: 2
@@ -212,6 +211,14 @@ MonoBehaviour:
   Staggered: 0
   Stagger_Duration: 0
   Attack_Hitbox: {fileID: 5640324330939222843}
+  screen: {fileID: 0}
+  Parry_Cooldown: 5
+  Parry_Duration: 2
+  Min_Dodge_Activation_Distance: 6
+  Max_Dodge_Activation_Distance: 8
+  Dodge_Windup: 1
+  Dodge_Speed: 16
+  Dodge_Cooldown: 3
 --- !u!114 &5821227812794929497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +236,7 @@ MonoBehaviour:
   Water_Resistance: 0
   Air_Resistance: 0
   Physical_Resistance: 0
-  Health: 120
+  Health: 200
   Burn_Damage: 5
   Burn_Frequency: 0.5
   Burn_Duration: 2

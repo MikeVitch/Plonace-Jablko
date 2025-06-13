@@ -110,6 +110,12 @@ public class Dialogue_Manager : MonoBehaviour
         textbox.text = "";
         foreach (var letter in sentence.ToCharArray())
         {
+            if(Input.GetKey(KeyCode.Mouse0))
+            {
+                //Debug.Log("klik");
+                textbox.text = sentence;
+                yield break;
+            }
             textbox.text += letter;
             yield return new WaitForSecondsRealtime(Time_Between_Chars);
         }

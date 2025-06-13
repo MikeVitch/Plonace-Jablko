@@ -187,11 +187,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
---- !u!1 &610721659 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6191904830984814394, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
-  m_PrefabInstance: {fileID: 202432031}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1307197872
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,9 +351,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
-      propertyPath: Player_Character
-      value: 
-      objectReference: {fileID: 610721659}
+      propertyPath: Dodge_Speed
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Dodge_Windup
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Dodge_Cooldown
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Parry_Cooldown
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Parry_Duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
       propertyPath: Tutorial_Trigger
       value: 
@@ -367,9 +378,21 @@ PrefabInstance:
       propertyPath: dialogue_manager
       value: 
       objectReference: {fileID: 1918590148}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Max_Dodge_Activation_Distance
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1949857732563496613, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Min_Dodge_Activation_Distance
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3904161407273116922, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
       propertyPath: m_Name
       value: Derek_Tutorial
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821227812794929497, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
+      propertyPath: Health
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 8278567402759041647, guid: dcc0ef28a525fb84681f1c651954ea3e, type: 3}
       propertyPath: m_RootOrder

@@ -137,7 +137,7 @@ public class Player_Logic : MonoBehaviour
 
        // Debug.Log(Health);
 
-        screenMenuManager.SetHealth(Health);
+        //screenMenuManager.SetHealth(Health);          uncomment after testing
 
     }
     private void OnTriggerEnter2D(Collider2D collision)
