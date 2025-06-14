@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Player_Logic : MonoBehaviour
 {
+
     public float Max_Health = 100f;
     public float Invincibility_On_Hit_Lenght = 0.5f;
     public KeyCode Interaction_Key = KeyCode.E;
@@ -31,9 +32,12 @@ public class Player_Logic : MonoBehaviour
     public Misty_Step misty_step;
     public Push push;
     public Stone_Volley stone_volley;
+    public ScreenMenu_Manager screenMenuManager;
+
 
     Zjawa_Push zjawa_push;
     Zjawa_Tornado zjawa_tornado;
+    Derek_Attack derek_attack;
 
     float Restoration_Next_Tick = 0;
     [Header("Script Access")]
@@ -131,7 +135,10 @@ public class Player_Logic : MonoBehaviour
         else
             Invincibility= false;
 
-        //Debug.Log(Health);
+       // Debug.Log(Health);
+
+        //screenMenuManager.SetHealth(Health);          uncomment after testing
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -150,6 +157,14 @@ public class Player_Logic : MonoBehaviour
             zjawa_tornado = FindObjectOfType<Zjawa_Tornado>();
             Attack_Damage = zjawa_tornado.Damage;
             Health -= Attack_Damage * (1 - 0.01f * Air_Resistance);
+            Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
+        }
+
+        //Derek_Attack
+        if (collision.gameObject.tag == "Derek_Attack" && !Invincibility)
+        {
+            Attack_Damage = FindObjectOfType<Derek_Attack>().Attack_Damage;
+            Health -= Attack_Damage * (1 - 0.01f * Physical_Resistance);
             Invincibilty_On_Hit_End = Time.time + Invincibility_On_Hit_Lenght;
         }
         //Debug.Log(Health);

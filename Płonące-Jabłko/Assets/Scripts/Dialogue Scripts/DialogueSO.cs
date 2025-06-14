@@ -9,4 +9,5 @@ public class DialogueSO : ScriptableObject
     public bool Is_Available;
     public Sprite Player_Portrait;
     public Sprite NPC_Portrait;
+    public Sprite Background_Image;
 }

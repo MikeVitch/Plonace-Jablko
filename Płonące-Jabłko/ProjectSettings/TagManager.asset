@@ -22,6 +22,10 @@ TagManager:
   - Zjawa_Push_Projectile
   - Zjawa_Tornado_Projectile
   - Untargetable
+  - Button
+  - UIpanel
+  - Behind
+  - Derek_Attack
   layers:
   - Default
   - TransparentFX
@@ -33,8 +37,8 @@ TagManager:
   - Wall
   - Player
   - Sensor
-  - 
-  - 
+  - Feet
+  - Vision
   - 
   - 
   - 

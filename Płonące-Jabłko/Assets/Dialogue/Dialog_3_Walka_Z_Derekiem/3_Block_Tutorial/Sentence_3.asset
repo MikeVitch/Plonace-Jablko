@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
+  m_Name: Sentence_3
+  m_EditorClassIdentifier: 
+  From: {fileID: 11400000, guid: 25e34db773c6bf84896748e8627b6a1b, type: 2}
+  Text: "Na koniec poka\u017C mi jeszcze, \u017Ce potrafisz blokowa\u0107 ataki.\n(Zablokuj
+    3 ataki u\u017Cywaj\u0105c PPM, blok zmniejsza otrzymane obra\u017Cenia)"
+  Next_Sentence: {fileID: 0}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: e1ddaee745d56ca459ff2f6cfc43f4e9, type: 3}
+  Options:
+  - Text: End
+    NextSentence: {fileID: 0}
+    Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
+    Player_Portrait: {fileID: 0}
+    NPC_Portrait: {fileID: 0}

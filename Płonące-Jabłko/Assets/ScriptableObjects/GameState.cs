@@ -7,4 +7,5 @@ using UnityEngine;
 public class GameState : ScriptableObject
 {
     public string playerSpawnLocation = "StartSpawn";
+    public int currentScene = 2;
 }

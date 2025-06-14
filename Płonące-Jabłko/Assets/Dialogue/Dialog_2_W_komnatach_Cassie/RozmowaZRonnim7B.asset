@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
+  m_Name: RozmowaZRonnim7B
+  m_EditorClassIdentifier: 
+  From: {fileID: 11400000, guid: 75e3c69e0721f8d4c8c2364f5faf9423, type: 2}
+  Text: " Oczywi\u015Bcie. By\u0142a \u015Bwietnym nauczycielem, chcia\u0142bym,
+    \u017Ceby\u015B mog\u0142a tego do\u015Bwiadczy\u0107."
+  Next_Sentence: {fileID: 11400000, guid: 18d8c488f15d2ee4db1ee24476853e06, type: 2}
+  Player_Portrait: {fileID: 21300000, guid: 42d50bc94f84e4a4aafff6fee76c8271, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: cfb6b0b53699e474599adddfe989c7b2, type: 3}
+  Background_Image: {fileID: 0}
+  Options: []

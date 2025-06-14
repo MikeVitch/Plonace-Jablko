@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class Dialogue_Manager : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class Dialogue_Manager : MonoBehaviour
     public TextMeshProUGUI Text_UI;
     public TextMeshProUGUI Speaker_Name;
 
+    public GameObject Background_Image_Object;
     public GameObject Player_Portrait_Object;
     public GameObject NPC_Portrait_Object;
     [Tooltip("Disappears when options appear")]
@@ -27,6 +29,8 @@ public class Dialogue_Manager : MonoBehaviour
     public bool Dialogue_Active;
     DialogueSO dialogue;
     Sentence Current_Sentence;
+     public bool isLastDialogue = false;
+    public ScreenMenu_Manager screenMenu;
 
     public void StartDialogue(DialogueSO dialogueSO)
     {
@@ -49,6 +53,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = dialogueSO.NPC_Portrait;
+        Background_Image_Object.GetComponent <SpriteRenderer>().sprite = dialogueSO.Background_Image;
         Time.timeScale = 0;
 
         DisplayDialogue();
@@ -56,10 +61,11 @@ public class Dialogue_Manager : MonoBehaviour
 
     public void GoToNextSentence()
     {
-        Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
-        NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
-        Current_Sentence = Current_Sentence.Next_Sentence;
-        DisplayDialogue();
+            Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.Player_Portrait;
+            NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = Current_Sentence.NPC_Portrait;
+            Background_Image_Object.GetComponent <SpriteRenderer>().sprite = Current_Sentence.Background_Image;
+            Current_Sentence = Current_Sentence.Next_Sentence;
+            DisplayDialogue();
     }
 
     public void DisplayDialogue()
@@ -86,6 +92,8 @@ public class Dialogue_Manager : MonoBehaviour
         else
         {
             //Sentence with options
+            //We need to reset the options so they display properly when going from sentance with more options to less options
+            HideOptions();
             DisplayOptions();
             TextMeshProUGUI Dialogue_Text;
                 Dialogue_Text = Text_UI;
@@ -102,6 +110,12 @@ public class Dialogue_Manager : MonoBehaviour
         textbox.text = "";
         foreach (var letter in sentence.ToCharArray())
         {
+            if(Input.GetKey(KeyCode.Mouse0))
+            {
+                //Debug.Log("klik");
+                textbox.text = sentence;
+                yield break;
+            }
             textbox.text += letter;
             yield return new WaitForSecondsRealtime(Time_Between_Chars);
         }
@@ -126,6 +140,7 @@ public class Dialogue_Manager : MonoBehaviour
 
         Player_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.Player_Portrait;
         NPC_Portrait_Object.GetComponent<SpriteRenderer>().sprite = option.NPC_Portrait;
+        Background_Image_Object.GetComponent<SpriteRenderer>().sprite = option.Background_Image;
     }
 
     public void DisplayOptions()
@@ -157,6 +172,11 @@ public class Dialogue_Manager : MonoBehaviour
             Conversation_Ended.Raise();
             Time.timeScale = 1.0f;
             Dialogue_Active = false;
+
+            if (isLastDialogue)
+            {
+                screenMenu.ShowEndScreen();
+            }
         }
 
     }

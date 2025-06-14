@@ -14,10 +14,13 @@ public class Sentence : ScriptableObject
     [Tooltip("Activates only when there aren't options")]
     public Sentence Next_Sentence;
 
+
     [Tooltip("Activates only when there aren't options")]
     public Sprite Player_Portrait;
     [Tooltip("Activates only when there aren't options")]
     public Sprite NPC_Portrait;
+
+    public Sprite Background_Image;
 
     public List<Choice> Options = new List<Choice>();
 
@@ -39,4 +42,5 @@ public class Choice
     public Game_Event Consequence;
     public Sprite Player_Portrait;
     public Sprite NPC_Portrait;
+    public Sprite Background_Image;
 }
