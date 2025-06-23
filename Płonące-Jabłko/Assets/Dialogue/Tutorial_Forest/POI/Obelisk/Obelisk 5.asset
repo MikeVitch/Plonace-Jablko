@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
+  m_Name: Obelisk 5
+  m_EditorClassIdentifier: 
+  From: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
+  Text: "Musz\u0119 go naszkicowa\u0107 dla Juliana. (Wyci\u0105ga sw\xF3j bestiariusz
+    i rysuje)"
+  Next_Sentence: {fileID: 0}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: cfb6b0b53699e474599adddfe989c7b2, type: 3}
+  Background_Image: {fileID: 0}
+  Options:
+  - Text: End
+    NextSentence: {fileID: 0}
+    Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
+    Player_Portrait: {fileID: 0}
+    NPC_Portrait: {fileID: 0}
+    Background_Image: {fileID: 0}

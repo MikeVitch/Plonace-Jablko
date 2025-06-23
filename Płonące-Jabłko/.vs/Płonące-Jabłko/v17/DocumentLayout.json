@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\derek_tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\environment scripts\\forest_scene_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\forest_scene_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\dialogue scripts\\npc_dialogue_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\npc_dialogue_interaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\dialogue_trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|c:\\users\\micha\u0142\\documents\\github\\plonace-jablko\\plonace-jablko\\p\u0142on\u0105ce-jab\u0142ko\\assets\\scripts\\spell scripts\\boulder_throw_projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spell scripts\\boulder_throw_projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\boulder_throw_detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\boulder_throw_detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogue scripts\\dialogue_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\environment scripts\\enviro_ignition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\environment scripts\\enviro_ignition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\derek_tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\derek\\derek_tutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\collision_detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy scripts\\derek\\collision_detection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\editor\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F59BA89-FBE3-2BBD-08B6-E14FD27820ED}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC089B0C-0DDB-16B7-75C4-1BBE4690199F}|Assembly-CSharp.csproj|C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\assets\\scripts\\enemy scripts\\derek\\derek_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +66,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NPC_Dialogue_Interaction.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\NPC_Dialogue_Interaction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\NPC_Dialogue_Interaction.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\NPC_Dialogue_Interaction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\NPC_Dialogue_Interaction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:50:27.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Forest_Scene_Loader.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Forest_Scene_Loader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Forest_Scene_Loader.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Forest_Scene_Loader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Forest_Scene_Loader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:47:00.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dialogue_Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Manager.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAAAGMAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:26:43.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enviro_Ignition.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Enviro_Ignition.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Enviro_Ignition.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Enviro_Ignition.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Enviro_Ignition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:18:04.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Boulder_Throw_Projectile.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Spell Scripts\\Boulder_Throw_Projectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Spell Scripts\\Boulder_Throw_Projectile.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Spell Scripts\\Boulder_Throw_Projectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Spell Scripts\\Boulder_Throw_Projectile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:15:14.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Boulder_Throw_Detection.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Boulder_Throw_Detection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Environment Scripts\\Boulder_Throw_Detection.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Environment Scripts\\Boulder_Throw_Detection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Environment Scripts\\Boulder_Throw_Detection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:13:31.737Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Dialogue_Trigger.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogue Scripts\\Dialogue_Trigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:30:47.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Collision_Detection.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Derek\\Collision_Detection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:26:28.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameStateManager.cs",
+              "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameStateManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\GameStateManager.cs",
+              "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Editor\\GameStateManager.cs",
+              "RelativeToolTip": "Assets\\Editor\\GameStateManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:16:35.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Player_Movement.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
@@ -42,12 +190,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player Scripts\\Player_Movement.cs",
               "ViewState": "AQIAAEgAAAAAAAAAAAAowFcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T16:44:10.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-12T16:44:10.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "Derek_Logic.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Logic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Logic.cs",
@@ -55,12 +202,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Logic.cs",
               "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T23:09:21.984Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T23:09:21.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Mana_Tracker.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Spell Scripts\\Mana_Tracker.cs",
@@ -72,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Player_Logic.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player Scripts\\Player_Logic.cs",
@@ -84,16 +230,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Derek_Tutorial.cs",
               "DocumentMoniker": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
               "ToolTip": "C:\\Users\\Micha\u0142\\Documents\\GitHub\\Plonace-Jablko\\Plonace-Jablko\\P\u0142on\u0105ce-Jab\u0142ko\\Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy Scripts\\Derek\\Derek_Tutorial.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAQwEMAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T13:24:12.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T13:24:12.681Z"
             }
           ]
         }

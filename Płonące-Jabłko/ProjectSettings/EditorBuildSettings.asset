@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Podzamcze.unity
     guid: 10b75297018e88240a0f0221060325eb
+  - enabled: 1
+    path: Assets/Assets/Forest/Level_Forest.unity
+    guid: 75024fce48d1d0048b323352f0639d58
   m_configObjects: {}

@@ -26,6 +26,7 @@ TagManager:
   - UIpanel
   - Behind
   - Derek_Attack
+  - Breakable
   layers:
   - Default
   - TransparentFX

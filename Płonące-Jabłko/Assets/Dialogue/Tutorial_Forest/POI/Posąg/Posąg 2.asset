@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
+  m_Name: "Pos\u0105g 2"
+  m_EditorClassIdentifier: 
+  From: {fileID: 11400000, guid: 75e3c69e0721f8d4c8c2364f5faf9423, type: 2}
+  Text: "Jest bardzo stary. Wygl\u0105da jak sprzed czas\xF3w panowania Kr\xF3lowej...
+    wi\u0119c niestety nie."
+  Next_Sentence: {fileID: 0}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: ec512da5aa80f7d4aa63d2c87c9c9a25, type: 3}
+  Background_Image: {fileID: 0}
+  Options:
+  - Text: End
+    NextSentence: {fileID: 0}
+    Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
+    Player_Portrait: {fileID: 0}
+    NPC_Portrait: {fileID: 0}
+    Background_Image: {fileID: 0}

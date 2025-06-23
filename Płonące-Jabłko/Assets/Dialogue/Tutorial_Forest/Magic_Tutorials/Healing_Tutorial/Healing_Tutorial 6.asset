@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a318c32c2e0827b40920b2d0bb5bf7d9, type: 3}
+  m_Name: Healing_Tutorial 6
+  m_EditorClassIdentifier: 
+  From: {fileID: 11400000, guid: 75e3c69e0721f8d4c8c2364f5faf9423, type: 2}
+  Text: "Chyba po prostu spa\u0142, a my mu przeszkodzili\u015Bmy. No chod\u017A.
+    (\u0141apie j\u0105 za r\u0119k\u0119) Do\u015B\u0107 mocno ci\u0119 skaleczy\u0142.
+    Ju\u017C ci pomagam."
+  Next_Sentence: {fileID: 11400000, guid: bdf776dc2fe10a94a997222e7fddb31a, type: 2}
+  Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+  NPC_Portrait: {fileID: 21300000, guid: ec512da5aa80f7d4aa63d2c87c9c9a25, type: 3}
+  Background_Image: {fileID: 0}
+  Options: []
