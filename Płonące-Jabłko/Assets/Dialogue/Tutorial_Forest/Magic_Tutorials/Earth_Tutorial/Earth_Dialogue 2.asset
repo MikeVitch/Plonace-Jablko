@@ -15,14 +15,8 @@ MonoBehaviour:
   From: {fileID: 11400000, guid: 75e3c69e0721f8d4c8c2364f5faf9423, type: 2}
   Text: "Nie wygl\u0105da zbyt solidnie, my\u015Bl\u0119 \u017Ce mocne uderzenie
     utorowa\u0142oby nam drog\u0119."
-  Next_Sentence: {fileID: 0}
+  Next_Sentence: {fileID: 11400000, guid: 6edad4597e746c44086fc3f32549e9be, type: 2}
   Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: ec512da5aa80f7d4aa63d2c87c9c9a25, type: 3}
   Background_Image: {fileID: 0}
-  Options:
-  - Text: End
-    NextSentence: {fileID: 0}
-    Consequence: {fileID: 11400000, guid: 41ad6710931500c46ac426efeb179b79, type: 2}
-    Player_Portrait: {fileID: 0}
-    NPC_Portrait: {fileID: 0}
-    Background_Image: {fileID: 0}
+  Options: []

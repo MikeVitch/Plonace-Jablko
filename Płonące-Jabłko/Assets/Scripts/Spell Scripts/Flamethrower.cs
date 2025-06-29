@@ -15,6 +15,7 @@ public class Flamethrower : MonoBehaviour
     public bool Activate_Spell = false;
     public float Cast_Time = 1f;
     public Player_Logic player_logic;
+    public bool Unlocked = false;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     private void Start()
@@ -45,7 +46,7 @@ public class Flamethrower : MonoBehaviour
             GetComponent<PolygonCollider2D>().enabled = false;
         }
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost_Initial && !player_logic.Player_Attack_Lockout && Unlocked)
         {
             Input_Time = Time.time;
             Activate_Spell = true;

@@ -33,6 +33,7 @@ public class Player_Logic : MonoBehaviour
     public Push push;
     public Stone_Volley stone_volley;
     public ScreenMenu_Manager screenMenuManager;
+    public bool Combat_Lock;
 
 
     Zjawa_Push zjawa_push;
@@ -121,6 +122,8 @@ public class Player_Logic : MonoBehaviour
         else if(Zjawa_Push_Collision)
             Player_Attack_Lockout = true;
         else if(dialogue_manager != null && dialogue_manager.Dialogue_Active)
+            Player_Attack_Lockout = true;
+        else if(Combat_Lock)
             Player_Attack_Lockout = true;
 
 

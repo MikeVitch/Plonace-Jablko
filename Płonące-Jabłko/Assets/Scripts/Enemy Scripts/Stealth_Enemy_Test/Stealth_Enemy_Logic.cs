@@ -156,6 +156,10 @@ public class Stealth_Enemy_Logic : MonoBehaviour
             //Debug.Log("return");
             First_Floor.SetActive(false);
             Second_Floor.SetActive(true);
+            Aggressive = false;
+            Idle = true;
+            Alertness = 0;
+
         }
         else
         {

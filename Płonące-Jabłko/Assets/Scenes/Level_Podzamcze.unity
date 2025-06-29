@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 102334444}
   - component: {fileID: 102334447}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Scene_Exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2756,7 +2756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4009021444015580924, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4448240304612784336, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: endScreen
@@ -2764,11 +2764,11 @@ PrefabInstance:
       objectReference: {fileID: 1557525582}
     - target: {fileID: 5632248666726549045, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.348
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5632248666726549045, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5837774696429174781, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_Pivot.x
@@ -2864,11 +2864,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9020779975404912997, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.287
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9020779975404912997, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9177120811639867854, guid: 6eb81847fe59bf64a841e6da492a5bfd, type: 3}
       propertyPath: m_text
@@ -3059,6 +3059,7 @@ GameObject:
   - component: {fileID: 903190326}
   - component: {fileID: 903190325}
   - component: {fileID: 903190324}
+  - component: {fileID: 903190328}
   m_Layer: 0
   m_Name: Derek_Dialogue_Activation
   m_TagString: Untagged
@@ -3191,6 +3192,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &903190328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 903190323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08db1b0774b02b040bca4a4e5280b305, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_logic: {fileID: 1132519004}
 --- !u!1 &921436776
 GameObject:
   m_ObjectHideFlags: 0
@@ -38534,6 +38548,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2856522490076684982, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
+      propertyPath: Combat_Lock
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856522490076684982, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: screenMenuManager
       value: 
       objectReference: {fileID: 728680467}
@@ -38720,6 +38738,10 @@ PrefabInstance:
     - target: {fileID: 1558723416087556748, guid: 73162ecfbe8eefe469ec1fa6e372f9da, type: 3}
       propertyPath: m_Name
       value: PauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1558723416087556748, guid: 73162ecfbe8eefe469ec1fa6e372f9da, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1558723416087556748, guid: 73162ecfbe8eefe469ec1fa6e372f9da, type: 3}
       propertyPath: m_TagString

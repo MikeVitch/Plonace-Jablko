@@ -173,10 +173,10 @@ public class Dialogue_Manager : MonoBehaviour
             Time.timeScale = 1.0f;
             Dialogue_Active = false;
 
-            if (isLastDialogue)
+            /*if (isLastDialogue)
             {
                 screenMenu.ShowEndScreen();
-            }
+            }*/
         }
 
     }

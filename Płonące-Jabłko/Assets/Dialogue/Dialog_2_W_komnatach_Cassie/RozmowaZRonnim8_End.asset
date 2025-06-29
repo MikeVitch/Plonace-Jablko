@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: RozmowaZRonnim8_End
   m_EditorClassIdentifier: 
   From: {fileID: 11400000, guid: 92ec0866ec1d2b140840af0746e90a79, type: 2}
-  Text: 
+  Text: "Wci\u015Bnij E by wchodzi\u0107 w interakcj\u0119 z otoczeniem, otwiera\u0107
+    dzrzwi i korzysta\u0107 ze schod\xF3w.\nWci\u015Bnij C by zacz\u0105\u0107 si\u0119
+    skrada\u0107, stra\u017Cnicy b\u0119d\u0105 wolniej zauwa\u017Ca\u0107 Cassie,
+    a jej kroki b\u0119d\u0105 znacz\u0105co cichsze."
   Next_Sentence: {fileID: 0}
   Player_Portrait: {fileID: 0}
   NPC_Portrait: {fileID: 0}

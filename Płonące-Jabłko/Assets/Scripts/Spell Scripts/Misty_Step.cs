@@ -21,12 +21,13 @@ public class Misty_Step : MonoBehaviour
     float y;
     float Spell_End;
     public Transform Player_Character;
+    public bool Unlocked = false;
 
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout && (player_movement.Direction_Of_Movement.x != 0 || player_movement.Direction_Of_Movement.y != 0))
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout && (player_movement.Direction_Of_Movement.x != 0 || player_movement.Direction_Of_Movement.y != 0) && Unlocked)
         {
             Direction_Of_Movement = player_movement.Direction_Of_Movement;
             x = Direction_Of_Movement.x;

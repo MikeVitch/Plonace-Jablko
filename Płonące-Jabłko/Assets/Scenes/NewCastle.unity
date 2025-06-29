@@ -1979,6 +1979,8 @@ MonoBehaviour:
   dialogue_2_Castle: {fileID: 11400000, guid: bf6ebc6197a7e2b4e9ba6b557b48be6a, type: 2}
   IsSecondDialouge: 0
   floor_changer: {fileID: 524758462}
+  Dialogue_1_Done: 0
+  Dialogue_2_Done: 0
 --- !u!4 &128914226
 Transform:
   m_ObjectHideFlags: 0
@@ -66159,6 +66161,10 @@ PrefabInstance:
     - target: {fileID: 2822000911477796940, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856522490076684982, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
+      propertyPath: Combat_Lock
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2856522490076684982, guid: 0f53c200575e05642ba75c23e5706f8a, type: 3}
       propertyPath: screenMenuManager

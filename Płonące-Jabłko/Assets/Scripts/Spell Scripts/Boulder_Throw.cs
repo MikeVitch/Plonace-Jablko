@@ -21,13 +21,14 @@ public class Boulder_Throw : MonoBehaviour
     public UnityEngine.Transform player;
     public float Self_Slow = 0.25f;
     public Player_Logic player_logic;
+    public bool Unlocked = false;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
     {
 
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout && Unlocked)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
@@ -43,4 +44,5 @@ public class Boulder_Throw : MonoBehaviour
             Activate_Spell = false;
         }
     }
+
 }

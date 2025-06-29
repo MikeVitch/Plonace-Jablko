@@ -15,7 +15,7 @@ MonoBehaviour:
   From: {fileID: 11400000, guid: 2ed61b45fa2460e468429f6c4f637516, type: 2}
   Text: "Och, drzewo musia\u0142o spa\u015B\u0107 podczas wczorajszej burzy. Musimy
     co\u015B wymy\u015Bli\u0107, \u017Ceby jako\u015B przej\u015B\u0107."
-  Next_Sentence: {fileID: 0}
+  Next_Sentence: {fileID: 11400000, guid: 71aa2ebf3b289fb44b393fd42fb9ee78, type: 2}
   Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
   NPC_Portrait: {fileID: 21300000, guid: cfb6b0b53699e474599adddfe989c7b2, type: 3}
   Background_Image: {fileID: 0}

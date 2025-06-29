@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Healing_Tutorial 7
   m_EditorClassIdentifier: 
   From: {fileID: 11400000, guid: 92ec0866ec1d2b140840af0746e90a79, type: 2}
-  Text: Tutorial
+  Text: "Przytrzymaj Q aby rzuci\u0107 Odnowienie, zakl\u0119cie lecz\u0105ce Cassie."
   Next_Sentence: {fileID: 0}
   Player_Portrait: {fileID: 0}
   NPC_Portrait: {fileID: 0}

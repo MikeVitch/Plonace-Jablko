@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,7 +23,7 @@ public class Forest_Scene_Loader : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(collision.tag == "Player_Character" && derek_tutorial.End_Tutorial && Input.GetKeyDown(player_logic.Interaction_Key))
+        if(collision.tag == "Player_Character" && derek_tutorial.Combat_Tutorial == false)
         {
             SceneManager.LoadScene("Level_Forest");
             Debug.Log("test");

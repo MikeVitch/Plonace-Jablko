@@ -53,8 +53,7 @@ public class Player_Movement : MonoBehaviour
         animator = GetComponent<Animator>();
         Speed = Base_Speed;
         Past_Position = Current_Position = GetComponent<Transform>().position;
-        Collision_Mask = LayerMask.GetMask("Wall");
-        Collision_Mask = LayerMask.GetMask("Feet");
+        Collision_Mask = LayerMask.GetMask("Wall") | LayerMask.GetMask("Feet");
     }
 
     void Update()
@@ -125,7 +124,8 @@ public class Player_Movement : MonoBehaviour
         animator.SetFloat("speed", 0);
 
         //Basic Movement
-        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(new Vector3(gameObject.transform.position.x + GetComponent<BoxCollider2D>().offset.x, gameObject.transform.position.y + GetComponent<BoxCollider2D>().offset.y, gameObject.transform.position.z) + Vector3.left * Speed * Time.deltaTime, gameObject.GetComponent<BoxCollider2D>().size * gameObject.transform.localScale, 0f, Collision_Mask))
+        //I think I know what you were going for but I think it didn't work correctly and I don't have time rn so I'm commenting it for now. Also you can't just assign a different layer to a layer mask in a new line or it overrides it, instead add it after a "|". ~ Micha³
+        /*if (Input.GetKey(Movement_Left) && !Physics2D.OverlapBox(new Vector3(gameObject.transform.position.x + GetComponent<BoxCollider2D>().offset.x, gameObject.transform.position.y + GetComponent<BoxCollider2D>().offset.y, gameObject.transform.position.z) + Vector3.left * Speed * Time.deltaTime, gameObject.GetComponent<BoxCollider2D>().size * gameObject.transform.localScale, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 1);
             animator.SetFloat("speed", 1);
@@ -147,6 +147,34 @@ public class Player_Movement : MonoBehaviour
             GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
         }
         if (Input.GetKey(Movement_Down) && !Physics2D.OverlapBox(new Vector3(gameObject.transform.position.x + GetComponent<BoxCollider2D>().offset.x, gameObject.transform.position.y + GetComponent<BoxCollider2D>().offset.y, gameObject.transform.position.z) + Vector3.down * Speed * Time.deltaTime, gameObject.GetComponent<BoxCollider2D>().size * gameObject.transform.localScale, 0f, Collision_Mask))
+        {
+            animator.SetInteger("direction", 4);
+            animator.SetFloat("speed", 1);
+
+            GetComponent<Transform>().position += Vector3.down * Speed * Time.deltaTime;
+        }*/
+        if (Input.GetKey(Movement_Left) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.left * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
+        {
+            animator.SetInteger("direction", 1);
+            animator.SetFloat("speed", 1);
+
+            GetComponent<Transform>().position += Vector3.left * Speed * Time.deltaTime;
+        }
+        if (Input.GetKey(Movement_Right) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.right * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
+        {
+            animator.SetInteger("direction", 2);
+            animator.SetFloat("speed", 1);
+
+            GetComponent<Transform>().position += Vector3.right * Speed * Time.deltaTime;
+        }
+        if (Input.GetKey(Movement_Up) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.up * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
+        {
+            animator.SetInteger("direction", 3);
+            animator.SetFloat("speed", 1);
+
+            GetComponent<Transform>().position += Vector3.up * Speed * Time.deltaTime;
+        }
+        if (Input.GetKey(Movement_Down) && !Physics2D.OverlapCapsule(gameObject.transform.position + Vector3.down * Speed * Time.deltaTime, gameObject.GetComponent<CapsuleCollider2D>().size * gameObject.transform.localScale, gameObject.GetComponent<CapsuleCollider2D>().direction, 0f, Collision_Mask))
         {
             animator.SetInteger("direction", 4);
             animator.SetFloat("speed", 1);

@@ -23,6 +23,7 @@ public class Fan_Of_Ice : MonoBehaviour
     public float Projectile_Offset_Down;
     public float Rotation_Offset;
     public Player_Logic player_logic;
+    public bool Unlocked = false;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
 
@@ -43,7 +44,7 @@ public class Fan_Of_Ice : MonoBehaviour
             Activate_Spell = false;
         }
 
-        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout)
+        if (Input.GetKeyDown(Cast) && mana_tracker.Current_Mana >= Mana_Cost && !player_logic.Player_Attack_Lockout && Unlocked)
         {
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;

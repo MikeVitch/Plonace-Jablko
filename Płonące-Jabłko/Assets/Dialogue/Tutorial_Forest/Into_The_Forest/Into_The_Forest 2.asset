@@ -23,12 +23,12 @@ MonoBehaviour:
   - Text: "Nie \u017Cartuj sobie ze mnie..."
     NextSentence: {fileID: 11400000, guid: 9bbb3b17ce8434742a8967388279fcf5, type: 2}
     Consequence: {fileID: 0}
-    Player_Portrait: {fileID: 0}
-    NPC_Portrait: {fileID: 0}
+    Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+    NPC_Portrait: {fileID: 21300000, guid: c6e2bb5dff87b2b4797b7bb85426aa2f, type: 3}
     Background_Image: {fileID: 0}
   - Text: "Nie potrzebuje nikogo do obrony. Nie jestem biedn\u0105 ksi\u0119\u017Cniczk\u0105,"
     NextSentence: {fileID: 11400000, guid: 7da64886c9b7d994ebc4b941434a5e78, type: 2}
     Consequence: {fileID: 0}
-    Player_Portrait: {fileID: 0}
-    NPC_Portrait: {fileID: 0}
+    Player_Portrait: {fileID: 21300000, guid: 35772e85c99f71e498fb3b31cdaada41, type: 3}
+    NPC_Portrait: {fileID: 21300000, guid: c6e2bb5dff87b2b4797b7bb85426aa2f, type: 3}
     Background_Image: {fileID: 0}
