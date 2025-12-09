@@ -22,7 +22,7 @@ public class Start_Dialogue_Trigger : MonoBehaviour
     float Base_Speed;
     public bool Dialogue_1_Done;
     public bool Dialogue_2_Done;
-
+    public AudioMenager AudioMenager;
 
     void Start()
     {
@@ -50,6 +50,7 @@ public class Start_Dialogue_Trigger : MonoBehaviour
         {
             IsdialougeStart = false;
             Start_Dialogue_scene.Raise();
+            AudioMenager.PlayMusic("Castle");
             dialogue_manager_scene.StartDialogue(dialogue_1_Castle);
         }
 
@@ -60,6 +61,7 @@ public class Start_Dialogue_Trigger : MonoBehaviour
         {
             IsSecondDialouge = false;
             Start_Dialogue_scene.Raise();
+            AudioMenager.PlayMusic("CastleGameplay");
             dialogue_manager_scene.StartDialogue(dialogue_2_Castle);
             Dialogue_2_Done = true;
         }

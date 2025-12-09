@@ -6,6 +6,7 @@ public class Derek_Attack : MonoBehaviour
 {
     [HideInInspector]
     public float Attack_Damage;
+    
 
     private void Start()
     {
@@ -14,8 +15,17 @@ public class Derek_Attack : MonoBehaviour
     void Update()
     {
         if (GetComponentInParent<Derek_Tutorial>().Combat_Tutorial)
+        {
+
+
             tag = "Derek_Attack";
+            
+        }
         else
+        {
+
+
             tag = "Untagged";
+        }
     }
 }

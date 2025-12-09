@@ -22,6 +22,12 @@ public class Boulder_Throw : MonoBehaviour
     public float Self_Slow = 0.25f;
     public Player_Logic player_logic;
     public bool Unlocked = false;
+    public AudioMenager AudioMenager;
+
+    private void Start()
+    {
+        AudioMenager = FindObjectOfType<AudioMenager>();
+    }
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     void Update()
@@ -33,6 +39,7 @@ public class Boulder_Throw : MonoBehaviour
             mana_tracker.Current_Mana -= Mana_Cost;
             Input_Time = Time.time;
             Activate_Spell = true;
+            AudioMenager.PlaySFX("Rock");
         }
 
         if (Activate_Spell && Time.time >= Input_Time + Cast_Time)

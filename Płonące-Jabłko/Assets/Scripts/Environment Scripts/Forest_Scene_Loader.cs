@@ -7,7 +7,7 @@ public class Forest_Scene_Loader : MonoBehaviour
 {
     public Derek_Tutorial derek_tutorial;
     public Player_Logic player_logic;
-
+    public AudioMenager AudioMenager;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,7 @@ public class Forest_Scene_Loader : MonoBehaviour
         if(collision.tag == "Player_Character" && derek_tutorial.Combat_Tutorial == false)
         {
             SceneManager.LoadScene("Level_Forest");
+            AudioMenager.PlayMusic("Forest");
             Debug.Log("test");
         }
     }

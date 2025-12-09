@@ -597,6 +597,7 @@ MonoBehaviour:
   player_logic: {fileID: 2856522490076684982}
   player_movement: {fileID: 814459938877681117}
   Player_Character: {fileID: 3591088483792379444}
+  Unlocked: 0
 --- !u!114 &5120378903373919024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,6 +619,7 @@ MonoBehaviour:
   Spell_Is_Cast: 0
   Speed_Boost: 0.5
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &3502475105366442918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +643,7 @@ MonoBehaviour:
   Activate_Spell: 0
   Cast_Time: 0.5
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &8557109054889822788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +667,7 @@ MonoBehaviour:
   Spell_Is_Active: 0
   Mana_Cost: 15
   mana_tracker: {fileID: 7043416023173355514}
+  Unlocked: 0
 --- !u!1 &3662152946692489721
 GameObject:
   m_ObjectHideFlags: 0
@@ -1381,6 +1385,7 @@ MonoBehaviour:
   Attack_Damage: 30
   player_logic: {fileID: 2856522490076684982}
   Attack_Is_Active: 0
+  AudioMenager: {fileID: 0}
 --- !u!1 &5647003157687945112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,6 +1536,8 @@ MonoBehaviour:
   - {fileID: 5721444802659744669}
   - {fileID: 72001288687942133}
   Dialogue_Active: 0
+  isLastDialogue: 0
+  screenMenu: {fileID: 0}
 --- !u!1 &6191904830984814394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,6 +1790,7 @@ MonoBehaviour:
   push: {fileID: 2940305274163885358}
   stone_volley: {fileID: 8803430972972244633}
   screenMenuManager: {fileID: 0}
+  Combat_Lock: 0
   Player_Position: {x: 0, y: 0, z: 0}
   Health: 100
   Invincibility: 0
@@ -2046,6 +2054,7 @@ MonoBehaviour:
   Activate_Spell: 0
   Cast_Time: 0.5
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!1 &6828489653863387619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,6 +2306,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 3591088483792379444}
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &5769699837950374995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2320,6 +2330,7 @@ MonoBehaviour:
   player: {fileID: 3591088483792379444}
   Self_Slow: 0.25
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &6830271402059743229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2345,6 +2356,7 @@ MonoBehaviour:
   Projectile_Offset_Down: 0.7
   Rotation_Offset: 5
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &3408546962819660857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2367,6 +2379,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 3591088483792379444}
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &4580588323665855086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2388,6 +2401,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 3591088483792379444}
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &2940305274163885358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2410,6 +2424,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 3591088483792379444}
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!114 &2294305998269668821
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2431,6 +2446,7 @@ MonoBehaviour:
   Activate_Spell: 0
   player: {fileID: 3591088483792379444}
   player_logic: {fileID: 2856522490076684982}
+  Unlocked: 0
 --- !u!1 &7098311638824040552
 GameObject:
   m_ObjectHideFlags: 0

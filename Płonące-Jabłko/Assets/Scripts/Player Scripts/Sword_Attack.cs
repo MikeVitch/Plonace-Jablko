@@ -11,7 +11,7 @@ public class Sword_Attack : MonoBehaviour
     public float Attack_Damage = 30f;
     public Player_Logic player_logic;
     public bool Attack_Is_Active;
-
+    public AudioMenager AudioMenager;
  
 
     private void Start()
@@ -29,6 +29,7 @@ public class Sword_Attack : MonoBehaviour
                 Next_Attack = Time.time + Attack_Cooldown;
                 Attack_Deactivation = Time.time + Attack_Duration;
                 Attack_Is_Active = true;
+            AudioMenager.PlaySFX("CassieSwordSwing");
         }
         
             if (Time.time >= Attack_Deactivation) 

@@ -16,17 +16,23 @@ public class Flamethrower : MonoBehaviour
     public float Cast_Time = 1f;
     public Player_Logic player_logic;
     public bool Unlocked = false;
+    public AudioMenager AudioMenager;
 
     //Don't forget to set Character_Sprite as reference for Mana_Tracker
     private void Start()
     {
+        
+        AudioMenager = FindObjectOfType<AudioMenager>();
         GetComponent<SpriteRenderer>().enabled = false;
         GetComponent<PolygonCollider2D>().enabled = false;
     }
     void Update()
     {
         if (Input.GetKey(Cast) && Spell_Is_On && mana_tracker.Current_Mana >= Mana_Cost_Held)
+        {
             mana_tracker.Current_Mana -= Mana_Cost_Held * Time.deltaTime;
+            
+        }
         else
             Spell_Is_On = false;
 
@@ -38,6 +44,8 @@ public class Flamethrower : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = true;
             GetComponent<PolygonCollider2D>().enabled = true;
             GetComponent<PolygonCollider2D>().isTrigger = true;
+            AudioMenager.PlaySFX("Fire");
+
         }
         else
         {

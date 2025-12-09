@@ -71,6 +71,7 @@ public class Derek_Tutorial : MonoBehaviour
     bool Dodge_Direction_Locked;
     Vector3 Dodge_Direction;
     float Dodge_Length;
+    public AudioMenager AudioMenager;
 
     void Start()
     {
@@ -112,6 +113,7 @@ public class Derek_Tutorial : MonoBehaviour
                 }
                 if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                 {
+                    AudioMenager.PlaySFX("DerekSwordSwing");
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
@@ -125,6 +127,7 @@ public class Derek_Tutorial : MonoBehaviour
                 }
                 if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                 {
+                    AudioMenager.PlaySFX("DerekSwordSwing");
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
@@ -170,6 +173,7 @@ public class Derek_Tutorial : MonoBehaviour
                 }
                     if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                     {
+                        AudioMenager.PlaySFX("DerekSwordSwing");
                         Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
                         Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
                         Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
@@ -183,6 +187,8 @@ public class Derek_Tutorial : MonoBehaviour
                     }
                     if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                     {
+
+                        AudioMenager.PlaySFX("DerekSwordSwing");
                         Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
                         Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
                         Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
@@ -276,6 +282,7 @@ public class Derek_Tutorial : MonoBehaviour
                 }
                 if (Time.time >= Attack_Activation && Attack_Is_Active && Windup_Done == false)
                 {
+                    AudioMenager.PlaySFX("DerekSwordSwing");
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = true;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = true;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = true;
@@ -284,6 +291,7 @@ public class Derek_Tutorial : MonoBehaviour
                 }
                 if (Time.time >= Attack_Deactivation && Windup_Done && Attack_Done == false)
                 {
+                    AudioMenager.PlaySFX("DerekSwordSwing");
                     Attack_Hitbox.GetComponent<SpriteRenderer>().enabled = false;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().isTrigger = false;
                     Attack_Hitbox.GetComponent<PolygonCollider2D>().enabled = false;
