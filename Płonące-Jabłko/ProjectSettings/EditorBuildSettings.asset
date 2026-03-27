@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_Forest.unity
     guid: 75024fce48d1d0048b323352f0639d58
+  - enabled: 1
+    path: Assets/Scenes/Test_Scenes/GM+Quest Test/GMQ_Test_1.unity
+    guid: 2a3a8aa2060a0a842b8574dbd7e680b0
+  - enabled: 1
+    path: Assets/Scenes/Test_Scenes/GM+Quest Test/GMQ_Test_2.unity
+    guid: 83bf06d9b92a8ab4da00d172b4cd95d3
   m_configObjects: {}

@@ -12,7 +12,7 @@ public class Mana_Tracker : MonoBehaviour
 
     void Start()
     {
-        Current_Mana = Max_Mana;
+        Current_Mana = Game_Manager.instance.Current_Mana;
     }
 
     void Update()
