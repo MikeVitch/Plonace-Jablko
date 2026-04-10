@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2796ddd01185a0b4d8c83867174dd9b6, type: 3}
+  m_Name: Test_Quest
+  m_EditorClassIdentifier: 
+  Quest_Name: Test Quest
+  Is_Active: 1
+  Is_Tracked: 1
+  Is_Finished: 0
+  Current_Quest_Step: 1
+  Quest_Steps:
+  - Go to a different scene by aproaching the circle and pressing 'E'
+  - 'Perform a dodge by pressing ''Space'' 3 times
+
+    (0/3)'
+  - 'Perform a dodge by pressing ''Space'' 3 times
+
+    (1/3)'
+  - 'Perform a dodge by pressing ''Space'' 3 times
+
+    (2/3)'
+  - Perform an attack by pressing 'Mouse 1'
+  - Go back to the previous scene to finish the quest
+  - Quest completed!

@@ -51,6 +51,10 @@ public class Player_Logic : MonoBehaviour
     public bool Zjawa_Push_Collision;
     public bool Is_Hidden;
 
+    private void Start()
+    {
+        Health = Game_Manager.Instance.Current_Health;
+    }
     void Update()
     {
         Player_Position = GetComponent<Transform>().position;
